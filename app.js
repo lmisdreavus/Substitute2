@@ -48,6 +48,21 @@ let pokemons = [
         let levelUpSkills = pokemon.levelUpSkills.join('<br>');
         let machineSkills = pokemon.machineSkills.join('<br>');
         let eggSkills = pokemon.eggSkills.join('<br>');
+
+        let statsGraph = document.getElementById('statsGraph');
+        let baseStats = pokemon.baseStats.split('.').map(Number);
+        let labels = ['체력', '공격', '방어', '특수공격', '특수방어', '스피드'];
+
+        statsGraph.innerHTML = ''; // 그래프를 리셋합니다.
+
+        baseStats.forEach((stat, index) => {
+            let bar = document.createElement('div');
+            bar.className = 'stats-bar';
+            bar.style.height = `${stat}px`; // 종족값을 높이로 사용합니다.
+            bar.textContent = `${labels[index]}: ${stat}`;
+            
+            statsGraph.appendChild(bar);
+        });
         
         pokemonInfo.innerHTML = `
             <h2>${pokemon.number} - ${pokemon.name}</h2>
