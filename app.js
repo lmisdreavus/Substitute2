@@ -37,10 +37,13 @@ let pokemons = [
     // ... 다른 포켓몬 정보
 ];
     
-    search.addEventListener('input', function() {
-        showPokemonInfo(search.value);
-    });
-    
+// 검색 버튼에 이벤트 리스너를 추가.
+document.getElementById('searchBtn').addEventListener('click', function () {
+    let name = document.getElementById('searchInput').value;
+    showPokemonInfo(name);
+});
+
+    // 특정 포켓몬의 정보를 보여주는 함수.
     function showPokemonInfo(name) {
     let pokemon = pokemons.find(p => p.name === name);
     
@@ -74,7 +77,7 @@ let pokemons = [
             <p>알 부화로 배우는 기술:<br>${eggSkills}</p>
         `;
     } else {
-        pokemonInfo.innerHTML = `<p>일치하는 포켓몬이 없습니다.</p>`;
+        console.error('해당하는 포켓몬이 없습니다.');
     }
 }
 });
