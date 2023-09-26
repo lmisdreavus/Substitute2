@@ -10,3 +10,14 @@ body {
     padding: 20px;
     margin-top: 20px;
 }
+
+#pokemonInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+#pokemonInfo p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
