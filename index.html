@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="ko">
-
 <head>
-    <title>포켓몬 정보</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <title>포켓몬 검색</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
-
 <body>
-    <div class="container">
-        <h1>포켓몬 정보</h1>
-        <input type="text" id="search" placeholder="포켓몬 이름을 입력하세요" class="form-control" />
-        <div id="pokemonInfo" class="card">
-            <div id="statsGraph" class="stats-graph"></div>
-            <!-- 포켓몬 정보가 여기에 표시됩니다. -->
-        </div>
-    </div>
+  <div class="container mt-5">
+    <h1>포켓몬 검색</h1>
+    <input type="text" id="search" class="form-control" placeholder="포켓몬 이름을 입력하세요.">
+    <div id="result" class="mt-4"></div>
+  </div>
 
-    <script src="app.js"></script>
+  <script src="app.js"></script>
 </body>
-
 </html>
