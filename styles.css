@@ -21,3 +21,16 @@ body {
     margin: 10px 0;
     line-height: 1.6;
 }
+
+  .stat-container {
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+
+  .stat-bar {
+    background-color: #76c7c0;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 2px;
+  }
