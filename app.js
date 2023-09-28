@@ -1,3 +1,6 @@
+// Google Charts 라이브러리 로드
+google.charts.load('current', {packages: ['corechart', 'bar']});
+
 let pokemons = [];
 
 // JSON 데이터 불러오기
@@ -15,18 +18,54 @@ document.getElementById('search').addEventListener('input', function () {
   const pokemon = pokemons.find(p => p.name === searchText);
 
   // 결과 출력
-  if (pokemon) {
+if (pokemon) {
     let resultHtml = `
-      <h2>${pokemon.name} (#${pokemon.number})</h2>
-      <p>타입: ${pokemon.type}</p>
-      <p>종족값: ${pokemon.baseStats}</p>
-      <p>특성: ${pokemon.abilities}</p>
-      <p>레벨 업으로 배우는 기술:<br> ${pokemon.levelUpSkills.join('<br>')}</p>
-      <p>기술머신으로 배우는 기술:<br> ${pokemon.machineSkills.join('<br>')}</p>
-      <p>알 부화로 배우는 기술:<br> ${pokemon.eggSkills.join('<br>')}</p>
+      <div class="card mb-3">
+        <div class="card-header">
+          <h2>${pokemon.name} (#${pokemon.number})</h2>
+        </div>
+        <div class="card-body">
+          <p><strong>타입:</strong> ${pokemon.type}</p>
+          <div><strong>종족값:</strong></div>
+          <div class="stat-container">
+            <div class="stat-bar" style="width: ${pokemon.baseStats.hp}%;">체력: ${pokemon.baseStats.hp}</div>
+            <div class="stat-bar" style="width: ${pokemon.baseStats.attack}%;">공격: ${pokemon.baseStats.attack}</div>
+            <div class="stat-bar" style="width: ${pokemon.baseStats.defense}%;">방어: ${pokemon.baseStats.defense}</div>
+            <div class="stat-bar" style="width: ${pokemon.baseStats.spAttack}%;">특수공격: ${pokemon.baseStats.spAttack}</div>
+            <div class="stat-bar" style="width: ${pokemon.baseStats.spDefense}%;">특수방어: ${pokemon.baseStats.spDefense}</div>
+            <div class="stat-bar" style="width: ${pokemon.baseStats.speed}%;">스피드: ${pokemon.baseStats.speed}</div>
+          </div>
+          <p><strong>특성:</strong> ${pokemon.abilities}</p>
+          <p><strong>레벨 업으로 배우는 기술:</strong><br> ${pokemon.levelUpSkills.join('<br>')}</p>
+          <p><strong>기술머신으로 배우는 기술:</strong><br> ${pokemon.machineSkills.join('<br>')}</p>
+          <p><strong>알 부화로 배우는 기술:</strong><br> ${pokemon.eggSkills.join('<br>')}</p>
+        </div>
+      </div>
     `;
     resultDiv.innerHTML = resultHtml;
-  } else {
-    resultDiv.innerHTML = '<p>검색 결과가 없습니다.</p>';
-  }
+}
 });
+
+// 종족값을 바 차트로 그리기
+function drawChart(baseStats) {
+  const data = google.visualization.arrayToDataTable([
+    ['능력치', '값', {role: 'style'}],
+    ['체력', baseStats[0], 'color: #FF0000'],
+    ['공격', baseStats[1], 'color: #FF7F00'],
+    ['방어', baseStats[2], 'color: #FFFF00'],
+    ['특수공격', baseStats[3], 'color: #00FF00'],
+    ['특수방어', baseStats[4], 'color: #0000FF'],
+    ['스피드', baseStats[5], 'color: #4B0082'],
+  ]);
+
+  const options = {
+    title: '종족값',
+    height: 400,
+    hAxis: {
+      minValue: 0,
+    },
+  };
+
+  const chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+  chart.draw(data, options);
+}
