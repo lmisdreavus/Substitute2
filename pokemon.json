@@ -3,7 +3,14 @@
       "name": "파이리",
       "number": "004",
       "type": "불꽃",
-      "baseStats": "39.52.43.60.50.65",
+        "baseStats": {
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "spAttack": 60,
+    "spDefense": 50,
+    "speed": 65
+  },
       "abilities": "맹화(1) | 맹화(2) | 선파워(H)",
       "levelUpSkills": [
         "[01] 할퀴기",
