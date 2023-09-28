@@ -1,11 +1,30 @@
 let pokemons = [];
 
 // JSON 데이터 불러오기
-fetch('pokemon.json')
+/* 
+  fetch('pokemon.json')
   .then(response => response.json())
   .then(data => pokemons = data)
   .catch(error => console.error('Error loading Pokémon data:', error));
+*/
 
+fetch('pokemon.json')
+  .then(response => response.json())
+  .then(data => {
+    pokemons = data; // pokemons should be an array of pokemon objects.
+  })
+  .catch(error => console.error('Error loading JSON Data: ', error));
+
+// 새 검색 이벤트 리스너
+searchButton.addEventListener('click', function () {
+  const searchTerm = searchInput.value.trim().toLowerCase(); // Normalize the search term
+  
+  // DB검색
+  const pokemon = pokemons.find(p => p.name.toLowerCase() === searchTerm);
+
+  // ...
+
+/*
 // 검색 이벤트 리스너
 document.getElementById('search').addEventListener('input', function () {
   const searchText = this.value;
@@ -13,6 +32,8 @@ document.getElementById('search').addEventListener('input', function () {
 
   // 포켓몬 데이터 검색
   const pokemon = pokemons.find(p => p.name === searchText);
+*/
+
 
   // 결과 출력
 if (pokemon) {
