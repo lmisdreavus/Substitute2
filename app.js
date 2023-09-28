@@ -8,7 +8,6 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-/*
 // 검색 이벤트 리스너
 document.getElementById('search').addEventListener('input', function () {
   const searchText = this.value;
@@ -16,33 +15,6 @@ document.getElementById('search').addEventListener('input', function () {
 
   // 포켓몬 데이터 검색
   const pokemon = pokemons.find(p => p.name === searchText);
-*/
-
-
-
-// ...
-function searchPokemon() {
-  const searchTerm = document.getElementById('searchTerm').value.toLowerCase();
-  const resultDiv = document.getElementById('result');
-  resultDiv.innerHTML = ''; // Clear previous results
-  
-  const matchedPokemons = pokemons.filter(pokemon => pokemon.name.includes(searchTerm));
-  
-  if (matchedPokemons.length > 0) {
-    matchedPokemons.forEach(pokemon => {
-      let resultHtml = `
-        <button class="list-group-item list-group-item-action" onclick="displayPokemon('${pokemon.name}')">${pokemon.name}</button>
-      `;
-      resultDiv.innerHTML += resultHtml;
-    });
-  } else {
-    resultDiv.innerHTML = '<p class="text-danger">No Pokémon found.</p>';
-  }
-}
-
-function displayPokemon(name) {
-  const pokemon = pokemons.find(p => p.name === name);
-
 
   
 
