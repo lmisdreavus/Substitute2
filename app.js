@@ -1,6 +1,3 @@
-// Google Charts 라이브러리 로드
-google.charts.load('current', {packages: ['corechart', 'bar']});
-
 let pokemons = [];
 
 // JSON 데이터 불러오기
@@ -18,7 +15,7 @@ document.getElementById('search').addEventListener('input', function () {
   const pokemon = pokemons.find(p => p.name === searchText);
 
   // 결과 출력
-if (pokemon) {
+  if (pokemon) {
   let resultHtml = `
     <div class="card mb-3">
       <div class="card-header">
@@ -60,27 +57,3 @@ if (pokemon) {
   resultDiv.innerHTML = resultHtml;
 }
 });
-
-// 종족값을 바 차트로 그리기
-function drawChart(baseStats) {
-  const data = google.visualization.arrayToDataTable([
-    ['능력치', '값', {role: 'style'}],
-    ['체력', baseStats[0], 'color: #FF0000'],
-    ['공격', baseStats[1], 'color: #FF7F00'],
-    ['방어', baseStats[2], 'color: #FFFF00'],
-    ['특수공격', baseStats[3], 'color: #00FF00'],
-    ['특수방어', baseStats[4], 'color: #0000FF'],
-    ['스피드', baseStats[5], 'color: #4B0082'],
-  ]);
-
-  const options = {
-    title: '종족값',
-    height: 400,
-    hAxis: {
-      minValue: 0,
-    },
-  };
-
-  const chart = new google.visualization.BarChart(document.getElementById('chart_div'));
-  chart.draw(data, options);
-}
