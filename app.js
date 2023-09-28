@@ -17,19 +17,13 @@ document.getElementById('search').addEventListener('input', function () {
   // 결과 출력
   if (pokemon) {
     let resultHtml = `
-      <div class="card mb-3">
-        <div class="card-header">
-          <h2>${pokemon.name} (#${pokemon.number})</h2>
-        </div>
-        <div class="card-body">
-          <p><strong>타입:</strong> ${pokemon.type}</p>
-          <p><strong>종족값:</strong> ${pokemon.baseStats}</p>
-          <p><strong>특성:</strong> ${pokemon.abilities}</p>
-          <p><strong>레벨 업으로 배우는 기술:</strong><br> ${pokemon.levelUpSkills.join('<br>')}</p>
-          <p><strong>기술머신으로 배우는 기술:</strong><br> ${pokemon.machineSkills.join('<br>')}</p>
-          <p><strong>알 부화로 배우는 기술:</strong><br> ${pokemon.eggSkills.join('<br>')}</p>
-        </div>
-      </div>
+      <h2>${pokemon.name} (#${pokemon.number})</h2>
+      <p>타입: ${pokemon.type}</p>
+      <p>종족값: ${pokemon.baseStats}</p>
+      <p>특성: ${pokemon.abilities}</p>
+      <p>레벨 업으로 배우는 기술:<br> ${pokemon.levelUpSkills.join('<br>')}</p>
+      <p>기술머신으로 배우는 기술:<br> ${pokemon.machineSkills.join('<br>')}</p>
+      <p>알 부화로 배우는 기술:<br> ${pokemon.eggSkills.join('<br>')}</p>
     `;
     resultDiv.innerHTML = resultHtml;
   } else {
