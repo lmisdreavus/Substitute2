@@ -19,13 +19,8 @@ fetch('pokemon.json')
 
   
   const searchInput = document.getElementById('search');
-  const dropdownBox = document.querySelector('.suggestion-box');
   searchInput.parentNode.appendChild(suggestionBox); // searchInput이 있는 후에 suggestionBox를 추가해야 합니다.
   const resultDiv = document.getElementById('result');
-
-  // 드롭다운 박스의 폭을 검색 입력 필드의 폭과 동일하게 설정:
-  dropdownBox.style.width = `${searchInput.offsetWidth}px`;
-
 
   searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
