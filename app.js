@@ -14,25 +14,13 @@ fetch('pokemon.json')
 
   let suggestionItem = document.createElement('a');
   suggestionItem.href = "#";
-  //suggestionItem.textContent = "제안된 아이템";
+  suggestionItem.textContent = "제안된 아이템";
   suggestionBox.appendChild(suggestionItem);
 
   
-
-  
   const searchInput = document.getElementById('search');
-
-  // suggestionBox의 너비를 searchInput의 너비와 동일하게 설정
-  suggestionBox.style.width = `${searchInput.offsetWidth}px`;
-
   searchInput.parentNode.appendChild(suggestionBox); // searchInput이 있는 후에 suggestionBox를 추가해야 합니다.
   const resultDiv = document.getElementById('result');
-
-  
-  // 윈도우 크기가 변경될 때 suggestionBox의 너비를 업데이트
-  window.addEventListener('resize', function() {
-    suggestionBox.style.width = `${searchInput.offsetWidth}px`;
-  });
 
 searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
