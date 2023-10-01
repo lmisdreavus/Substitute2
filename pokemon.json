@@ -581,6 +581,8 @@
     ]
   },
   {
+    "number": "1035",
+    "name": "라이츄",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -757,6 +759,8 @@
     ]
   },
   {
+    "number": "1036",
+    "name": "모래두지",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -930,6 +934,8 @@
     ]
   },
   {
+    "number": "1037",
+    "name": "고지",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -1313,6 +1319,8 @@
     ]
   },
   {
+    "number": "1038",
+    "name": "식스테일",
     "baseStats": {
       "hp": 38,
       "attack": 41,
@@ -1473,6 +1481,8 @@
     ]
   },
   {
+    "number": "1039",
+    "name": "나인테일",
     "baseStats": {
       "hp": 73,
       "attack": 67,
@@ -1992,6 +2002,8 @@
     ]
   },
   {
+    "number": "1040",
+    "name": "디그다",
     "baseStats": {
       "hp": 10,
       "attack": 55,
@@ -2141,6 +2153,8 @@
     ]
   },
   {
+    "number": "1041",
+    "name": "닥트리오",
     "baseStats": {
       "hp": 35,
       "attack": 100,
@@ -2299,6 +2313,8 @@
     ]
   },
   {
+    "number": "1042",
+    "name": "나옹",
     "baseStats": {
       "hp": 40,
       "attack": 35,
@@ -2380,6 +2396,8 @@
     ]
   },
   {
+    "number": "1043",
+    "name": "나옹",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -2546,6 +2564,8 @@
     ]
   },
   {
+    "number": "1044",
+    "name": "페르시온",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -3066,6 +3086,8 @@
     ]
   },
   {
+    "number": "1045",
+    "name": "가디",
     "baseStats": {
       "hp": 60,
       "attack": 75,
@@ -3225,6 +3247,8 @@
     ]
   },
   {
+    "number": "1046",
+    "name": "윈디",
     "baseStats": {
       "hp": 95,
       "attack": 115,
@@ -3825,6 +3849,8 @@
     ]
   },
   {
+    "number": "1048",
+    "name": "꼬마돌",
     "baseStats": {
       "hp": 40,
       "attack": 80,
@@ -3978,6 +4004,8 @@
     ]
   },
   {
+    "number": "1049",
+    "name": "데구리",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -4130,6 +4158,8 @@
     ]
   },
   {
+    "number": "1050",
+    "name": "딱구리",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -4301,6 +4331,8 @@
     ]
   },
   {
+    "number": "1053",
+    "name": "야돈",
     "baseStats": {
       "hp": 90,
       "attack": 65,
@@ -4486,6 +4518,8 @@
     ]
   },
   {
+    "number": "1055",
+    "name": "야도란",
     "baseStats": {
       "hp": 95,
       "attack": 100,
@@ -4822,6 +4856,8 @@
     ]
   },
   {
+    "number": "1057",
+    "name": "질퍽이",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -5009,6 +5045,8 @@
     ]
   },
   {
+    "number": "1058",
+    "name": "질뻐기",
     "baseStats": {
       "hp": 105,
       "attack": 105,
@@ -5756,6 +5794,8 @@
     ]
   },
   {
+    "number": "1060",
+    "name": "찌리리공",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -5894,6 +5934,8 @@
     ]
   },
   {
+    "number": "1061",
+    "name": "붐볼",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -6107,6 +6149,8 @@
     ]
   },
   {
+    "number": "1064",
+    "name": "또도가스",
     "baseStats": {
       "hp": 65,
       "attack": 90,
@@ -6441,6 +6485,8 @@
     ]
   },
   {
+    "number": "1068",
+    "name": "켄타로스",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -6512,6 +6558,8 @@
     ]
   },
   {
+    "number": "1069",
+    "name": "켄타로스",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -6589,6 +6637,8 @@
     ]
   },
   {
+    "number": "1070",
+    "name": "켄타로스",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -7283,6 +7333,8 @@
     ]
   },
   {
+    "number": "1074",
+    "name": "프리져",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -7424,6 +7476,8 @@
     ]
   },
   {
+    "number": "1075",
+    "name": "썬더",
     "baseStats": {
       "hp": 90,
       "attack": 125,
@@ -7564,6 +7618,8 @@
     ]
   },
   {
+    "number": "1076",
+    "name": "파이어",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -8469,6 +8525,8 @@
     ]
   },
   {
+    "number": "1079",
+    "name": "블레이범",
     "baseStats": {
       "hp": 73,
       "attack": 84,
@@ -10426,6 +10484,8 @@
     ]
   },
   {
+    "number": "1081",
+    "name": "우파",
     "baseStats": {
       "hp": 55,
       "attack": 45,
@@ -10962,6 +11022,8 @@
     ]
   },
   {
+    "number": "1082",
+    "name": "야도킹",
     "baseStats": {
       "hp": 95,
       "attack": 65,
@@ -11733,6 +11795,8 @@
     ]
   },
   {
+    "number": "1111",
+    "name": "침바루",
     "baseStats": {
       "hp": 65,
       "attack": 95,
@@ -12086,6 +12150,8 @@
     ]
   },
   {
+    "number": "1114",
+    "name": "포푸니",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -20519,6 +20585,8 @@
     ]
   },
   {
+    "number": "1155",
+    "name": "깝질무",
     "baseStats": {
       "hp": 76,
       "attack": 48,
@@ -23842,6 +23910,8 @@
     ]
   },
   {
+    "number": "1162",
+    "name": "로토무",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -23908,6 +23978,8 @@
     ]
   },
   {
+    "number": "1163",
+    "name": "로토무",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -23974,6 +24046,8 @@
     ]
   },
   {
+    "number": "1164",
+    "name": "로토무",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -24040,6 +24114,8 @@
     ]
   },
   {
+    "number": "1165",
+    "name": "로토무",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -24106,6 +24182,8 @@
     ]
   },
   {
+    "number": "1166",
+    "name": "로토무",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -24553,6 +24631,8 @@
     ]
   },
   {
+    "number": "1167",
+    "name": "디아루가",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -24729,6 +24809,8 @@
     ]
   },
   {
+    "number": "1168",
+    "name": "펄기아",
     "baseStats": {
       "hp": 90,
       "attack": 100,
@@ -24979,6 +25061,8 @@
     ]
   },
   {
+    "number": "1169",
+    "name": "기라티나",
     "baseStats": {
       "hp": 150,
       "attack": 120,
@@ -25411,6 +25495,8 @@
     ]
   },
   {
+    "number": "1170",
+    "name": "쉐이미",
     "baseStats": {
       "hp": 100,
       "attack": 103,
@@ -25844,6 +25930,8 @@
     ]
   },
   {
+    "number": "1188",
+    "name": "대검귀",
     "baseStats": {
       "hp": 90,
       "attack": 108,
@@ -26472,6 +26560,8 @@
     ]
   },
   {
+    "number": "1190",
+    "name": "드레디어",
     "baseStats": {
       "hp": 70,
       "attack": 105,
@@ -26624,6 +26714,8 @@
     ]
   },
   {
+    "number": "1191",
+    "name": "배쓰나이",
     "baseStats": {
       "hp": 70,
       "attack": 92,
@@ -26693,6 +26785,8 @@
     ]
   },
   {
+    "number": "1192",
+    "name": "배쓰나이",
     "baseStats": {
       "hp": 70,
       "attack": 92,
@@ -27098,6 +27192,8 @@
     ]
   },
   {
+    "number": "1198",
+    "name": "조로아",
     "baseStats": {
       "hp": 35,
       "attack": 60,
@@ -27262,6 +27358,8 @@
     ]
   },
   {
+    "number": "1199",
+    "name": "조로아크",
     "baseStats": {
       "hp": 55,
       "attack": 100,
@@ -29409,6 +29507,8 @@
     ]
   },
   {
+    "number": "1207",
+    "name": "워글",
     "baseStats": {
       "hp": 110,
       "attack": 83,
@@ -30120,6 +30220,8 @@
     ]
   },
   {
+    "number": "1208",
+    "name": "토네로스",
     "baseStats": {
       "hp": 79,
       "attack": 100,
@@ -30286,6 +30388,8 @@
     ]
   },
   {
+    "number": "1209",
+    "name": "볼트로스",
     "baseStats": {
       "hp": 79,
       "attack": 105,
@@ -30451,6 +30555,8 @@
     ]
   },
   {
+    "number": "1210",
+    "name": "랜드로스",
     "baseStats": {
       "hp": 89,
       "attack": 145,
@@ -30618,6 +30724,8 @@
     ]
   },
   {
+    "number": "1214",
+    "name": "메로엣타",
     "baseStats": {
       "hp": 100,
       "attack": 128,
@@ -31482,6 +31590,8 @@
     ]
   },
   {
+    "number": "1219",
+    "name": "개굴닌자",
     "baseStats": {
       "hp": 72,
       "attack": 95,
@@ -33140,6 +33250,8 @@
     ]
   },
   {
+    "number": "1302",
+    "name": "미끄네일",
     "baseStats": {
       "hp": 58,
       "attack": 75,
@@ -33284,6 +33396,8 @@
     ]
   },
   {
+    "number": "1303",
+    "name": "미끄래곤",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -33748,6 +33862,8 @@
     ]
   },
   {
+    "number": "1310",
+    "name": "크레베이스",
     "baseStats": {
       "hp": 95,
       "attack": 127,
@@ -34154,6 +34270,8 @@
     ]
   },
   {
+    "number": "1317",
+    "name": "후파",
     "baseStats": {
       "hp": 80,
       "attack": 160,
@@ -34571,6 +34689,8 @@
     ]
   },
   {
+    "number": "1318",
+    "name": "모크나이퍼",
     "baseStats": {
       "hp": 88,
       "attack": 112,
@@ -35250,6 +35370,8 @@
     ]
   },
   {
+    "number": "1319",
+    "name": "춤추새",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -35319,6 +35441,8 @@
     ]
   },
   {
+    "number": "1320",
+    "name": "춤추새",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -35388,6 +35512,8 @@
     ]
   },
   {
+    "number": "1321",
+    "name": "춤추새",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -35679,6 +35805,8 @@
     ]
   },
   {
+    "number": "1322",
+    "name": "암멍이",
     "baseStats": {
       "hp": 45,
       "attack": 65,
@@ -35833,6 +35961,8 @@
     ]
   },
   {
+    "number": "1323",
+    "name": "루가루암",
     "baseStats": {
       "hp": 85,
       "attack": 115,
@@ -35920,6 +36050,8 @@
     ]
   },
   {
+    "number": "1324",
+    "name": "루가루암",
     "baseStats": {
       "hp": 75,
       "attack": 117,
@@ -37675,6 +37807,8 @@
     ]
   },
   {
+    "number": "1360",
+    "name": "마기아나",
     "baseStats": {
       "hp": 80,
       "attack": 95,
@@ -39714,6 +39848,8 @@
     ]
   },
   {
+    "number": "1363",
+    "name": "스트린더",
     "baseStats": {
       "hp": 75,
       "attack": 98,
@@ -40837,6 +40973,8 @@
     ]
   },
   {
+    "number": "1374",
+    "name": "빙큐보",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -40978,6 +41116,8 @@
     ]
   },
   {
+    "number": "1375",
+    "name": "에써르",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -41136,6 +41276,8 @@
     ]
   },
   {
+    "number": "1376",
+    "name": "모르페코",
     "baseStats": {
       "hp": 58,
       "attack": 95,
@@ -41643,6 +41785,8 @@
     ]
   },
   {
+    "number": "1377",
+    "name": "자시안",
     "baseStats": {
       "hp": 92,
       "attack": 150,
@@ -41794,6 +41938,8 @@
     ]
   },
   {
+    "number": "1378",
+    "name": "자마젠타",
     "baseStats": {
       "hp": 92,
       "attack": 120,
@@ -42093,6 +42239,8 @@
     ]
   },
   {
+    "number": "1380",
+    "name": "우라오스",
     "baseStats": {
       "hp": 100,
       "attack": 130,
@@ -42264,6 +42412,8 @@
     ]
   },
   {
+    "number": "1381",
+    "name": "자루도",
     "baseStats": {
       "hp": 105,
       "attack": 120,
@@ -42686,6 +42836,8 @@
     ]
   },
   {
+    "number": "1382",
+    "name": "버드렉스",
     "baseStats": {
       "hp": 100,
       "attack": 165,
@@ -42801,6 +42953,8 @@
     ]
   },
   {
+    "number": "1383",
+    "name": "버드렉스",
     "baseStats": {
       "hp": 100,
       "attack": 85,
@@ -43163,6 +43317,8 @@
     ]
   },
   {
+    "number": "1384",
+    "name": "다투곰",
     "baseStats": {
       "hp": 113,
       "attack": 70,
@@ -43328,6 +43484,8 @@
     ]
   },
   {
+    "number": "1385",
+    "name": "대쓰여너",
     "baseStats": {
       "hp": 120,
       "attack": 92,
@@ -43645,6 +43803,8 @@
     ]
   },
   {
+    "number": "1386",
+    "name": "러브로스",
     "baseStats": {
       "hp": 74,
       "attack": 115,
@@ -44524,6 +44684,8 @@
     ]
   },
   {
+    "number": "1387",
+    "name": "퍼퓨돈",
     "baseStats": {
       "hp": 115,
       "attack": 90,
@@ -45248,6 +45410,8 @@
     ]
   },
   {
+    "number": "1388",
+    "name": "파밀리쥐",
     "baseStats": {
       "hp": 74,
       "attack": 75,
@@ -45718,6 +45882,8 @@
     ]
   },
   {
+    "number": "1389",
+    "name": "시비꼬",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -45788,6 +45954,8 @@
     ]
   },
   {
+    "number": "1390",
+    "name": "시비꼬",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -45858,6 +46026,8 @@
     ]
   },
   {
+    "number": "1391",
+    "name": "시비꼬",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -48292,6 +48462,8 @@
     ]
   },
   {
+    "number": "1392",
+    "name": "돌핀맨",
     "baseStats": {
       "hp": 100,
       "attack": 160,
@@ -49369,6 +49541,8 @@
     ]
   },
   {
+    "number": "1393",
+    "name": "싸리용",
     "baseStats": {
       "hp": 68,
       "attack": 50,
@@ -49427,6 +49601,8 @@
     ]
   },
   {
+    "number": "1394",
+    "name": "싸리용",
     "baseStats": {
       "hp": 68,
       "attack": 50,
@@ -49853,6 +50029,8 @@
     ]
   },
   {
+    "number": "1395",
+    "name": "노고고치",
     "baseStats": {
       "hp": 125,
       "attack": 100,
@@ -51236,6 +51414,8 @@
     ]
   },
   {
+    "number": "1396",
+    "name": "모으령",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -51270,6 +51450,8 @@
     ]
   },
   {
+    "number": "1000",
+    "name": "타부자고",
     "baseStats": {
       "hp": 87,
       "attack": 60,
@@ -51337,6 +51519,8 @@
     ]
   },
   {
+    "number": "1001",
+    "name": "총지엔",
     "baseStats": {
       "hp": 85,
       "attack": 85,
@@ -51412,6 +51596,8 @@
     ]
   },
   {
+    "number": "1002",
+    "name": "파오젠",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -51479,6 +51665,8 @@
     ]
   },
   {
+    "number": "1003",
+    "name": "딩루",
     "baseStats": {
       "hp": 155,
       "attack": 110,
@@ -51549,6 +51737,8 @@
     ]
   },
   {
+    "number": "1004",
+    "name": "위유이",
     "baseStats": {
       "hp": 55,
       "attack": 80,
@@ -51617,6 +51807,8 @@
     ]
   },
   {
+    "number": "1005",
+    "name": "고동치는달",
     "baseStats": {
       "hp": 105,
       "attack": 139,
@@ -51708,6 +51900,8 @@
     ]
   },
   {
+    "number": "1006",
+    "name": "무쇠무인",
     "baseStats": {
       "hp": 74,
       "attack": 130,
@@ -51804,6 +51998,8 @@
     ]
   },
   {
+    "number": "1007",
+    "name": "코라이돈",
     "baseStats": {
       "hp": 100,
       "attack": 135,
@@ -51898,6 +52094,8 @@
     ]
   },
   {
+    "number": "1008",
+    "name": "미라이돈",
     "baseStats": {
       "hp": 100,
       "attack": 85,
@@ -51976,6 +52174,8 @@
     ]
   },
   {
+    "number": "1009",
+    "name": "굽이치는물결",
     "baseStats": {
       "hp": 99,
       "attack": 83,
@@ -52049,6 +52249,8 @@
     ]
   },
   {
+    "number": "1010",
+    "name": "무쇠잎새",
     "baseStats": {
       "hp": 90,
       "attack": 130,
@@ -52125,6 +52327,8 @@
     ]
   },
   {
+    "number": "1011",
+    "name": "과미르",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -52187,6 +52391,8 @@
     ]
   },
   {
+    "number": "1012",
+    "name": "차데스",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -52243,6 +52449,8 @@
     ]
   },
   {
+    "number": "1405",
+    "name": "차데스",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -52299,6 +52507,8 @@
     ]
   },
   {
+    "number": "1013",
+    "name": "그우린차",
     "baseStats": {
       "hp": 71,
       "attack": 60,
@@ -52357,6 +52567,8 @@
     ]
   },
   {
+    "number": "1406",
+    "name": "그우린차",
     "baseStats": {
       "hp": 71,
       "attack": 60,
@@ -52415,6 +52627,8 @@
     ]
   },
   {
+    "number": "1014",
+    "name": "조타구",
     "baseStats": {
       "hp": 88,
       "attack": 128,
@@ -52495,6 +52709,8 @@
     ]
   },
   {
+    "number": "1015",
+    "name": "이야후",
     "baseStats": {
       "hp": 88,
       "attack": 75,
@@ -52570,6 +52786,8 @@
     ]
   },
   {
+    "number": "1016",
+    "name": "기로치",
     "baseStats": {
       "hp": 88,
       "attack": 91,
@@ -52648,6 +52866,8 @@
     ]
   },
   {
+    "number": "1017",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -52727,6 +52947,8 @@
     ]
   },
   {
+    "number": "1407",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -52806,6 +53028,8 @@
     ]
   },
   {
+    "number": "1408",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -52885,6 +53109,8 @@
     ]
   },
   {
+    "number": "1409",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -52964,6 +53190,8 @@
     ]
   },
   {
+    "number": "1410",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -53043,6 +53271,8 @@
     ]
   },
   {
+    "number": "1411",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -53122,6 +53352,8 @@
     ]
   },
   {
+    "number": "1412",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -53201,6 +53433,8 @@
     ]
   },
   {
+    "number": "1413",
+    "name": "오거폰",
     "baseStats": {
       "hp": 80,
       "attack": 120,
