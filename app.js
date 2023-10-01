@@ -9,13 +9,12 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-const searchInput = document.getElementById('search');
-const pokemonListDatalist = document.getElementById('pokemon-list');
-const resultDiv = document.getElementById('result');
-
-let suggestionBox = document.createElement('div');
-suggestionBox.setAttribute('class', 'suggestion-box');
-searchInput.parentNode.appendChild(suggestionBox);
+  let suggestionBox = document.createElement('div');
+  suggestionBox.setAttribute('class', 'suggestion-box');
+  
+  const searchInput = document.getElementById('search');
+  searchInput.parentNode.appendChild(suggestionBox); // searchInput이 있는 후에 suggestionBox를 추가해야 합니다.
+  const resultDiv = document.getElementById('result');
 
 searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
