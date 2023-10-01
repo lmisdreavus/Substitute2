@@ -8,8 +8,7 @@
     max-height: 150px; /* or any other value that suits you */
     overflow-y: auto; /* add scroll if the content is too long */
     position: absolute; /* make it appear below the input */
-    width: calc(100% - 2px - 0); /* 외부간격은 여백, 테두리 등을 고려한 값입니다. */
-    left: 1px; /* border를 고려하여 조정합니다. */
+    width: calc(100% - 2px); /* make it the same width as the input, considering the border */
     background: white; /* background color */
     z-index: 1000; /* make sure it appears above other elements */
     box-shadow: 0 2px 10px rgba(0,0,0,.1); /* a subtle shadow */
@@ -26,6 +25,7 @@
     background-color: #f8f9fa; /* a light grey, can use Bootstrap's $gray-200 if using SCSS */
     color: #212529; /* Bootstrap’s default color for text, used for contrast */
 }
+
   </style>
   <meta charset="UTF-8">
   <title>포켓몬 검색</title>
