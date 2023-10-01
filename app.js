@@ -4,7 +4,8 @@ let pokemons = [];
 fetch('pokemon.json')
   .then(response => response.json())
   .then(data => {
-    pokemons = data; // pokemons should be an array of pokemon objects.
+    pokemons = data;
+    console.log(data);
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
