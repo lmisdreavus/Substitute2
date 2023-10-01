@@ -23,7 +23,8 @@ document.getElementById('search').addEventListener('input', function () {
 if (pokemon) {
   let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : '없음';
   let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : '없음';
-  let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : '없음';
+  let eggSkills = pokemon.eggSkills?.join('<br>') ?? '없음';
+
 
     let resultHtml = `
       <div class="card mb-3">
