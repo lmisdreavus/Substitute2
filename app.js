@@ -21,6 +21,10 @@ document.getElementById('search').addEventListener('input', function () {
 
   // 결과 출력
 if (pokemon) {
+  let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : '없음';
+  let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : '없음';
+  let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : '없음';
+
     let resultHtml = `
       <div class="card mb-3">
         <div class="card-header">
