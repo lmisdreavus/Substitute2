@@ -9,18 +9,34 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-// 검색 이벤트 리스너
-document.getElementById('search').addEventListener('input', function () {
-  const searchText = this.value;
-  const resultDiv = document.getElementById('result');
+const searchInput = document.getElementById('search');
+const pokemonListDatalist = document.getElementById('pokemon-list');
+const resultDiv = document.getElementById('result');
+
+searchInput.addEventListener('input', function () {
+  const searchText = searchInput.value;
+  pokemonListDatalist.innerHTML = ''; // Clear existing options
+  
+  if(searchText !== '') {
+    for (let pokemon of pokemons) {
+      if (pokemon.name.includes(searchText)) {
+        let option = document.createElement('option');
+        option.value = pokemon.name;
+        pokemonListDatalist.appendChild(option);
+      }
+    }
+  }
 
   // 포켓몬 데이터 검색
-  const pokemon = pokemons.find(p => p.name === searchText);
-
+  const matchedPokemon = pokemons.find(p => p.name === searchText);
   
-
   // 결과 출력
-if (pokemon) {
+  if (matchedPokemon) {
+    displayPokemonData(matchedPokemon);
+  }
+});
+
+function displayPokemonData(pokemon) {
   let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : 'None';
   let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : 'None';
   let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : 'None';
@@ -51,4 +67,3 @@ if (pokemon) {
     `;
     resultDiv.innerHTML = resultHtml;
 }
-});
