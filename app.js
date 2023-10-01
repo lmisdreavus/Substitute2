@@ -1,10 +1,5 @@
 let pokemons = [];
 
-let suggestionItem = document.createElement('a');
-suggestionItem.href = "#";
-suggestionItem.textContent = "제안된 아이템";
-suggestionBox.appendChild(suggestionItem);
-
 // JSON 데이터 불러오기
 fetch('pokemon.json')
   .then(response => response.json())
@@ -16,6 +11,13 @@ fetch('pokemon.json')
 
   let suggestionBox = document.createElement('div');
   suggestionBox.setAttribute('class', 'suggestion-box');
+
+  
+  let suggestionItem = document.createElement('a');
+  suggestionItem.href = "#";
+  suggestionItem.textContent = "제안된 아이템";
+  suggestionBox.appendChild(suggestionItem);
+
   
   const searchInput = document.getElementById('search');
   searchInput.parentNode.appendChild(suggestionBox); // searchInput이 있는 후에 suggestionBox를 추가해야 합니다.
