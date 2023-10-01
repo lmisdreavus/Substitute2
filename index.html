@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+  <style>
+    .suggestion-box {
+    border: 1px solid #ced4da; /* Bootstrap의 input border color */
+    border-radius: 0 0 .25rem .25rem; /* rounded corners at the bottom */
+    max-height: 150px; /* or any other value that suits you */
+    overflow-y: auto; /* add scroll if the content is too long */
+    position: absolute; /* make it appear below the input */
+    width: calc(100% - 2px); /* make it the same width as the input, considering the border */
+    background: white; /* background color */
+    z-index: 1000; /* make sure it appears above other elements */
+    box-shadow: 0 2px 10px rgba(0,0,0,.1); /* a subtle shadow */
+}
+
+.suggestion-box a {
+    display: block; /* make it block so it takes the full width of the container */
+    text-decoration: none; /* remove underline */
+    padding: .5rem 1rem; /* same as Bootstrap’s dropdowns */
+    color: #495057; /* same as Bootstrap’s color for text */
+}
+
+.suggestion-box a:hover {
+    background-color: #f8f9fa; /* a light grey, can use Bootstrap's $gray-200 if using SCSS */
+    color: #212529; /* Bootstrap’s default color for text, used for contrast */
+}
+  </style>
   <meta charset="UTF-8">
   <title>포켓몬 검색</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">

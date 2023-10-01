@@ -1,5 +1,10 @@
 let pokemons = [];
 
+let suggestionItem = document.createElement('a');
+suggestionItem.href = "#";
+suggestionItem.textContent = "제안된 아이템";
+suggestionBox.appendChild(suggestionItem);
+
 // JSON 데이터 불러오기
 fetch('pokemon.json')
   .then(response => response.json())
