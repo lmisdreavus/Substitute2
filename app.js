@@ -9,7 +9,7 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-  let suggestionBox = document.createElement('div');
+  let item = document.createElement('div');
   suggestionBox.setAttribute('class', 'suggestion-box');
   
   const searchInput = document.getElementById('search');
@@ -24,13 +24,13 @@ searchInput.addEventListener('input', function () {
     for (let pokemon of pokemons) {
       if (pokemon.name.startsWith(searchText)) {
         let suggestion = document.createElement('div');
-        suggestion.innerHTML = pokemon.name;
+        item.innerText = pokemon.name;
         suggestion.addEventListener('click', function() {
           searchInput.value = pokemon.name;
           displayPokemonData(pokemon);
           suggestionBox.innerHTML = ''; // Clear suggestions when one is clicked
         });
-        suggestionBox.appendChild(suggestion);
+        suggestionBox.appendChild(item);
       }
     }
   }

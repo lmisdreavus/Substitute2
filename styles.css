@@ -53,17 +53,21 @@ body {
 
 .suggestion-box {
   border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-height: 150px;
   overflow-y: auto;
   position: absolute;
-  width: calc(100% - 2px); 
+  width: calc(100% - 2px); /* input 태그의 너비와 동일하게 설정. 2px는 border의 너비 */
+  background-color: #ffffff;
+  z-index: 1000; /* 다른 요소 위에 올라오게 설정 */
 }
 
-.suggestion-box div {
-  cursor: pointer;
+.suggestion-box option {
   padding: 10px;
+  cursor: pointer;
 }
 
-.suggestion-box div:hover {
-  background-color: #e9ecef;
+.suggestion-box option:hover {
+  background-color: #e6e6e6;
 }
