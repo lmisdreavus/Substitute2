@@ -19,7 +19,7 @@ searchInput.addEventListener('input', function () {
   
   if(searchText !== '') {
     for (let pokemon of pokemons) {
-      if (pokemon.name.includes(searchText)) {
+      if (pokemon.name.startsWith(searchText)) { // startsWith를 사용하여 수정
         let option = document.createElement('option');
         option.value = pokemon.name;
         pokemonListDatalist.appendChild(option);
