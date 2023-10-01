@@ -38,7 +38,7 @@ searchInput.addEventListener('input', function () {
   if (matchedPokemon) {
     displayPokemonData(matchedPokemon);
   }
-}, 300);
+}, 150);
 });
 
 function displayPokemonData(pokemon) {
