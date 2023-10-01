@@ -14,7 +14,7 @@ fetch('pokemon.json')
 
   let suggestionItem = document.createElement('a');
   suggestionItem.href = "#";
-  suggestionItem.textContent = "제안된 아이템";
+  //suggestionItem.textContent = "제안된 아이템";
   suggestionBox.appendChild(suggestionItem);
 
   
@@ -51,9 +51,10 @@ fetch('pokemon.json')
 });
 
 function displayPokemonData(pokemon) {
-  let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : 'None';
-  let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : 'None';
-  let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : 'None';
+  let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : '없음';
+  let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : '없음';
+  let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : '없음';
+  let RelearnSkills = pokemon.RelearnSkills ? pokemon.RelearnSkills.join('<br>') : '없음';
  
     let resultHtml = `
       <div class="card mb-3">
@@ -76,8 +77,12 @@ function displayPokemonData(pokemon) {
           <p><strong>레벨 업으로 배우는 기술:</strong><br> ${levelUpSkills}</p>
           <p><strong>기술머신으로 배우는 기술:</strong><br> ${machineSkills}</p>
           <p><strong>알 부화로 배우는 기술:</strong><br> ${eggSkills}</p>
+          <p><strong>떠올리기 기술:</strong><br> ${RelearnSkills}</p>
         </div>
       </div>
     `;
     resultDiv.innerHTML = resultHtml;
+
+
+    
 }
