@@ -7,7 +7,7 @@
     top: 100%; /* Place it right below the input box */
     left: 0; /* Align it to the left edge of the input box */
     right: 0; /* Align it to the right edge of the input box */
-    
+
     border: 1px solid #ced4da; /* Bootstrap의 input border color */
     border-radius: 0 0 .25rem .25rem; /* rounded corners at the bottom */
     max-height: 150px; /* or any other value that suits you */
@@ -39,8 +39,9 @@
 <body>
   <div class="container mt-5">
     <h1 class="text-center mb-4">SV 기술폭 검색기</h1>
-    <div class="autocomplete">
+    <div class="form-group suggestion-container">
       <input type="text" id="search" class="form-control" placeholder="포켓몬 이름을 입력하세요" autocomplete="off">
+      <div class="suggestion-box"></div>
     </div>
     <div id="result" class="result-container mt-4"></div>
   </div>
