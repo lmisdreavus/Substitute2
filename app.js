@@ -1,4 +1,5 @@
 let pokemons = [];
+let timeoutId;  // 타임아웃을 관리할 변수를 선언합니다.
 
 // JSON 데이터 불러오기
 fetch('pokemon.json')
@@ -14,6 +15,9 @@ const pokemonListDatalist = document.getElementById('pokemon-list');
 const resultDiv = document.getElementById('result');
 
 searchInput.addEventListener('input', function () {
+  clearTimeout(timeoutId); // 기존 타임아웃을 초기화합니다.
+  timeoutId = setTimeout(() => {
+    // 이 부분에 기존의 입력 이벤트 핸들러 로직을 넣습니다.
   const searchText = searchInput.value;
   pokemonListDatalist.innerHTML = ''; // Clear existing options
   
@@ -34,12 +38,14 @@ searchInput.addEventListener('input', function () {
   if (matchedPokemon) {
     displayPokemonData(matchedPokemon);
   }
+}, 300);
 });
 
 function displayPokemonData(pokemon) {
   let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : 'None';
   let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : 'None';
   let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : 'None';
+  
  
     let resultHtml = `
       <div class="card mb-3">
