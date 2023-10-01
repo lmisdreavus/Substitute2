@@ -35,6 +35,19 @@
     color: #212529; /* Bootstrap’s default color for text, used for contrast */
 }
 
+.creator-info {
+  position: fixed; /* 화면에 고정 */
+  bottom: 10px; /* 화면 하단에서의 거리 */
+  right: 10px; /* 화면 우측에서의 거리 */
+  font-size: 0.8em; /* 폰트 크기 */
+  color: #555; /* 폰트 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.creator-info a:hover {
+  text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
+}
+
   </style>
   <meta charset="UTF-8">
   <title>SV 기술폭 검색기</title>
@@ -53,5 +66,6 @@
   </div>
   
   <script src="app.js"></script>
+  <div class="creator-info">문의 : 트위터 <a href="http://twitter.com/ur_up" target="_blank"></a>ur_up</a> </div>
 </body>
 </html>
