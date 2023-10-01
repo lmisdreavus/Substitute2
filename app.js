@@ -9,12 +9,13 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-  let item = document.createElement('div');
-  suggestionBox.setAttribute('class', 'suggestion-box');
-  
-  const searchInput = document.getElementById('search');
-  searchInput.parentNode.appendChild(suggestionBox); // searchInput이 있는 후에 suggestionBox를 추가해야 합니다.
-  const resultDiv = document.getElementById('result');
+const searchInput = document.getElementById('search');
+const pokemonListDatalist = document.getElementById('pokemon-list');
+const resultDiv = document.getElementById('result');
+
+let suggestionBox = document.createElement('div');
+suggestionBox.setAttribute('class', 'suggestion-box');
+searchInput.parentNode.appendChild(suggestionBox);
 
 searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
@@ -24,13 +25,13 @@ searchInput.addEventListener('input', function () {
     for (let pokemon of pokemons) {
       if (pokemon.name.startsWith(searchText)) {
         let suggestion = document.createElement('div');
-        item.innerText = pokemon.name;
+        suggestion.innerHTML = pokemon.name;
         suggestion.addEventListener('click', function() {
           searchInput.value = pokemon.name;
           displayPokemonData(pokemon);
           suggestionBox.innerHTML = ''; // Clear suggestions when one is clicked
         });
-        suggestionBox.appendChild(item);
+        suggestionBox.appendChild(suggestion);
       }
     }
   }
