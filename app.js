@@ -21,9 +21,11 @@ document.getElementById('search').addEventListener('input', function () {
 
   // 결과 출력
 if (pokemon) {
-  let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : '없음';
-  let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : '없음';
-  let eggSkills = pokemon.eggSkills?.join('<br>') ?? '없음';
+    let eggSkillsSection = '';
+    if (pokemon.eggSkills) {
+      let eggSkills = pokemon.eggSkills.join('<br>');
+      eggSkillsSection = `<p><strong>알 부화로 배우는 기술:</strong><br> ${eggSkills}</p>`;
+    }
 
 
     let resultHtml = `
@@ -46,7 +48,7 @@ if (pokemon) {
           <p><strong>특성:</strong> ${pokemon.abilities}</p>
           <p><strong>레벨 업으로 배우는 기술:</strong><br> ${pokemon.levelUpSkills.join('<br>')}</p>
           <p><strong>기술머신으로 배우는 기술:</strong><br> ${pokemon.machineSkills.join('<br>')}</p>
-          <p><strong>알 부화로 배우는 기술:</strong><br> ${pokemon.eggSkills.join('<br>')}</p>
+          ${eggSkillsSection}
         </div>
       </div>
     `;
