@@ -51,3 +51,19 @@ body {
   margin: 4px 0;
 }
 
+.suggestion-box {
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  position: absolute;
+  width: calc(100% - 2px); 
+}
+
+.suggestion-box div {
+  cursor: pointer;
+  padding: 10px;
+}
+
+.suggestion-box div:hover {
+  background-color: #e9ecef;
+}

@@ -13,16 +13,25 @@ const searchInput = document.getElementById('search');
 const pokemonListDatalist = document.getElementById('pokemon-list');
 const resultDiv = document.getElementById('result');
 
+let suggestionBox = document.createElement('div');
+suggestionBox.setAttribute('class', 'suggestion-box');
+searchInput.parentNode.appendChild(suggestionBox);
+
 searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
-  pokemonListDatalist.innerHTML = ''; // Clear existing options
+  suggestionBox.innerHTML = ''; // Clear existing suggestions
   
   if(searchText !== '') {
     for (let pokemon of pokemons) {
-      if (pokemon.name.startsWith(searchText)) { // startsWith를 사용하여 수정
-        let option = document.createElement('option');
-        option.value = pokemon.name;
-        pokemonListDatalist.appendChild(option);
+      if (pokemon.name.startsWith(searchText)) {
+        let suggestion = document.createElement('div');
+        suggestion.innerHTML = pokemon.name;
+        suggestion.addEventListener('click', function() {
+          searchInput.value = pokemon.name;
+          displayPokemonData(pokemon);
+          suggestionBox.innerHTML = ''; // Clear suggestions when one is clicked
+        });
+        suggestionBox.appendChild(suggestion);
       }
     }
   }
