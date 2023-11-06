@@ -15,7 +15,7 @@ fetch('pokemon.json')
   let suggestionItem = document.createElement('a');
   suggestionItem.href = "#";
   //suggestionItem.textContent = "제안된 아이템";
-  suggestionBox.appendChild(suggestionItem);
+  //suggestionBox.appendChild(suggestionItem);
 
   
   const searchInput = document.getElementById('search');

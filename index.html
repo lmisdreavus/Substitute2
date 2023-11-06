@@ -2,6 +2,44 @@
 <html lang="ko">
 <head>
   <style>
+/*
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#pokemonInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+#pokemonInfo p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+  .stat-container {
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+
+  .stat-bar {
+    background-color: #76c7c0;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 2px;
+  }
+*/
     .suggestion-container {
   position: relative;
 }
@@ -38,7 +76,7 @@
 .creator-info {
   position: fixed; /* 화면에 고정 */
   bottom: 10px; /* 화면 하단에서의 거리 */
-  right: 10px; /* 화면 우측에서의 거리 */
+  left: 10px; /* 화면 우측에서의 거리 */
   font-size: 0.8em; /* 폰트 크기 */
   color: #555; /* 폰트 색상 */
   text-decoration: none; /* 밑줄 제거 */
@@ -54,6 +92,42 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">PoDB</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">포켓몬 검색</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="speed-chart.html">스피드 표</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="move-search.html">기술 검색</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <!-- ... 나머지 코드 ... -->
+    <div class="container mt-5">
+      <h1 class="text-center mb-4">SV 기술폭 검색기</h1>
+      *유전기는 진화전 포켓몬만 기입되어 있습니다
+      <div class="autocomplete">
+        <div class="form-group suggestion-container">
+        <input type="text" id="search" class="form-control" placeholder="포켓몬 이름을 입력하세요" autocomplete="off">
+        <div class="suggestion-box"></div>
+        </div>
+      </div>
+      <div id="result" class="result-container mt-4"></div>
+    </div>
+    
+    <script src="app.js"></script>
+    <div class="creator-info">문의 : 트위터 <a href="http://twitter.com/mollamo37958950" target="_blank">ur_up</a></div>
+  
+  </div>
+
+  <!--
   <div class="container mt-5">
     <h1 class="text-center mb-4">SV 기술폭 검색기</h1>
     <div class="autocomplete">
@@ -67,5 +141,6 @@
   
   <script src="app.js"></script>
   <div class="creator-info">문의 : 트위터 <a href="http://twitter.com/mollamo37958950" target="_blank">ur_up</a></div>
+  -->
 </body>
 </html>

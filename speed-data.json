@@ -1,0 +1,3242 @@
+[
+    {
+        "value": 415,
+        "name": "레지에레키",
+        "baseStat": 200,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 400,
+        "name": "레이스포스",
+        "baseStat": 130,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 378,
+        "name": "포푸니크",
+        "baseStat": 120,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 376,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 366,
+        "name": "플로젤",
+        "baseStat": 115,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 356,
+        "name": "오거폰",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 356,
+        "name": "무쇠독나방",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 356,
+        "name": "솜솜코",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 344,
+        "name": "포푸니크",
+        "baseStat": 120,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 344,
+        "name": "클레스퍼트라",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 342,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 338,
+        "name": "한카리아스",
+        "baseStat": 102,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 334,
+        "name": "플로젤",
+        "baseStat": 115,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 334,
+        "name": "썬더",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 334,
+        "name": "불카모스",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 324,
+        "name": "오거폰",
+        "baseStat": 110,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 322,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 319,
+        "name": "드래펄트",
+        "baseStat": 142,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 312,
+        "name": "파이어",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 309,
+        "name": "무쇠보따리",
+        "baseStat": 136,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 307,
+        "name": "날개치는머리",
+        "baseStat": 135,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 307,
+        "name": "파오젠",
+        "baseStat": 135,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 304,
+        "name": "드닐레이브",
+        "baseStat": 87,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 300,
+        "name": "레이스포스",
+        "baseStat": 130,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 300,
+        "name": "웨이니발",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 294,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 291,
+        "name": "드래펄트",
+        "baseStat": 142,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 290,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 290,
+        "name": "얼음귀신",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 290,
+        "name": "둥실라이드",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 289,
+        "name": "에리본",
+        "baseStat": 124,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 288,
+        "name": "마스카나",
+        "baseStat": 123,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 286,
+        "name": "개굴닌자",
+        "baseStat": 122,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 286,
+        "name": "대쓰여너",
+        "baseStat": 78,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 283,
+        "name": "포푸니크",
+        "baseStat": 120,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 282,
+        "name": "에이스번",
+        "baseStat": 119,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 282,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 282,
+        "name": "무쇠보따리",
+        "baseStat": 136,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 280,
+        "name": "날개치는머리",
+        "baseStat": 135,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 280,
+        "name": "파오젠",
+        "baseStat": 135,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 277,
+        "name": "레지에레키",
+        "baseStat": 200,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 277,
+        "name": "염뉴트",
+        "baseStat": 117,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 276,
+        "name": "무쇠무인",
+        "baseStat": 116,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 274,
+        "name": "아그놈",
+        "baseStat": 115,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 274,
+        "name": "우락고래",
+        "baseStat": 73,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 268,
+        "name": "파밀리쥐",
+        "baseStat": 111,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 268,
+        "name": "우렁찬꼬리",
+        "baseStat": 111,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 268,
+        "name": "파르셀",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 267,
+        "name": "팬텀",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 267,
+        "name": "에브이",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 267,
+        "name": "조로아크(히스이)",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 267,
+        "name": "오거폰",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 267,
+        "name": "무쇠독나방",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 267,
+        "name": "팬텀",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 265,
+        "name": "나인테일(알로라)",
+        "baseStat": 109,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 264,
+        "name": "무쇠머리",
+        "baseStat": 108,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 262,
+        "name": "마스카나",
+        "baseStat": 123,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 260,
+        "name": "대쓰여너",
+        "baseStat": 78,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 259,
+        "name": "이야후",
+        "baseStat": 106,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 259,
+        "name": "무쇠바퀴",
+        "baseStat": 106,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 258,
+        "name": "드레디어(히스이)",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 258,
+        "name": "클레스퍼트라",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 256,
+        "name": "고지(알로라)",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 256,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 253,
+        "name": "한카리아스",
+        "baseStat": 102,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 252,
+        "name": "레지에레키",
+        "baseStat": 200,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 252,
+        "name": "볼트로스(영물)",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 252,
+        "name": "랜드로스",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 252,
+        "name": "모래털가죽",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "찌르호크",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "불카모스",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "보만다",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "돌핀맨",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "위유이",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "썬더",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "나인테일",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 250,
+        "name": "켄타로스(팔데아-블레이즈)",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 248,
+        "name": "마기라스",
+        "baseStat": 61,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 247,
+        "name": "삼삼드래",
+        "baseStat": 98,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 244,
+        "name": "우라오스",
+        "baseStat": 97,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 244,
+        "name": "액스라이즈",
+        "baseStat": 97,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 244,
+        "name": "파르셀",
+        "baseStat": 70,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 243,
+        "name": "따라큐",
+        "baseStat": 96,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 241,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 235,
+        "name": "랜드로스(영물)",
+        "baseStat": 91,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "저승갓숭",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "루카리오",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "윈디(히스이)",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "공푸리",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "꼬이밍고",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "파이어",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 234,
+        "name": "사나운버섯",
+        "baseStat": 55,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 234,
+        "name": "고지(알로라)",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 2
+    },
+    {
+        "value": 232,
+        "name": "비비용",
+        "baseStat": 89,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 228,
+        "name": "드닐레이브",
+        "baseStat": 87,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 228,
+        "name": "위대한엄니",
+        "baseStat": 87,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 228,
+        "name": "위유이",
+        "baseStat": 100,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 226,
+        "name": "로토무(폼체인지)",
+        "baseStat": 86,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 225,
+        "name": "웨이니발",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 225,
+        "name": "파라블레이즈",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 225,
+        "name": "대검귀(히스이)",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 225,
+        "name": "사마자르",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 225,
+        "name": "짜랑고우거",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 223,
+        "name": "타부자고",
+        "baseStat": 84,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 220,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 219,
+        "name": "갸라도스",
+        "baseStat": 81,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "엘레이드",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "얼음귀신",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "레지드래고",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "맘모꾸리",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 217,
+        "name": "샹델라",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 214,
+        "name": "대쓰여너",
+        "baseStat": 78,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 214,
+        "name": "랜드로스(영물)",
+        "baseStat": 91,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 213,
+        "name": "드래펄트",
+        "baseStat": 142,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 211,
+        "name": "히드런",
+        "baseStat": 77,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 208,
+        "name": "카디나르마",
+        "baseStat": 75,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 208,
+        "name": "드닐레이브",
+        "baseStat": 87,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 208,
+        "name": "위대한엄니",
+        "baseStat": 87,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 207,
+        "name": "로토무(폼체인지)",
+        "baseStat": 86,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 206,
+        "name": "무쇠보따리",
+        "baseStat": 136,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 205,
+        "name": "파오젠",
+        "baseStat": 135,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 205,
+        "name": "날개치는머리",
+        "baseStat": 135,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 204,
+        "name": "무쇠가시",
+        "baseStat": 72,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 201,
+        "name": "버섯모",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 201,
+        "name": "왕구리",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 200,
+        "name": "레이스포스",
+        "baseStat": 130,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 198,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 195,
+        "name": "파이어로",
+        "baseStat": 126,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 194,
+        "name": "드래펄트",
+        "baseStat": 142,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 193,
+        "name": "에리본",
+        "baseStat": 124,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 193,
+        "name": "라우드본",
+        "baseStat": 66,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 192,
+        "name": "마스카나",
+        "baseStat": 123,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 192,
+        "name": "패리퍼",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 192,
+        "name": "고디모아젤",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 191,
+        "name": "개굴닌자",
+        "baseStat": 122,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 190,
+        "name": "카디나르마",
+        "baseStat": 75,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 189,
+        "name": "포푸니크",
+        "baseStat": 120,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 188,
+        "name": "에이스번",
+        "baseStat": 119,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 188,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 188,
+        "name": "무쇠보따리",
+        "baseStat": 136,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 187,
+        "name": "파오젠",
+        "baseStat": 135,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 187,
+        "name": "날개치는머리",
+        "baseStat": 135,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 186,
+        "name": "마기라스",
+        "baseStat": 61,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 1
+    },
+    {
+        "value": 185,
+        "name": "염뉴트",
+        "baseStat": 117,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 184,
+        "name": "무쇠무인",
+        "baseStat": 116,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 183,
+        "name": "플로젤",
+        "baseStat": 115,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 183,
+        "name": "아그놈",
+        "baseStat": 115,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 179,
+        "name": "볼트로스",
+        "baseStat": 111,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 179,
+        "name": "파밀리쥐",
+        "baseStat": 111,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 179,
+        "name": "우렁찬꼬리",
+        "baseStat": 111,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "솜솜코",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "팬텀",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "에브이",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "조로아크(히스이)",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "오거폰",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "무쇠독나방",
+        "baseStat": 110,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 178,
+        "name": "파이어로",
+        "baseStat": 126,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 177,
+        "name": "나인테일(알로라)",
+        "baseStat": 109,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 176,
+        "name": "무쇠머리",
+        "baseStat": 108,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 175,
+        "name": "마스카나",
+        "baseStat": 123,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 173,
+        "name": "이야후",
+        "baseStat": 106,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 173,
+        "name": "무쇠바퀴",
+        "baseStat": 106,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 172,
+        "name": "빠르모트",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 172,
+        "name": "드레디어(히스이)",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 172,
+        "name": "클레스퍼트라",
+        "baseStat": 105,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 171,
+        "name": "고동치는달",
+        "baseStat": 119,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 169,
+        "name": "한카리아스",
+        "baseStat": 102,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 168,
+        "name": "모래털가죽",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 168,
+        "name": "볼트로스(영물)",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 168,
+        "name": "랜드로스",
+        "baseStat": 101,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "찌르호크",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "육파리",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "불카모스",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "보만다",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "돌핀맨",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "위유이",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "썬더",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "나인테일",
+        "baseStat": 100,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 167,
+        "name": "플로젤",
+        "baseStat": 115,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 166,
+        "name": "기로치",
+        "baseStat": 99,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 165,
+        "name": "삼삼드래",
+        "baseStat": 98,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 163,
+        "name": "우라오스",
+        "baseStat": 97,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 163,
+        "name": "액스라이즈",
+        "baseStat": 97,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 162,
+        "name": "따라큐",
+        "baseStat": 96,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 161,
+        "name": "윈디",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 161,
+        "name": "유크시",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 161,
+        "name": "글라이온",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 161,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 160,
+        "name": "두드리짱",
+        "baseStat": 94,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 157,
+        "name": "랜드로스(영물)",
+        "baseStat": 91,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "저승갓숭",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "루카리오",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "윈디(히스이)",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "공푸리",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "꼬이밍고",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 156,
+        "name": "파이어",
+        "baseStat": 90,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 155,
+        "name": "비비용",
+        "baseStat": 89,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 152,
+        "name": "드닐레이브",
+        "baseStat": 87,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 152,
+        "name": "위대한엄니",
+        "baseStat": 87,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 151,
+        "name": "킬라플로르",
+        "baseStat": 86,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 151,
+        "name": "로토무(폼체인지)",
+        "baseStat": 86,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 151,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 1
+    },
+    {
+        "value": 150,
+        "name": "웨이니발",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "파라블레이즈",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "프리져",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "크레세리아",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "대검귀(히스이)",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "고릴타",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "사마자르",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 150,
+        "name": "짜랑고우거",
+        "baseStat": 85,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 149,
+        "name": "타부자고",
+        "baseStat": 84,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 149,
+        "name": "우라오스",
+        "baseStat": 97,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 148,
+        "name": "따라큐",
+        "baseStat": 96,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 147,
+        "name": "윈디",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 147,
+        "name": "메가자리",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 146,
+        "name": "갸라도스",
+        "baseStat": 81,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 146,
+        "name": "밀로틱",
+        "baseStat": 81,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 146,
+        "name": "땅을기는날개",
+        "baseStat": 81,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "가디안",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "엘레이드",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "둥실라이드",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "얼음귀신",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "레지드래고",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "맘모꾸리",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "버랜지나",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "샹델라",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 145,
+        "name": "조타구",
+        "baseStat": 80,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 143,
+        "name": "랜드로스(영물)",
+        "baseStat": 91,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 141,
+        "name": "히드런",
+        "baseStat": 77,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 139,
+        "name": "카디나르마",
+        "baseStat": 75,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 139,
+        "name": "클레피",
+        "baseStat": 75,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 138,
+        "name": "로토무(워시)",
+        "baseStat": 86,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 137,
+        "name": "우락고래",
+        "baseStat": 73,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 136,
+        "name": "무쇠가시",
+        "baseStat": 72,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 134,
+        "name": "버섯모",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 134,
+        "name": "파르셀",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 134,
+        "name": "총지엔",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 134,
+        "name": "왕구리",
+        "baseStat": 70,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 132,
+        "name": "볼트로스",
+        "baseStat": 111,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 131,
+        "name": "오거폰",
+        "baseStat": 110,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 130,
+        "name": "아머까오",
+        "baseStat": 67,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 129,
+        "name": "라우드본",
+        "baseStat": 66,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 128,
+        "name": "패리퍼",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 128,
+        "name": "고디모아젤",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 128,
+        "name": "핫삼",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 128,
+        "name": "꿈트렁",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 128,
+        "name": "고지(알로라)",
+        "baseStat": 65,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 124,
+        "name": "마기라스",
+        "baseStat": 61,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 123,
+        "name": "미끄래곤(히스이)",
+        "baseStat": 60,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 123,
+        "name": "자포코일",
+        "baseStat": 60,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 123,
+        "name": "눈설왕",
+        "baseStat": 60,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 123,
+        "name": "모크나이퍼(히스이)",
+        "baseStat": 60,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 121,
+        "name": "불카모스",
+        "baseStat": 100,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 121,
+        "name": "돌핀맨",
+        "baseStat": 100,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 121,
+        "name": "썬더",
+        "baseStat": 100,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 120,
+        "name": "기로치",
+        "baseStat": 99,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 118,
+        "name": "우라오스",
+        "baseStat": 97,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 117,
+        "name": "가재장군",
+        "baseStat": 55,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 117,
+        "name": "사나운버섯",
+        "baseStat": 55,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 117,
+        "name": "따라큐",
+        "baseStat": 96,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 116,
+        "name": "글라이온",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 116,
+        "name": "유크시",
+        "baseStat": 95,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 115,
+        "name": "두드리짱",
+        "baseStat": 94,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 114,
+        "name": "다투곰-붉은달",
+        "baseStat": 52,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 112,
+        "name": "랜드로스(영물)",
+        "baseStat": 91,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 112,
+        "name": "코리갑",
+        "baseStat": 50,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 112,
+        "name": "대도각참",
+        "baseStat": 50,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 112,
+        "name": "다투곰",
+        "baseStat": 50,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 112,
+        "name": "무쇠손",
+        "baseStat": 50,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 111,
+        "name": "저승갓숭",
+        "baseStat": 90,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 111,
+        "name": "파이어",
+        "baseStat": 90,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 108,
+        "name": "드닐레이브",
+        "baseStat": 87,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 108,
+        "name": "위대한엄니",
+        "baseStat": 87,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 107,
+        "name": "킬라플로르",
+        "baseStat": 86,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 107,
+        "name": "로토무(폼체인지)",
+        "baseStat": 86,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 106,
+        "name": "파라블레이즈",
+        "baseStat": 85,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 106,
+        "name": "프리져",
+        "baseStat": 85,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 106,
+        "name": "크레세리아",
+        "baseStat": 85,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 106,
+        "name": "고릴타",
+        "baseStat": 85,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 105,
+        "name": "타부자고",
+        "baseStat": 84,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 104,
+        "name": "다투곰(붉은달)",
+        "baseStat": 52,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 102,
+        "name": "다투곰",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 102,
+        "name": "대도각참",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 102,
+        "name": "갸라도스",
+        "baseStat": 81,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 102,
+        "name": "밀로틱",
+        "baseStat": 81,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 101,
+        "name": "둥실라이드",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 101,
+        "name": "망나뇽",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 101,
+        "name": "버랜지나",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 101,
+        "name": "조타구",
+        "baseStat": 80,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 99,
+        "name": "크레베이스(히스이)",
+        "baseStat": 38,
+        "nature": "상승(1.1배)",
+        "iv": 31,
+        "ev": 252,
+        "rank": 0
+    },
+    {
+        "value": 99,
+        "name": "대쓰여너",
+        "baseStat": 78,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 98,
+        "name": "히드런",
+        "baseStat": 77,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 94,
+        "name": "우락고래",
+        "baseStat": 73,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 91,
+        "name": "총지엔",
+        "baseStat": 70,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 91,
+        "name": "왕구리",
+        "baseStat": 70,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 91,
+        "name": "그우린차",
+        "baseStat": 70,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 90,
+        "name": "따라큐",
+        "baseStat": 96,
+        "nature": "하강(0.9배)",
+        "iv": 31,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 88,
+        "name": "아머까오",
+        "baseStat": 67,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 86,
+        "name": "샤미드",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 86,
+        "name": "블래키",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 86,
+        "name": "핫삼",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 86,
+        "name": "꿈트렁",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 86,
+        "name": "맘복치",
+        "baseStat": 65,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 85,
+        "name": "브리가론",
+        "baseStat": 64,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 82,
+        "name": "마기라스",
+        "baseStat": 61,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "미끄래곤(히스이)",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "님피아",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "자포코일",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "오롱털",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "눈설왕",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 81,
+        "name": "픽시",
+        "baseStat": 60,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 76,
+        "name": "해피너스",
+        "baseStat": 55,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 76,
+        "name": "노고고치",
+        "baseStat": 55,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 76,
+        "name": "가재장군",
+        "baseStat": 55,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 73,
+        "name": "다투곰(붉은달)",
+        "baseStat": 52,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "하리뭉",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "럭키",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "마릴리",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "코리갑",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "질뻐기(알로라)",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 71,
+        "name": "대도각참",
+        "baseStat": 50,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 68,
+        "name": "하마돈",
+        "baseStat": 47,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 66,
+        "name": "찌리배리",
+        "baseStat": 45,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 66,
+        "name": "딩루",
+        "baseStat": 45,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 66,
+        "name": "노보청",
+        "baseStat": 45,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 64,
+        "name": "투구뿌논",
+        "baseStat": 43,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 61,
+        "name": "쏘콘",
+        "baseStat": 40,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 60,
+        "name": "올리르바",
+        "baseStat": 39,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 60,
+        "name": "트리토돈",
+        "baseStat": 39,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 59,
+        "name": "크레베이스(히스이)",
+        "baseStat": 38,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 56,
+        "name": "누오",
+        "baseStat": 35,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 56,
+        "name": "콜로솔트",
+        "baseStat": 35,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 56,
+        "name": "만마드",
+        "baseStat": 35,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 56,
+        "name": "더시마사리",
+        "baseStat": 35,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 56,
+        "name": "어써러셔",
+        "baseStat": 35,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 54,
+        "name": "동탁군",
+        "baseStat": 33,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "뽀록나",
+        "baseStat": 30,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "야도란",
+        "baseStat": 30,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "야도킹",
+        "baseStat": 30,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "블리자포스",
+        "baseStat": 30,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "잠만보",
+        "baseStat": 30,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 51,
+        "name": "다투곰(붉은달)",
+        "baseStat": 52,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 50,
+        "name": "브리무음",
+        "baseStat": 29,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 49,
+        "name": "다투곰",
+        "baseStat": 50,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 45,
+        "name": "딩루",
+        "baseStat": 45,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 41,
+        "name": "토오",
+        "baseStat": 20,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 41,
+        "name": "코터스",
+        "baseStat": 20,
+        "nature": "무보정",
+        "iv": 31,
+        "ev": 4,
+        "rank": 0
+    },
+    {
+        "value": 40,
+        "name": "쏘콘",
+        "baseStat": 40,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 38,
+        "name": "크레베이스(히스이)",
+        "baseStat": 38,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 34,
+        "name": "동탁군",
+        "baseStat": 33,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 31,
+        "name": "잠만보",
+        "baseStat": 30,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 31,
+        "name": "야도킹",
+        "baseStat": 30,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 31,
+        "name": "야도란",
+        "baseStat": 30,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 30,
+        "name": "브리무음",
+        "baseStat": 29,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 29,
+        "name": "크레베이스",
+        "baseStat": 28,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 22,
+        "name": "코터스",
+        "baseStat": 22,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    },
+    {
+        "value": 22,
+        "name": "토오",
+        "baseStat": 22,
+        "nature": "하강(0.9배)",
+        "iv": 0,
+        "ev": 0,
+        "rank": 0
+    }
+]

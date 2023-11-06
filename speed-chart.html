@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>스피드 표</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">PoDB</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">포켓몬 검색</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="speed-chart.html">스피드 표</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="move-search.html">기술 검색</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="text-center mb-4"><a href="https://sv-news.pokemon.co.jp/ko/page/129.html" target="_blank">레귤레이션 E</a> 스피드 표</h1>
+    랭크업 2는 순풍, 쓱쓱, 엽록소, 곡예 등의 2배 수치 <br>
+    랭크업 1은 구애스카프, 부스트에너지, 용의춤 등의 1.5배 수치
+    <table class="table table-bordered" id="speedTable">
+      <thead>
+        <tr>
+          <th>실수치</th>
+          <th>이름</th>
+          <th>종족값</th>
+          <th>성격</th>
+          <th>개체값</th>
+          <th>노력치</th>
+          <th>랭크업</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JavaScript에서 데이터를 동적으로 채웁니다 -->
+      </tbody>
+    </table>
+</div>
+<script src="load-data.js"></script>
+</body>
+</html>
