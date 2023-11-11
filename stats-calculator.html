@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>SV 실능치 계산기</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css"> <!-- 외부 CSS 파일 링크 -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">PoDB</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">포켓몬 검색</a>
+            </li>
+            <li class="nav-iteme">
+              <a class="nav-link" href="speed-chart.html">스피드 표</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="move-search.html">기술 검색</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="stats-calculator.html">실능 계산</a>
+              </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">SV 실능치 계산기</h1>
+        <div class="row">
+            <div class="col-md-3 mb-3">
+                <label for="level-input">레벨:</label>
+                <div class="input-group">
+                    <input type="number" id="level-input" class="form-control" value="50" min="1" max="100">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="button" id="level-50">50</button>
+                        <button class="btn btn-outline-secondary" type="button" id="level-100">100</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <label for="pokemon-name-input">포켓몬 이름:</label>
+                    <div class="input-group">
+                        <input type="text" id="pokemon-name-input" class="form-control" placeholder="포켓몬 이름을 입력하세요">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" id="search-btn">검색</button>
+                        </div>
+                    </div>
+                    <!-- 유사 결과 리스트 -->
+                    <div class="list-group position-absolute top-100" id="pokemon-search-results" style="width: 100%; z-index: 1000;"></div>
+                </div>
+            </div>
+
+
+    
+        
+    <!-- 능력치 입력과 결과를 표시하는 테이블 -->
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col"></th>
+                <th scope="col">종족값</th>
+                <th scope="col">개체값</th>
+                <th scope="col">노력치</th>
+                <th scope="col">성격</th>
+                <th scope="col">랭크</th>
+                <th scope="col">실수치</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="col-1" scope="row">체력</th>
+                <td class="col-1"><input type="number" id="base-hp" class="form-control"></td>
+                <td class="col-1"><input type="number" id="iv-hp" class="form-control" value="31" min="0" max="31"></td>
+                <td class="col-1"><input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-1"></td>
+                <td class="col-1"></td>
+                <td id="result-hp"></td>
+            </tr>
+            <tr>
+                <th scope="row">공격</th>
+                <td><input type="number" id="base-attack" class="form-control"></td>
+                <td><input type="number" id="iv-attack" class="form-control" value="31" min="0" max="31"></td>
+                <td><input type="number" id="ev-attack" class="form-control" value="0" min="0" max="252"></td>
+                <td>
+                    <select class="form-control" id="nature-modifier-attack">
+                        <option value="1.1">↑</option>
+                        <option value="1.0" selected>-</option>
+                        <option value="0.9">↓</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="form-control" id="rank-modifier-attack">
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0" selected>0</option>
+                        <option value="-1">-1</option>
+                        <option value="-2">-2</option>
+                        <option value="-3">-3</option>
+                        <option value="-4">-4</option>
+                        <option value="-5">-5</option>
+                        <option value="-6">-6</option>
+                    </select>
+                </td>
+                <td id="result-attack"></td>
+            </tr>
+            <tr>
+                <th scope="row">방어</th>
+                <td><input type="number" id="base-defense" class="form-control"></td>
+                <td><input type="number" id="iv-defense" class="form-control" value="31" min="0" max="31"></td>
+                <td><input type="number" id="ev-defense" class="form-control" value="0" min="0" max="252"></td>
+                <td>
+                    <select class="form-control" id="nature-modifier-defense">
+                        <option value="1.1">↑</option>
+                        <option value="1.0" selected>-</option>
+                        <option value="0.9">↓</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="form-control" id="rank-modifier-defense">
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0" selected>0</option>
+                        <option value="-1">-1</option>
+                        <option value="-2">-2</option>
+                        <option value="-3">-3</option>
+                        <option value="-4">-4</option>
+                        <option value="-5">-5</option>
+                        <option value="-6">-6</option>
+                    </select>
+                </td>
+                <td id="result-defense"></td>
+            </tr>
+            <tr>
+                <th scope="row">특수공격</th>
+                <td><input type="number" id="base-spAttack" class="form-control"></td>
+                <td><input type="number" id="iv-spAttack" class="form-control" value="31" min="0" max="31"></td>
+                <td><input type="number" id="ev-spAttack" class="form-control" value="0" min="0" max="252"></td>
+                <td>
+                    <select class="form-control" id="nature-modifier-spAttack">
+                        <option value="1.1">↑</option>
+                        <option value="1.0" selected>-</option>
+                        <option value="0.9">↓</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="form-control" id="rank-modifier-spAttack">
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0" selected>0</option>
+                        <option value="-1">-1</option>
+                        <option value="-2">-2</option>
+                        <option value="-3">-3</option>
+                        <option value="-4">-4</option>
+                        <option value="-5">-5</option>
+                        <option value="-6">-6</option>
+                    </select>
+                </td>
+                <td id="result-spAttack"></td>
+            </tr>
+            <tr>
+                <th scope="row">특수방어</th>
+                <td><input type="number" id="base-spDefense" class="form-control"></td>
+                <td><input type="number" id="iv-spDefense" class="form-control" value="31" min="0" max="31"></td>
+                <td><input type="number" id="ev-spDefense" class="form-control" value="0" min="0" max="252"></td>
+                <td>
+                    <select class="form-control" id="nature-modifier-spDefense">
+                        <option value="1.1">↑</option>
+                        <option value="1.0" selected>-</option>
+                        <option value="0.9">↓</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="form-control" id="rank-modifier-spDefense">
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0" selected>0</option>
+                        <option value="-1">-1</option>
+                        <option value="-2">-2</option>
+                        <option value="-3">-3</option>
+                        <option value="-4">-4</option>
+                        <option value="-5">-5</option>
+                        <option value="-6">-6</option>
+                    </select>
+                </td>
+                <td id="result-spDefense"></td>
+            </tr>
+            <tr>
+                <th scope="row">스피드</th>
+                <td><input type="number" id="base-speed" class="form-control"></td>
+                <td><input type="number" id="iv-speed" class="form-control" value="31" min="0" max="31"></td>
+                <td><input type="number" id="ev-speed" class="form-control" value="0" min="0" max="252"></td>
+                <td>
+                    <select class="form-control" id="nature-modifier-speed">
+                        <option value="1.1">↑</option>
+                        <option value="1.0" selected>-</option>
+                        <option value="0.9">↓</option>
+                    </select>
+                </td>
+                <td>
+                    <select class="form-control" id="rank-modifier-speed">
+                        <option value="6">6</option>
+                        <option value="5">5</option>
+                        <option value="4">4</option>
+                        <option value="3">3</option>
+                        <option value="2">2</option>
+                        <option value="1">1</option>
+                        <option value="0" selected>0</option>
+                        <option value="-1">-1</option>
+                        <option value="-2">-2</option>
+                        <option value="-3">-3</option>
+                        <option value="-4">-4</option>
+                        <option value="-5">-5</option>
+                        <option value="-6">-6</option>
+                    </select>
+                </td>
+                <td id="result-speed"></td>
+            </tr>
+            <!-- 공격, 방어, 특수공격, 특수방어, 스피드에 대한 행을 동일한 방식으로 추가 -->
+            <!-- ... 추가 행 ... -->
+        </tbody>
+    </table>
+    <button class="btn btn-primary" id="calculate-btn">능력치 계산</button>
+</div>
+
+    <script src="stats-calculator.js"></script>
+</body>
+</html>

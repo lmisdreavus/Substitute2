@@ -1,0 +1,10 @@
+#pokemon-search-results {
+    position: absolute !important;
+    top: 100% !important; /* 검색창 바로 아래에 위치 */
+    left: 0 !important;
+    width: 100% !important; /* 부모 컨테이너의 너비에 맞춤 */
+    z-index: 1000 !important;
+    max-height: 300px !important; /* 스크롤을 위한 최대 높이 설정 */
+    overflow-y: auto !important; /* 필요시 스크롤 표시 */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1) !important; /* 선택적: 시각적 구분을 위한 그림자 */
+}
