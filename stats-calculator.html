@@ -12,17 +12,16 @@
         -webkit-appearance: none;
         margin: 0;
         }
-        @media (max-width: 576px) {
-        .table-responsive {
-            display: block;
-            width: 100%;
-            overflow-x: auto;
-            -webkit-overflow-scrolling: touch; /* iOS Safari에서의 스크롤 성능 개선 */
-        }
-
+    /* 모바일 화면을 위한 스타일 */
+    @media (max-width: 576px) {
         .form-control {
             font-size: 12px; /* 폰트 크기 줄임 */
             padding: .25rem .5rem; /* 상하 좌우 패딩 줄임 */
+        }
+
+        /* 종족값, 성격, 랭크 열의 너비 조정 */
+        .col-species-value, .col-nature, .col-rank {
+            min-width: 80px; /* 최소 너비 설정 */
         }
     }
     </style>
@@ -95,8 +94,8 @@
         </thead>
         <tbody>
             <tr>
-                <th class="col-1.5" scope="row">체력</th>
-                <td class="col-2"><input type="number" id="base-hp" class="form-control"></td>
+                <th scope="row">H</th>
+                <td class="col-species-value"><input type="number" id="base-hp" class="form-control"></td>            
                 <td class="col-2"><input type="number" id="iv-hp" class="form-control" value="31" min="0" max="31"></td>
                 <td class="col-2"><input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252"></td>
                 <td class="col-2"></td>
@@ -104,18 +103,18 @@
                 <td id="result-hp"></td>
             </tr>
             <tr>
-                <th scope="row">공격</th>
-                <td><input type="number" id="base-attack" class="form-control"></td>
+                <th scope="row">A</th>
+                <td class="col-species-value"><input type="number" id="base-attack" class="form-control"></td>
                 <td><input type="number" id="iv-attack" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-attack" class="form-control" value="0" min="0" max="252"></td>
-                <td>
+                <td class="col-nature">
                     <select class="form-control" id="nature-modifier-attack">
                         <option value="1.1">↑</option>
                         <option value="1.0" selected>-</option>
                         <option value="0.9">↓</option>
                     </select>
                 </td>
-                <td>
+                <td class="col-rank">
                     <select class="form-control" id="rank-modifier-attack">
                         <option value="6">6</option>
                         <option value="5">5</option>
@@ -135,18 +134,18 @@
                 <td id="result-attack"></td>
             </tr>
             <tr>
-                <th scope="row">방어</th>
-                <td><input type="number" id="base-defense" class="form-control"></td>
+                <th scope="row">B</th>
+                <td class="col-species-value"><input type="number" id="base-defense" class="form-control"></td>
                 <td><input type="number" id="iv-defense" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-defense" class="form-control" value="0" min="0" max="252"></td>
-                <td>
+                <td class="col-nature">
                     <select class="form-control" id="nature-modifier-defense">
                         <option value="1.1">↑</option>
                         <option value="1.0" selected>-</option>
                         <option value="0.9">↓</option>
                     </select>
                 </td>
-                <td>
+                <td class="col-rank">
                     <select class="form-control" id="rank-modifier-defense">
                         <option value="6">6</option>
                         <option value="5">5</option>
@@ -166,18 +165,18 @@
                 <td id="result-defense"></td>
             </tr>
             <tr>
-                <th scope="row">특공</th>
-                <td><input type="number" id="base-spAttack" class="form-control"></td>
+                <th scope="row">C</th>
+                <td class="col-species-value"><input type="number" id="base-spAttack" class="form-control"></td>
                 <td><input type="number" id="iv-spAttack" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-spAttack" class="form-control" value="0" min="0" max="252"></td>
-                <td>
+                <td class="col-nature">
                     <select class="form-control" id="nature-modifier-spAttack">
                         <option value="1.1">↑</option>
                         <option value="1.0" selected>-</option>
                         <option value="0.9">↓</option>
                     </select>
                 </td>
-                <td>
+                <td class="col-rank">
                     <select class="form-control" id="rank-modifier-spAttack">
                         <option value="6">6</option>
                         <option value="5">5</option>
@@ -197,18 +196,18 @@
                 <td id="result-spAttack"></td>
             </tr>
             <tr>
-                <th scope="row">특방</th>
-                <td><input type="number" id="base-spDefense" class="form-control"></td>
+                <th scope="row">D</th>
+                <td class="col-species-value"><input type="number" id="base-spDefense" class="form-control"></td>
                 <td><input type="number" id="iv-spDefense" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-spDefense" class="form-control" value="0" min="0" max="252"></td>
-                <td>
+                <td class="col-nature">
                     <select class="form-control" id="nature-modifier-spDefense">
                         <option value="1.1">↑</option>
                         <option value="1.0" selected>-</option>
                         <option value="0.9">↓</option>
                     </select>
                 </td>
-                <td>
+                <td class="col-rank">
                     <select class="form-control" id="rank-modifier-spDefense">
                         <option value="6">6</option>
                         <option value="5">5</option>
@@ -228,18 +227,18 @@
                 <td id="result-spDefense"></td>
             </tr>
             <tr>
-                <th scope="row">스핏</th>
-                <td><input type="number" id="base-speed" class="form-control"></td>
+                <th scope="row">S</th>
+                <td class="col-species-value"><input type="number" id="base-speed" class="form-control"></td>
                 <td><input type="number" id="iv-speed" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-speed" class="form-control" value="0" min="0" max="252"></td>
-                <td>
+                <td class="col-nature">
                     <select class="form-control" id="nature-modifier-speed">
                         <option value="1.1">↑</option>
                         <option value="1.0" selected>-</option>
                         <option value="0.9">↓</option>
                     </select>
                 </td>
-                <td>
+                <td class="col-rank">
                     <select class="form-control" id="rank-modifier-speed">
                         <option value="6">6</option>
                         <option value="5">5</option>
