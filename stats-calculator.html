@@ -6,6 +6,13 @@
     <title>SV 실능치 계산기</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"> <!-- 외부 CSS 파일 링크 -->
+    <style>
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+        }
+    </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -32,7 +39,7 @@
     </nav>
 
     <div class="container mt-5">
-        <h1 class="text-center mb-4">SV 실능치 계산기</h1>
+        <h3 class="text-center mb-4">SV 실능치 계산기</h3>
         <div class="row">
             <div class="col-md-3 mb-3">
                 <label for="level-input">레벨:</label>
@@ -58,8 +65,6 @@
                     <div class="list-group position-absolute top-100" id="pokemon-search-results" style="width: 100%; z-index: 1000;"></div>
                 </div>
             </div>
-
-
     
         
     <!-- 능력치 입력과 결과를 표시하는 테이블 -->
@@ -77,12 +82,12 @@
         </thead>
         <tbody>
             <tr>
-                <th class="col-1" scope="row">체력</th>
-                <td class="col-1"><input type="number" id="base-hp" class="form-control"></td>
-                <td class="col-1"><input type="number" id="iv-hp" class="form-control" value="31" min="0" max="31"></td>
-                <td class="col-1"><input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252"></td>
-                <td class="col-1"></td>
-                <td class="col-1"></td>
+                <th class="col-1.5" scope="row">체력</th>
+                <td class="col-2"><input type="number" id="base-hp" class="form-control"></td>
+                <td class="col-2"><input type="number" id="iv-hp" class="form-control" value="31" min="0" max="31"></td>
+                <td class="col-2"><input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2"></td>
+                <td class="col-2"></td>
                 <td id="result-hp"></td>
             </tr>
             <tr>
@@ -148,7 +153,7 @@
                 <td id="result-defense"></td>
             </tr>
             <tr>
-                <th scope="row">특수공격</th>
+                <th scope="row">특공</th>
                 <td><input type="number" id="base-spAttack" class="form-control"></td>
                 <td><input type="number" id="iv-spAttack" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-spAttack" class="form-control" value="0" min="0" max="252"></td>
@@ -179,7 +184,7 @@
                 <td id="result-spAttack"></td>
             </tr>
             <tr>
-                <th scope="row">특수방어</th>
+                <th scope="row">특방</th>
                 <td><input type="number" id="base-spDefense" class="form-control"></td>
                 <td><input type="number" id="iv-spDefense" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-spDefense" class="form-control" value="0" min="0" max="252"></td>
@@ -210,7 +215,7 @@
                 <td id="result-spDefense"></td>
             </tr>
             <tr>
-                <th scope="row">스피드</th>
+                <th scope="row">스핏</th>
                 <td><input type="number" id="base-speed" class="form-control"></td>
                 <td><input type="number" id="iv-speed" class="form-control" value="31" min="0" max="31"></td>
                 <td><input type="number" id="ev-speed" class="form-control" value="0" min="0" max="252"></td>
