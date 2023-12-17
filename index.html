@@ -41,32 +41,33 @@ body {
   }
 
   .stat-bar {
-    background-color: #76c7c0;
-    color: #ffffff;
-    text-align: center;
-    margin-bottom: 5px;
-    padding: 2px;
-  }
-
-    .suggestion-container {
-  position: relative;
+  background-color: #76c7c0;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 5px;
+  padding: 2px 5px; /* 양쪽에 패딩 추가 */
+  max-width: 100%;
+  white-space: nowrap; /* 줄바꿈 방지 */
+  overflow: visible; /* 텍스트가 막대를 넘어가도 보이도록 설정 */
 }
 
-    .suggestion-box {
-    border: 1px solid #ced4da; /* Bootstrap의 input border color */
-    border-radius: 0 0 .25rem .25rem; /* rounded corners at the bottom */
-    max-height: 150px; /* or any other value that suits you */
-    overflow-y: auto; /* add scroll if the content is too long */
-    position: absolute; /* make it appear below the input */
-    width: calc(100% - 2px); /* make it the same width as the input, considering the border */
-    background: white; /* background color */
-    z-index: 1000; /* make sure it appears above other elements */
-    box-shadow: 0 2px 10px rgba(0,0,0,.1); /* a subtle shadow */
-    position: absolute;
-    top: 100%; /* Place it right below the input box */
-    left: 0; /* Align it to the left edge of the input box */
-    right: 0;
+  .suggestion-container {
+  position: relative;
+  width: calc(100% - 30px);
+}
 
+.suggestion-box {
+  border: 0px solid #ced4da; /* Bootstrap의 입력창 테두리 색상 */
+  border-radius: 0 0 .25rem .25rem; /* 아래쪽 모서리 둥글게 처리 */
+  max-height: 150px; /* 콘텐츠가 길 경우 스크롤 추가 (높이는 필요에 따라 조절 가능) */
+  overflow-y: auto; /* 내용이 너무 길면 스크롤 추가 */
+  position: absolute; /* 입력창 아래에 나타나도록 설정 */
+  width: 100%; /* 너비를 상위 컨테이너의 100%로 설정 */
+  background: white; /* 배경색 */
+  z-index: 1000; /* 다른 요소들 위에 나타나도록 설정 */
+  box-shadow: 0 2px 10px rgba(0,0,0,.1); /* 미묘한 그림자 효과 */
+  top: 100%; /* 입력창 바로 아래에 위치하도록 설정 */
+  left: 0;
 }
 
 .suggestion-box a {
@@ -119,19 +120,36 @@ body {
       </ul>
     </div>
   </nav>
+
+
   <div class="container mt-5">
-    <!-- ... 나머지 코드 ... -->
+    <h1 class="text-center mb-4">SV 기술폭 검색기</h1>
+    *남청의 원반까지 업데이트 완료
+    <div class="row">
+      <div class="col-8">
+        <input type="text" id="search" class="form-control" placeholder="포켓몬 이름을 입력하세요" autocomplete="off">
+      </div>
+      <div class="col-3">
+        <button id="search-button" class="btn btn-primary">검색</button>
+      </div>
+    </div>
+    <div id="result" class="result-container mt-4"></div>
+  </div>
+  <!--
+  <div class="container mt-5">
     <div class="container mt-5">
       <h1 class="text-center mb-4">SV 기술폭 검색기</h1>
-      *유전기는 진화전 포켓몬만 기입되어 있습니다
+      *남청의 원반까지 업데이트 완료
       <div class="autocomplete">
         <div class="form-group suggestion-container">
         <input type="text" id="search" class="form-control" placeholder="포켓몬 이름을 입력하세요" autocomplete="off">
         <div class="suggestion-box"></div>
+        <button id="search-button" class="btn btn-primary">검색</button>
         </div>
       </div>
       <div id="result" class="result-container mt-4"></div>
     </div>
+  -->
     
     
     <div class="creator-info">문의 : 트위터 <a href="http://twitter.com/mollamo37958950" target="_blank">ur_up</a></div>

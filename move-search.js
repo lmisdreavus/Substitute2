@@ -88,3 +88,4 @@ document.getElementById('move-name-input').addEventListener('keypress', function
     searchMove(); // 검색 함수를 호출합니다.
   }
 });
+
