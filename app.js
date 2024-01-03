@@ -24,7 +24,23 @@ searchInput.addEventListener('input', function () {
   const searchText = searchInput.value;
   suggestionBox.innerHTML = ''; // 기존 제안 삭제
 
-  if (searchText !== '') {
+
+  if (searchText.length >= 2) {
+    for (let pokemon of pokemons) {
+      if (pokemon.name.includes(searchText)) {
+        let suggestion = document.createElement('div');
+        suggestion.innerHTML = pokemon.name;
+        suggestion.addEventListener('click', function() {
+          searchInput.value = pokemon.name;
+          displayPokemonData(pokemon);
+          suggestionBox.innerHTML = ''; // 제안 선택 시 제안 삭제
+        });
+        suggestionBox.appendChild(suggestion);
+      }
+    }
+  }
+});
+/*  if (searchText !== '') {
     for (let pokemon of pokemons) {
       if (pokemon.name.toLowerCase().startsWith(searchText.toLowerCase())) {
         let suggestion = document.createElement('div');
@@ -39,6 +55,7 @@ searchInput.addEventListener('input', function () {
     }
   }
 });
+*/
 
 // 엔터 키를 눌렀을 때 검색 결과 표시
 searchInput.addEventListener('keyup', function (event) {
