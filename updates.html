@@ -2,8 +2,8 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <!-- 반응형 메타 태그 추가 -->
-  <title>SV 기술폭 검색기</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>업데이트 내역</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -15,7 +15,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
-        <li class="nav-item active">
+        <li class="nav-item">
           <a class="nav-link" href="index.html">포켓몬 검색</a>
         </li>
         <li class="nav-item">
@@ -27,7 +27,7 @@
         <li class="nav-item">
           <a class="nav-link" href="stats-calculator.html">실능 계산</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="updates.html">업데이트 내역</a>
         </li>
       </ul>
@@ -35,27 +35,29 @@
   </nav>
 
   <div class="container mt-5">
-    <h1 class="text-center mb-4">
-      SV 기술폭 검색기
-      <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#helpModal">
-        ?
-      </button>
-    </h1>
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <input type="text" id="search" class="form-control form-control-lg" placeholder="포켓몬 이름을 입력하세요" autocomplete="off">
-      </div>
-      <div class="col-2">
-        <button id="search-button" class="btn btn-primary btn-lg">검색</button>
+    <h1 class="text-center mb-4">업데이트 내역</h1>
+    <div class="update-card">
+      <div class="card-header">2023년 5월 11일</div>
+      <div class="card-body">
+        <p class="card-text">기술 검색바 정렬</p>
+        <p class="card-text">업데이트 내역 카테고리 추가</p>
+        <p class="card-text">도움말 추가(?버튼)</p>
       </div>
     </div>
-    <div id="result" class="result-container mt-4"></div>
-  </div>
-    <div class="creator-info">문의 : 메일 lmisdreavus@gmail.com </div>
+    <div class="update-card">
+      <div class="card-header">2023년 5월 10일</div>
+      <div class="card-body">
+        <p class="card-text">남청의 원반 게임 업데이트를 반영하여 포켓몬 데이터를 업데이트했습니다.</p>
+      </div>
+    </div>
+    <div class="update-card">
+      <div class="card-header">2023년 4월 15일</div>
+      <div class="card-body">
+        <p class="card-text">새로운 기술 검색 기능을 추가했습니다.</p>
+      </div>
+    </div>
   </div>
 
-  <script src="app.js"></script>
-  <script src="modal.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

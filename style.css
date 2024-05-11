@@ -1,0 +1,118 @@
+#pokemon-search-results {
+    position: absolute !important;
+    top: 100% !important; /* 검색창 바로 아래에 위치 */
+    left: 0 !important;
+    width: 100% !important; /* 부모 컨테이너의 너비에 맞춤 */
+    z-index: 1000 !important;
+    max-height: 300px !important; /* 스크롤을 위한 최대 높이 설정 */
+    overflow-y: auto !important; /* 필요시 스크롤 표시 */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1) !important; /* 선택적: 시각적 구분을 위한 그림자 */
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.card {
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#pokemonInfo {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+}
+
+#pokemonInfo p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+  .stat-container {
+    background-color: #e0e0e0;
+    padding: 10px;
+  }
+
+  .stat-bar {
+  background-color: #76c7c0;
+  color: #000000;
+  text-align: left;
+  margin-bottom: 5px;
+  padding: 2px 5px; /* 양쪽에 패딩 추가 */
+  max-width: 100%;
+  white-space: nowrap; /* 줄바꿈 방지 */
+  overflow: visible; /* 텍스트가 막대를 넘어가도 보이도록 설정 */
+}
+
+  .suggestion-container {
+  position: relative;
+  width: calc(100% - 30px);
+}
+
+.suggestion-box {
+  border: 0px solid #ced4da; /* Bootstrap의 입력창 테두리 색상 */
+  border-radius: 0 0 .25rem .25rem; /* 아래쪽 모서리 둥글게 처리 */
+  max-height: 150px; /* 콘텐츠가 길 경우 스크롤 추가 (높이는 필요에 따라 조절 가능) */
+  overflow-y: auto; /* 내용이 너무 길면 스크롤 추가 */
+  position: absolute; /* 입력창 아래에 나타나도록 설정 */
+  width: 100%; /* 너비를 상위 컨테이너의 100%로 설정 */
+  background: white; /* 배경색 */
+  z-index: 1000; /* 다른 요소들 위에 나타나도록 설정 */
+  box-shadow: 0 2px 10px rgba(0,0,0,.1); /* 미묘한 그림자 효과 */
+  top: 100%; /* 입력창 바로 아래에 위치하도록 설정 */
+  left: 0;
+}
+
+.suggestion-box a {
+    display: block; /* make it block so it takes the full width of the container */
+    text-decoration: none; /* remove underline */
+    padding: .5rem 1rem; /* same as Bootstrap’s dropdowns */
+    color: #495057; /* same as Bootstrap’s color for text */
+}
+
+.suggestion-box a:hover {
+    background-color: #f8f9fa; /* a light grey, can use Bootstrap's $gray-200 if using SCSS */
+    color: #212529; /* Bootstrap’s default color for text, used for contrast */
+}
+
+.creator-info {
+  position: fixed; /* 화면에 고정 */
+  bottom: 10px; /* 화면 하단에서의 거리 */
+  left: 10px; /* 화면 우측에서의 거리 */
+  font-size: 0.8em; /* 폰트 크기 */
+  color: #555; /* 폰트 색상 */
+  text-decoration: none; /* 밑줄 제거 */
+}
+
+.creator-info a:hover {
+  text-decoration: underline; /* 마우스 오버 시 밑줄 표시 */
+}
+
+/* 업데이트 내역 카드 스타일 */
+.update-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+.update-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.update-card .card-header {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  font-weight: bold;
+  padding: 15px;
+}
+
+.update-card .card-body {
+  padding: 20px;
+}
