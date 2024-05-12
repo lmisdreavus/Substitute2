@@ -103,8 +103,30 @@ input[type="number"] {
     text-align-last: center;
   }
 
+  body {
+  padding-bottom: 50px;
 }
-        
+
+/* 페이지 위로 당기기 */
+.container {
+  margin-top: 50px;
+}
+
+/* 모바일 화면 대응 */
+@media (max-width: 576px) {
+  /* ... */
+  
+  /* 전체 레이아웃 아래 여백 조정 */
+  body {
+    padding-bottom: 30px;
+  }
+  
+  /* 페이지 위로 당기기 조정 */
+  .container {
+    margin-top: 30px;
+  }
+}
+}
     </style>
 </head>
 <body>
@@ -159,6 +181,7 @@ input[type="number"] {
                 </div>
             </div>
     
+            
         
     <!-- 능력치 입력과 결과를 표시하는 테이블 -->
     <table class="table">
@@ -178,7 +201,15 @@ input[type="number"] {
                 <th class="col-1.5" scope="row">체력</th>
                 <td class="col-2"><input type="number" id="base-hp" class="form-control"></td>
                 <td class="col-2"><input type="number" id="iv-hp" class="form-control" value="31" min="0" max="31"></td>
-                <td class="col-2"><input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-hp" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-hp-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-hp-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td class="col-2"></td>
                 <td class="col-2"></td>
                 <td id="result-hp"></td>
@@ -187,7 +218,15 @@ input[type="number"] {
                 <th scope="row">공격</th>
                 <td><input type="number" id="base-attack" class="form-control"></td>
                 <td><input type="number" id="iv-attack" class="form-control" value="31" min="0" max="31"></td>
-                <td><input type="number" id="ev-attack" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-attack" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-attack-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-attack-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <select class="form-control" id="nature-modifier-attack">
                         <option value="1.1">↑</option>
@@ -218,7 +257,15 @@ input[type="number"] {
                 <th scope="row">방어</th>
                 <td><input type="number" id="base-defense" class="form-control"></td>
                 <td><input type="number" id="iv-defense" class="form-control" value="31" min="0" max="31"></td>
-                <td><input type="number" id="ev-defense" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-defense" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-defense-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-defense-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <select class="form-control" id="nature-modifier-defense">
                         <option value="1.1">↑</option>
@@ -249,7 +296,15 @@ input[type="number"] {
                 <th scope="row">특공</th>
                 <td><input type="number" id="base-spAttack" class="form-control"></td>
                 <td><input type="number" id="iv-spAttack" class="form-control" value="31" min="0" max="31"></td>
-                <td><input type="number" id="ev-spAttack" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-spAttack" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-spAttack-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-spAttack-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <select class="form-control" id="nature-modifier-spAttack">
                         <option value="1.1">↑</option>
@@ -280,7 +335,15 @@ input[type="number"] {
                 <th scope="row">특방</th>
                 <td><input type="number" id="base-spDefense" class="form-control"></td>
                 <td><input type="number" id="iv-spDefense" class="form-control" value="31" min="0" max="31"></td>
-                <td><input type="number" id="ev-spDefense" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-spDefense" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-spDefense-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-spDefense-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <select class="form-control" id="nature-modifier-spDefense">
                         <option value="1.1">↑</option>
@@ -311,7 +374,15 @@ input[type="number"] {
                 <th scope="row">스핏</th>
                 <td><input type="number" id="base-speed" class="form-control"></td>
                 <td><input type="number" id="iv-speed" class="form-control" value="31" min="0" max="31"></td>
-                <td><input type="number" id="ev-speed" class="form-control" value="0" min="0" max="252"></td>
+                <td class="col-2">
+                    <div class="input-group">
+                        <input type="number" id="ev-speed" class="form-control" value="0" min="0" max="252">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-speed-min">0</button>
+                            <button class="btn btn-outline-secondary btn-sm" type="button" id="ev-speed-max">252</button>
+                        </div>
+                    </div>
+                </td>
                 <td>
                     <select class="form-control" id="nature-modifier-speed">
                         <option value="1.1">↑</option>

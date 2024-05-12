@@ -139,3 +139,52 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error('Calculate button not found in the DOM');
     }
 });
+
+// 노력치 버튼 클릭 이벤트 처리
+document.getElementById('ev-hp-max').addEventListener('click', function() {
+    document.getElementById('ev-hp').value = 252;
+  });
+  
+  document.getElementById('ev-hp-min').addEventListener('click', function() {
+    document.getElementById('ev-hp').value = 0;
+  });
+
+  document.getElementById('ev-attack-max').addEventListener('click', function() {
+    document.getElementById('ev-attack').value = 252;
+  });
+  
+  document.getElementById('ev-attack-min').addEventListener('click', function() {
+    document.getElementById('ev-attack').value = 0;
+  });
+
+  document.getElementById('ev-defense-max').addEventListener('click', function() {
+    document.getElementById('ev-defense').value = 252;
+  });
+  
+  document.getElementById('ev-defense-min').addEventListener('click', function() {
+    document.getElementById('ev-defense').value = 0;
+  });
+
+  document.getElementById('ev-spAttack-max').addEventListener('click', function() {
+    document.getElementById('ev-spAttack').value = 252;
+  });
+  
+  document.getElementById('ev-spAttack-min').addEventListener('click', function() {
+    document.getElementById('ev-spAttack').value = 0;
+  });
+
+  document.getElementById('ev-spDefense-max').addEventListener('click', function() {
+    document.getElementById('ev-spDefense').value = 252;
+  });
+  
+  document.getElementById('ev-spDefense-min').addEventListener('click', function() {
+    document.getElementById('ev-spDefense').value = 0;
+  });
+
+  document.getElementById('ev-speed-max').addEventListener('click', function() {
+    document.getElementById('ev-speed').value = 252;
+  });
+  
+  document.getElementById('ev-speed-min').addEventListener('click', function() {
+    document.getElementById('ev-speed').value = 0;
+  });
