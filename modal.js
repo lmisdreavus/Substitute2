@@ -13,8 +13,6 @@ $(document).ready(function() {
             <div class="modal-body">
               <p>이 웹 사이트는 포켓몬의 기술폭을 검색할 수 있습니다.</p>
               <p>검색창에 포켓몬 이름을 입력하고 '검색' 버튼을 클릭하면 해당 포켓몬의 기술폭 정보를 확인할 수 있습니다.</p>
-              <p>자세한 사용 방법은 아래 링크를 참고해 주세요.</p>
-              <a href="#" target="_blank">사용 방법 가이드</a>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
