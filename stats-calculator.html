@@ -6,12 +6,75 @@
     <title>SV 실능치 계산기</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css"> <!-- 외부 CSS 파일 링크 -->
-    <style>
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-        -webkit-appearance: none;
-        margin: 0;
-        }
+<style>
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+@media (max-width: 576px) {
+input[type="number"] {
+    font-size: 14px;
+    padding: 4px;
+}
+}
+
+/* 모바일 화면 대응 */
+@media (max-width: 576px) {
+  /* 입력 필드 크기 조정 */
+  input[type="number"] {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  /* 테이블 셀 크기 조정 */
+  .table th, .table td {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  /* 버튼 크기 조정 */
+  .btn {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  /* 드롭다운 메뉴 크기 조정 */
+  .form-control {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  /* 포켓몬 이름 입력 필드와 검색 버튼 크기 조정 */
+  #pokemon-name-input {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  #search-btn {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  /* 레벨 입력 필드와 버튼 크기 조정 */
+  #level-input {
+    font-size: 14px;
+    padding: 4px;
+  }
+
+  #level-50, #level-100 {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+
+  /* 계산 버튼 크기 조정 */
+  #calculate-btn {
+    font-size: 14px;
+    padding: 4px 8px;
+  }
+}
+        
     </style>
 </head>
 <body>
