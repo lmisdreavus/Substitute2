@@ -40,22 +40,6 @@ searchInput.addEventListener('input', function () {
     }
   }
 });
-/*  if (searchText !== '') {
-    for (let pokemon of pokemons) {
-      if (pokemon.name.toLowerCase().startsWith(searchText.toLowerCase())) {
-        let suggestion = document.createElement('div');
-        suggestion.innerHTML = pokemon.name;
-        suggestion.addEventListener('click', function() {
-          searchInput.value = pokemon.name;
-          displayPokemonData(pokemon);
-          suggestionBox.innerHTML = ''; // 제안 선택 시 제안 삭제
-        });
-        suggestionBox.appendChild(suggestion);
-      }
-    }
-  }
-});
-*/
 
 // 엔터 키를 눌렀을 때 검색 결과 표시
 searchInput.addEventListener('keyup', function (event) {
@@ -69,36 +53,6 @@ searchInput.addEventListener('keyup', function (event) {
     suggestionBox.innerHTML = ''; // 검색 후 제안 삭제
   }
 });
-  /*
-  searchInput.addEventListener('input', function () {
-  const searchText = searchInput.value;
-  suggestionBox.innerHTML = ''; // Clear existing suggestions
-  
-
-  if(searchText !== '') {
-    for (let pokemon of pokemons) {
-      if (pokemon.name.startsWith(searchText)) {
-        let suggestion = document.createElement('div');
-        suggestion.innerHTML = pokemon.name;
-        suggestion.addEventListener('click', function() {
-          searchInput.value = pokemon.name;
-          displayPokemonData(pokemon);
-          suggestionBox.innerHTML = ''; // Clear suggestions when one is clicked
-        });
-        suggestionBox.appendChild(suggestion);
-      }
-    }
-  }
-
-  // 포켓몬 데이터 검색
-  const matchedPokemon = pokemons.find(p => p.name === searchText);
-  
-  // 결과 출력
-  if (matchedPokemon) {
-    displayPokemonData(matchedPokemon);
-  }
-});
-  */
 
 // 버튼 클릭 이벤트 처리
 const searchButton = document.getElementById('search-button');
@@ -112,7 +66,50 @@ searchButton.addEventListener('click', function () {
   suggestionBox.innerHTML = ''; // 검색 후 제안 삭제
 });
 
-function displayPokemonData(pokemon) {
+// 이미지 캐시 클래스
+class ImageCache {
+  constructor() {
+    this.cache = new Map();
+  }
+
+  async getImage(url) {
+    if (this.cache.has(url)) {
+      return this.cache.get(url);
+    } else {
+      const response = await fetch(url);
+      const blob = await response.blob();
+      const objectURL = URL.createObjectURL(blob);
+      this.cache.set(url, objectURL);
+      return objectURL;
+    }
+  }
+}
+
+const imageCache = new ImageCache();
+
+// 포켓몬 이미지 URL을 가져오는 함수
+async function getPokemonImageUrl(pokemonName) {
+  if (!pokemonName) {
+    return ''; // 포켓몬 이름이 없는 경우 빈 문자열 반환
+  }
+
+  try {
+    const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemonName.toLowerCase()}`);
+    const data = await response.json();
+    return data.sprites.front_default;
+  } catch (error) {
+    console.error(`Failed to fetch image for ${pokemonName}:`, error);
+    return ''; // 이미지 가져오기 실패 시 빈 문자열 반환
+  }
+}
+
+// 포켓몬의 한글 이름을 영어 이름으로 변환하는 함수
+async function getEnglishName(koreanName) {
+  const pokemon = pokemons.find(p => p.name === koreanName);
+  return pokemon ? pokemon.englishName : koreanName; // 포켓몬을 찾지 못한 경우 한글 이름 그대로 반환
+}
+
+async function displayPokemonData(pokemon) {
   let eggSkills = pokemon.eggSkills ? pokemon.eggSkills.join('<br>') : '없음';
   let levelUpSkills = pokemon.levelUpSkills ? pokemon.levelUpSkills.join('<br>') : '없음';
   let machineSkills = pokemon.machineSkills ? pokemon.machineSkills.join('<br>') : '없음';
@@ -127,31 +124,39 @@ function displayPokemonData(pokemon) {
     "spDefense": "특수방어",
     "speed": "스피드"
   };
-    let resultHtml = `
-      <div class="card mb-3">
-        <div class="card-header">
-          <h2>${pokemon.name} (#${pokemon.number})</h2>
-        </div>
-        <div class="card-body">
-          <p><strong>타입:</strong> ${pokemon.type}</p>
-          <div><strong>종족값:</strong></div>
-          <div class="stat-container">
-          ${Object.keys(pokemon.baseStats).map(stat => {
-            const statValue = pokemon.baseStats[stat];
-            const widthPercent = Math.min(statValue / MAX_STAT_VALUE * 100, 100); // 너비를 계산하고 최대 100%로 제한합니다.
-            const translatedStat = statTranslations[stat] || stat; // 통계 이름을 한국어로 번역합니다.
-            return `<div class="stat-bar" style="width: ${widthPercent}%;">${translatedStat}: ${statValue}</div>`;
-          }).join('')}    
-          </div>
-          <br>
-          <p><strong>특성:</strong> ${pokemon.abilities}</p>
-          <p><strong>레벨 업으로 배우는 기술:</strong><br> ${levelUpSkills}</p>
-          <p><strong>기술머신으로 배우는 기술:</strong><br> ${machineSkills}</p>
-          <p><strong>알 부화로 배우는 기술:</strong><br> ${eggSkills}</p>
-          <p><strong>떠올리기 기술:</strong><br> ${RelearnSkills}</p>
-        </div>
+
+  const englishName = await getEnglishName(pokemon.name);
+  const imageUrl = await getPokemonImageUrl(englishName);
+
+  let resultHtml = `
+    <div class="card mb-3">
+      <div class="card-header">
+        <h2>${pokemon.name} (#${pokemon.number})</h2>
       </div>
-    `;
+      <div class="card-body">
+        <div class="text-left mb-4">
+          <img src="${imageUrl}" alt="${pokemon.name}" class="img-fluid" style="max-width: 200px;">
+        </div>
+        <p><strong>타입:</strong> ${pokemon.type}</p>
+        <div><strong>종족값:</strong></div>
+        <div class="stat-container">
+        ${Object.keys(pokemon.baseStats).map(stat => {
+          const statValue = pokemon.baseStats[stat];
+          const widthPercent = Math.min(statValue / MAX_STAT_VALUE * 100, 100);
+          const translatedStat = statTranslations[stat] || stat;
+          return `<div class="stat-bar" style="width: ${widthPercent}%;">${translatedStat}: ${statValue}</div>`;
+        }).join('')}    
+        </div>
+        <br>
+        <p><strong>특성:</strong> ${pokemon.abilities}</p>
+        <p><strong>레벨 업으로 배우는 기술:</strong><br> ${levelUpSkills}</p>
+        <p><strong>기술머신으로 배우는 기술:</strong><br> ${machineSkills}</p>
+        <p><strong>알 부화로 배우는 기술:</strong><br> ${eggSkills}</p>
+        <p><strong>떠올리기 기술:</strong><br> ${RelearnSkills}</p>
+      </div>
+    </div>
+  `;
+
     resultDiv.innerHTML = resultHtml;
     
 }

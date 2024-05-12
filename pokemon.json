@@ -1,7 +1,8 @@
 [
   {
-    "number": "001",
     "name": "이상해씨",
+    "englishName": "Bulbasaur",
+    "number": "001",
     "baseStats": {
       "hp": 45,
       "attack": 49,
@@ -73,8 +74,9 @@
     ]
   },
   {
-    "number": "002",
     "name": "이상해풀",
+    "englishName": "Ivysaur",
+    "number": "002",
     "baseStats": {
       "hp": 60,
       "attack": 62,
@@ -147,8 +149,9 @@
     ]
   },
   {
-    "number": "003",
     "name": "이상해꽃",
+    "englishName": "Venusaur",
+    "number": "003",
     "baseStats": {
       "hp": 80,
       "attack": 82,
@@ -234,8 +237,9 @@
     ]
   },
   {
-    "number": "004",
     "name": "파이리",
+    "englishName": "Charmander",
+    "number": "004",
     "baseStats": {
       "hp": 39,
       "attack": 52,
@@ -320,8 +324,9 @@
     ]
   },
   {
-    "number": "005",
     "name": "리자드",
+    "englishName": "Charmeleon",
+    "number": "005",
     "baseStats": {
       "hp": 58,
       "attack": 64,
@@ -404,8 +409,9 @@
     ]
   },
   {
-    "number": "006",
     "name": "리자몽",
+    "englishName": "Charizard",
+    "number": "006",
     "baseStats": {
       "hp": 78,
       "attack": 84,
@@ -508,8 +514,9 @@
     ]
   },
   {
-    "number": "007",
     "name": "꼬부기",
+    "englishName": "Squirtle",
+    "number": "007",
     "baseStats": {
       "hp": 44,
       "attack": 48,
@@ -587,8 +594,9 @@
     ]
   },
   {
-    "number": "008",
     "name": "어니부기",
+    "englishName": "Wartortle",
+    "number": "008",
     "baseStats": {
       "hp": 59,
       "attack": 63,
@@ -666,8 +674,9 @@
     ]
   },
   {
-    "number": "009",
     "name": "거북왕",
+    "englishName": "Blastoise",
+    "number": "009",
     "baseStats": {
       "hp": 79,
       "attack": 83,
@@ -763,8 +772,9 @@
     ]
   },
   {
-    "number": "023",
     "name": "아보",
+    "englishName": "Ekans",
+    "number": "023",
     "baseStats": {
       "hp": 35,
       "attack": 60,
@@ -849,8 +859,9 @@
     ]
   },
   {
-    "number": "024",
     "name": "아보크",
+    "englishName": "Arbok",
+    "number": "024",
     "baseStats": {
       "hp": 60,
       "attack": 95,
@@ -950,8 +961,9 @@
     ]
   },
   {
-    "number": "025",
     "name": "피카츄",
+    "englishName": "Pikachu",
+    "number": "025",
     "baseStats": {
       "hp": 35,
       "attack": 55,
@@ -1044,8 +1056,9 @@
     ]
   },
   {
-    "number": "026",
     "name": "라이츄",
+    "englishName": "Raichu",
+    "number": "026",
     "baseStats": {
       "hp": 60,
       "attack": 90,
@@ -1144,6 +1157,7 @@
   {
     "number": "1043",
     "name": "라이츄(알로라)",
+    "englishName": "Raichu-Alola",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -1247,8 +1261,9 @@
     ]
   },
   {
-    "number": "027",
     "name": "모래두지",
+    "englishName": "Sandshrew",
+    "number": "027",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -1342,6 +1357,7 @@
   {
     "number": "1044",
     "name": "모래두지(알로라)",
+    "englishName": "Sandshrew-Alola",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -1434,8 +1450,9 @@
     ]
   },
   {
-    "number": "028",
     "name": "고지",
+    "englishName": "Sandslash",
+    "number": "028",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -1535,6 +1552,7 @@
   {
     "number": "1045",
     "name": "고지(알로라)",
+    "englishName": "Sandslash-Alola",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -1639,8 +1657,9 @@
     ]
   },
   {
-    "number": "035",
     "name": "삐삐",
+    "englishName": "Clefairy",
+    "number": "035",
     "baseStats": {
       "hp": 70,
       "attack": 45,
@@ -1756,8 +1775,9 @@
     ]
   },
   {
-    "number": "036",
     "name": "픽시",
+    "englishName": "Clefable",
+    "number": "036",
     "baseStats": {
       "hp": 95,
       "attack": 70,
@@ -1879,8 +1899,9 @@
     ]
   },
   {
-    "number": "037",
     "name": "식스테일",
+    "englishName": "Vulpix",
+    "number": "037",
     "baseStats": {
       "hp": 38,
       "attack": 41,
@@ -1965,6 +1986,7 @@
   {
     "number": "1046",
     "name": "식스테일(알로라)",
+    "englishName": "Vulpix-Alola",
     "baseStats": {
       "hp": 38,
       "attack": 41,
@@ -2047,8 +2069,9 @@
     ]
   },
   {
-    "number": "038",
     "name": "나인테일",
+    "englishName": "Ninetales",
+    "number": "038",
     "baseStats": {
       "hp": 73,
       "attack": 76,
@@ -2146,6 +2169,7 @@
   {
     "number": "1047",
     "name": "나인테일(알로라)",
+    "englishName": "Ninetales-Alola",
     "baseStats": {
       "hp": 73,
       "attack": 67,
@@ -2238,8 +2262,9 @@
     ]
   },
   {
-    "number": "039",
     "name": "푸린",
+    "englishName": "Jigglypuff",
+    "number": "039",
     "baseStats": {
       "hp": 115,
       "attack": 45,
@@ -2363,8 +2388,9 @@
     ]
   },
   {
-    "number": "040",
     "name": "푸크린",
+    "englishName": "Wigglytuff",
+    "number": "040",
     "baseStats": {
       "hp": 140,
       "attack": 70,
@@ -2493,8 +2519,9 @@
     ]
   },
   {
-    "number": "043",
     "name": "뚜벅쵸",
+    "englishName": "Oddish",
+    "number": "043",
     "baseStats": {
       "hp": 45,
       "attack": 50,
@@ -2562,8 +2589,9 @@
     ]
   },
   {
-    "number": "044",
     "name": "냄새꼬",
+    "englishName": "Gloom",
+    "number": "044",
     "baseStats": {
       "hp": 60,
       "attack": 65,
@@ -2633,8 +2661,9 @@
     ]
   },
   {
-    "number": "045",
     "name": "라플레시아",
+    "englishName": "Vileplume",
+    "number": "045",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -2713,8 +2742,9 @@
     ]
   },
   {
-    "number": "048",
     "name": "콘팡",
+    "englishName": "Venonat",
+    "number": "048",
     "baseStats": {
       "hp": 60,
       "attack": 55,
@@ -2790,8 +2820,9 @@
     ]
   },
   {
-    "number": "049",
     "name": "도나리",
+    "englishName": "Venomoth",
+    "number": "049",
     "baseStats": {
       "hp": 70,
       "attack": 65,
@@ -2877,8 +2908,9 @@
     ]
   },
   {
-    "number": "050",
     "name": "디그다",
+    "englishName": "Diglett",
+    "number": "050",
     "baseStats": {
       "hp": 10,
       "attack": 55,
@@ -2957,6 +2989,7 @@
   {
     "number": "1048",
     "name": "디그다(알로라)",
+    "englishName": "Diglett-Alola",
     "baseStats": {
       "hp": 10,
       "attack": 55,
@@ -3037,8 +3070,9 @@
     ]
   },
   {
-    "number": "051",
     "name": "닥트리오",
+    "englishName": "Dugtrio",
+    "number": "051",
     "baseStats": {
       "hp": 35,
       "attack": 100,
@@ -3123,6 +3157,7 @@
   {
     "number": "1049",
     "name": "닥트리오(알로라)",
+    "englishName": "Dugtrio-Alola",
     "baseStats": {
       "hp": 35,
       "attack": 100,
@@ -3214,8 +3249,9 @@
     ]
   },
   {
-    "number": "052",
     "name": "나옹",
+    "englishName": "Meowth",
+    "number": "052",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -3304,6 +3340,7 @@
   {
     "number": "1050",
     "name": "나옹(알로라)",
+    "englishName": "Meowth-Alola",
     "baseStats": {
       "hp": 40,
       "attack": 35,
@@ -3392,6 +3429,7 @@
   {
     "number": "1051",
     "name": "나옹(가라르)",
+    "englishName": "Meowth-Galar",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -3483,8 +3521,9 @@
     ]
   },
   {
-    "number": "053",
     "name": "페르시온",
+    "englishName": "Persian",
+    "number": "053",
     "baseStats": {
       "hp": 65,
       "attack": 70,
@@ -3579,6 +3618,7 @@
   {
     "number": "1052",
     "name": "페르시온(알로라)",
+    "englishName": "Persian-Alola",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -3674,8 +3714,9 @@
     ]
   },
   {
-    "number": "054",
     "name": "고라파덕",
+    "englishName": "Psyduck",
+    "number": "054",
     "baseStats": {
       "hp": 50,
       "attack": 52,
@@ -3770,8 +3811,9 @@
     ]
   },
   {
-    "number": "055",
     "name": "골덕",
+    "englishName": "Golduck",
+    "number": "055",
     "baseStats": {
       "hp": 80,
       "attack": 82,
@@ -3874,8 +3916,9 @@
     ]
   },
   {
-    "number": "056",
     "name": "망키",
+    "englishName": "Mankey",
+    "number": "056",
     "baseStats": {
       "hp": 40,
       "attack": 80,
@@ -3970,8 +4013,9 @@
     ]
   },
   {
-    "number": "057",
     "name": "성원숭",
+    "englishName": "Primeape",
+    "number": "057",
     "baseStats": {
       "hp": 65,
       "attack": 105,
@@ -4073,8 +4117,9 @@
     ]
   },
   {
-    "number": "058",
     "name": "가디",
+    "englishName": "Growlithe",
+    "number": "058",
     "baseStats": {
       "hp": 55,
       "attack": 70,
@@ -4156,6 +4201,7 @@
   {
     "number": "1053",
     "name": "가디(히스이)",
+    "englishName": "Growlithe-Hisui",
     "baseStats": {
       "hp": 60,
       "attack": 75,
@@ -4238,8 +4284,9 @@
     ]
   },
   {
-    "number": "059",
     "name": "윈디",
+    "englishName": "Arcanine",
+    "number": "059",
     "baseStats": {
       "hp": 90,
       "attack": 110,
@@ -4332,6 +4379,7 @@
   {
     "number": "1054",
     "name": "윈디(히스이)",
+    "englishName": "Arcanine-Hisui",
     "baseStats": {
       "hp": 95,
       "attack": 115,
@@ -4429,8 +4477,9 @@
     ]
   },
   {
-    "number": "060",
     "name": "발챙이",
+    "englishName": "Poliwag",
+    "number": "060",
     "baseStats": {
       "hp": 40,
       "attack": 50,
@@ -4503,8 +4552,9 @@
     ]
   },
   {
-    "number": "061",
     "name": "슈륙챙이",
+    "englishName": "Poliwhirl",
+    "number": "061",
     "baseStats": {
       "hp": 65,
       "attack": 65,
@@ -4584,8 +4634,9 @@
     ]
   },
   {
-    "number": "062",
     "name": "강챙이",
+    "englishName": "Poliwrath",
+    "number": "062",
     "baseStats": {
       "hp": 90,
       "attack": 95,
@@ -4688,8 +4739,9 @@
     ]
   },
   {
-    "number": "069",
     "name": "모다피",
+    "englishName": "Bellsprout",
+    "number": "069",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -4763,8 +4815,9 @@
     ]
   },
   {
-    "number": "070",
     "name": "우츠동",
+    "englishName": "Weepinbell",
+    "number": "070",
     "baseStats": {
       "hp": 65,
       "attack": 90,
@@ -4841,8 +4894,9 @@
     ]
   },
   {
-    "number": "071",
     "name": "우츠보트",
+    "englishName": "Victreebel",
+    "number": "071",
     "baseStats": {
       "hp": 80,
       "attack": 105,
@@ -4921,8 +4975,9 @@
     ]
   },
   {
-    "number": "072",
     "name": "왕눈해",
+    "englishName": "Tentacool",
+    "number": "072",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -5003,8 +5058,9 @@
     ]
   },
   {
-    "number": "073",
     "name": "독파리",
+    "englishName": "Tentacruel",
+    "number": "073",
     "baseStats": {
       "hp": 80,
       "attack": 70,
@@ -5091,8 +5147,9 @@
     ]
   },
   {
-    "number": "074",
     "name": "꼬마돌",
+    "englishName": "Geodude",
+    "number": "074",
     "baseStats": {
       "hp": 40,
       "attack": 80,
@@ -5173,6 +5230,7 @@
   {
     "number": "1056",
     "name": "꼬마돌(알로라)",
+    "englishName": "Geodude-Alola",
     "baseStats": {
       "hp": 40,
       "attack": 80,
@@ -5259,8 +5317,9 @@
     ]
   },
   {
-    "number": "075",
     "name": "데구리",
+    "englishName": "Graveler",
+    "number": "075",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -5345,6 +5404,7 @@
   {
     "number": "1057",
     "name": "데구리(알로라)",
+    "englishName": "Graveler-Alola",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -5437,8 +5497,9 @@
     ]
   },
   {
-    "number": "076",
     "name": "딱구리",
+    "englishName": "Golem",
+    "number": "076",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -5526,6 +5587,7 @@
   {
     "number": "1058",
     "name": "딱구리(알로라)",
+    "englishName": "Golem-Alola",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -5624,8 +5686,9 @@
     ]
   },
   {
-    "number": "079",
     "name": "야돈",
+    "englishName": "Slowpoke",
+    "number": "079",
     "baseStats": {
       "hp": 90,
       "attack": 65,
@@ -5719,6 +5782,7 @@
   {
     "number": "1061",
     "name": "야돈(가라르)",
+    "englishName": "Slowpoke-Galar",
     "baseStats": {
       "hp": 90,
       "attack": 65,
@@ -5810,8 +5874,9 @@
     ]
   },
   {
-    "number": "080",
     "name": "야도란",
+    "englishName": "Slowbro",
+    "number": "080",
     "baseStats": {
       "hp": 95,
       "attack": 75,
@@ -5925,6 +5990,7 @@
   {
     "number": "1063",
     "name": "야도란(가라르)",
+    "englishName": "Slowbro-Galar",
     "baseStats": {
       "hp": 95,
       "attack": 100,
@@ -6045,8 +6111,9 @@
     ]
   },
   {
-    "number": "081",
     "name": "코일",
+    "englishName": "Magnemite",
+    "number": "081",
     "baseStats": {
       "hp": 25,
       "attack": 35,
@@ -6117,8 +6184,9 @@
     ]
   },
   {
-    "number": "082",
     "name": "레어코일",
+    "englishName": "Magneton",
+    "number": "082",
     "baseStats": {
       "hp": 50,
       "attack": 60,
@@ -6192,8 +6260,9 @@
     ]
   },
   {
-    "number": "084",
     "name": "두두",
+    "englishName": "Doduo",
+    "number": "084",
     "baseStats": {
       "hp": 35,
       "attack": 85,
@@ -6259,8 +6328,9 @@
     ]
   },
   {
-    "number": "085",
     "name": "두트리오",
+    "englishName": "Dodrio",
+    "number": "085",
     "baseStats": {
       "hp": 60,
       "attack": 110,
@@ -6336,8 +6406,9 @@
     ]
   },
   {
-    "number": "086",
     "name": "쥬쥬",
+    "englishName": "Seel",
+    "number": "086",
     "baseStats": {
       "hp": 65,
       "attack": 45,
@@ -6421,8 +6492,9 @@
     ]
   },
   {
-    "number": "087",
     "name": "쥬레곤",
+    "englishName": "Dewgong",
+    "number": "087",
     "baseStats": {
       "hp": 90,
       "attack": 70,
@@ -6513,8 +6585,9 @@
     ]
   },
   {
-    "number": "088",
     "name": "질퍽이",
+    "englishName": "Grimer",
+    "number": "088",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -6607,6 +6680,7 @@
   {
     "number": "1065",
     "name": "질퍽이(알로라)",
+    "englishName": "Grimer-Alola",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -6706,8 +6780,9 @@
     ]
   },
   {
-    "number": "089",
     "name": "질뻐기",
+    "englishName": "Muk",
+    "number": "089",
     "baseStats": {
       "hp": 105,
       "attack": 105,
@@ -6812,6 +6887,7 @@
   {
     "number": "1066",
     "name": "질뻐기(알로라)",
+    "englishName": "Muk-Alola",
     "baseStats": {
       "hp": 105,
       "attack": 105,
@@ -6915,8 +6991,9 @@
     ]
   },
   {
-    "number": "090",
     "name": "셀러",
+    "englishName": "Shellder",
+    "number": "090",
     "baseStats": {
       "hp": 30,
       "attack": 65,
@@ -6983,8 +7060,9 @@
     ]
   },
   {
-    "number": "091",
     "name": "파르셀",
+    "englishName": "Cloyster",
+    "number": "091",
     "baseStats": {
       "hp": 50,
       "attack": 95,
@@ -7064,8 +7142,9 @@
     ]
   },
   {
-    "number": "092",
     "name": "고오스",
+    "englishName": "Gastly",
+    "number": "092",
     "baseStats": {
       "hp": 30,
       "attack": 35,
@@ -7154,8 +7233,9 @@
     ]
   },
   {
-    "number": "093",
     "name": "고우스트",
+    "englishName": "Haunter",
+    "number": "093",
     "baseStats": {
       "hp": 45,
       "attack": 50,
@@ -7252,8 +7332,9 @@
     ]
   },
   {
-    "number": "094",
     "name": "팬텀",
+    "englishName": "Gengar",
+    "number": "094",
     "baseStats": {
       "hp": 60,
       "attack": 65,
@@ -7361,8 +7442,9 @@
     ]
   },
   {
-    "number": "096",
     "name": "슬리프",
+    "englishName": "Drowzee",
+    "number": "096",
     "baseStats": {
       "hp": 60,
       "attack": 48,
@@ -7462,8 +7544,9 @@
     ]
   },
   {
-    "number": "097",
     "name": "슬리퍼",
+    "englishName": "Hypno",
+    "number": "097",
     "baseStats": {
       "hp": 85,
       "attack": 73,
@@ -7571,8 +7654,9 @@
     ]
   },
   {
-    "number": "100",
     "name": "찌리리공",
+    "englishName": "Voltorb",
+    "number": "100",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -7642,6 +7726,7 @@
   {
     "number": "1068",
     "name": "찌리리공(히스이)",
+    "englishName": "Voltorb-Hisui",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -7716,8 +7801,9 @@
     ]
   },
   {
-    "number": "101",
     "name": "붐볼",
+    "englishName": "Electrode",
+    "number": "101",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -7793,6 +7879,7 @@
   {
     "number": "1069",
     "name": "붐볼(히스이)",
+    "englishName": "Electrode-Hisui",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -7873,8 +7960,9 @@
     ]
   },
   {
-    "number": "102",
     "name": "아라리",
+    "englishName": "Exeggcute",
+    "number": "102",
     "baseStats": {
       "hp": 60,
       "attack": 40,
@@ -7949,8 +8037,9 @@
     ]
   },
   {
-    "number": "103",
     "name": "나시",
+    "englishName": "Exeggutor",
+    "number": "103",
     "baseStats": {
       "hp": 95,
       "attack": 95,
@@ -8051,6 +8140,7 @@
   {
     "number": "1070",
     "name": "나시(알로라)",
+    "englishName": "Exeggutor-Alola",
     "baseStats": {
       "hp": 95,
       "attack": 105,
@@ -8158,8 +8248,9 @@
     ]
   },
   {
-    "number": "106",
     "name": "시라소몬",
+    "englishName": "Hitmonlee",
+    "number": "106",
     "baseStats": {
       "hp": 50,
       "attack": 120,
@@ -8249,8 +8340,9 @@
     ]
   },
   {
-    "number": "107",
     "name": "홍수몬",
+    "englishName": "Hitmonchan",
+    "number": "107",
     "baseStats": {
       "hp": 50,
       "attack": 105,
@@ -8348,8 +8440,9 @@
     ]
   },
   {
-    "number": "109",
     "name": "또가스",
+    "englishName": "Koffing",
+    "number": "109",
     "baseStats": {
       "hp": 40,
       "attack": 65,
@@ -8423,8 +8516,9 @@
     ]
   },
   {
-    "number": "110",
     "name": "또도가스",
+    "englishName": "Weezing",
+    "number": "110",
     "baseStats": {
       "hp": 65,
       "attack": 90,
@@ -8505,6 +8599,7 @@
   {
     "number": "1072",
     "name": "또도가스(가라르)",
+    "englishName": "Weezing-Galar",
     "baseStats": {
       "hp": 65,
       "attack": 90,
@@ -8594,8 +8689,9 @@
     ]
   },
   {
-    "number": "111",
     "name": "뿔카노",
+    "englishName": "Rhyhorn",
+    "number": "111",
     "baseStats": {
       "hp": 80,
       "attack": 85,
@@ -8688,8 +8784,9 @@
     ]
   },
   {
-    "number": "112",
     "name": "코뿌리",
+    "englishName": "Rhydon",
+    "number": "112",
     "baseStats": {
       "hp": 105,
       "attack": 130,
@@ -8802,8 +8899,9 @@
     ]
   },
   {
-    "number": "113",
     "name": "럭키",
+    "englishName": "Chansey",
+    "number": "113",
     "baseStats": {
       "hp": 250,
       "attack": 5,
@@ -8907,8 +9005,9 @@
     ]
   },
   {
-    "number": "116",
     "name": "쏘드라",
+    "englishName": "Horsea",
+    "number": "116",
     "baseStats": {
       "hp": 30,
       "attack": 40,
@@ -8973,8 +9072,9 @@
     ]
   },
   {
-    "number": "117",
     "name": "시드라",
+    "englishName": "Seadra",
+    "number": "117",
     "baseStats": {
       "hp": 55,
       "attack": 65,
@@ -9043,8 +9143,9 @@
     ]
   },
   {
-    "number": "123",
     "name": "스라크",
+    "englishName": "Scyther",
+    "number": "123",
     "baseStats": {
       "hp": 70,
       "attack": 110,
@@ -9121,8 +9222,9 @@
     ]
   },
   {
-    "number": "125",
     "name": "에레브",
+    "englishName": "Electabuzz",
+    "number": "125",
     "baseStats": {
       "hp": 65,
       "attack": 83,
@@ -9208,8 +9310,9 @@
     ]
   },
   {
-    "number": "126",
     "name": "마그마",
+    "englishName": "Magmar",
+    "number": "126",
     "baseStats": {
       "hp": 65,
       "attack": 95,
@@ -9296,8 +9399,9 @@
     ]
   },
   {
-    "number": "128",
     "name": "켄타로스",
+    "englishName": "Tauros",
+    "number": "128",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -9382,6 +9486,7 @@
   {
     "number": "1076",
     "name": "켄타로스(컴뱃)",
+    "englishName": "tauros-paldea-combat-breed",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -9459,6 +9564,7 @@
   {
     "number": "1077",
     "name": "켄타로스(블레이즈)",
+    "englishName": "Tauros-Paldea-Blaze-Breed",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -9542,6 +9648,7 @@
   {
     "number": "1078",
     "name": "켄타로스(아쿠아)",
+    "englishName": "Tauros-Paldea-Aqua-Breed",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -9620,8 +9727,9 @@
     ]
   },
   {
-    "number": "129",
     "name": "잉어킹",
+    "englishName": "Magikarp",
+    "number": "129",
     "baseStats": {
       "hp": 20,
       "attack": 10,
@@ -9640,8 +9748,9 @@
     "machineSkills": []
   },
   {
-    "number": "130",
     "name": "갸라도스",
+    "englishName": "Gyarados",
+    "number": "130",
     "baseStats": {
       "hp": 95,
       "attack": 125,
@@ -9731,8 +9840,9 @@
     ]
   },
   {
-    "number": "131",
     "name": "라프라스",
+    "englishName": "Lapras",
+    "number": "131",
     "baseStats": {
       "hp": 130,
       "attack": 85,
@@ -9825,8 +9935,9 @@
     ]
   },
   {
-    "number": "132",
     "name": "메타몽",
+    "englishName": "Ditto",
+    "number": "132",
     "baseStats": {
       "hp": 48,
       "attack": 48,
@@ -9843,8 +9954,9 @@
     "machineSkills": []
   },
   {
-    "number": "133",
     "name": "이브이",
+    "englishName": "Eevee",
+    "number": "133",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -9915,8 +10027,9 @@
     ]
   },
   {
-    "number": "134",
     "name": "샤미드",
+    "englishName": "Vaporeon",
+    "number": "134",
     "baseStats": {
       "hp": 130,
       "attack": 65,
@@ -10011,8 +10124,9 @@
     ]
   },
   {
-    "number": "135",
     "name": "쥬피썬더",
+    "englishName": "Jolteon",
+    "number": "135",
     "baseStats": {
       "hp": 65,
       "attack": 65,
@@ -10108,8 +10222,9 @@
     ]
   },
   {
-    "number": "136",
     "name": "부스터",
+    "englishName": "Flareon",
+    "number": "136",
     "baseStats": {
       "hp": 65,
       "attack": 130,
@@ -10203,8 +10318,9 @@
     ]
   },
   {
-    "number": "137",
     "name": "폴리곤",
+    "englishName": "Porygon",
+    "number": "137",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -10271,8 +10387,9 @@
     ]
   },
   {
-    "number": "143",
     "name": "잠만보",
+    "englishName": "Snorlax",
+    "number": "143",
     "baseStats": {
       "hp": 160,
       "attack": 110,
@@ -10386,8 +10503,9 @@
     ]
   },
   {
-    "number": "144",
     "name": "프리져",
+    "englishName": "Articuno",
+    "number": "144",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -10463,6 +10581,7 @@
   {
     "number": "1082",
     "name": "프리져(가라르)",
+    "englishName": "Articuno-Galar",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -10535,8 +10654,9 @@
     ]
   },
   {
-    "number": "145",
     "name": "썬더",
+    "englishName": "Zapdos",
+    "number": "145",
     "baseStats": {
       "hp": 90,
       "attack": 90,
@@ -10611,6 +10731,7 @@
   {
     "number": "1083",
     "name": "썬더(가라르)",
+    "englishName": "Zapdos-Galar",
     "baseStats": {
       "hp": 90,
       "attack": 125,
@@ -10683,8 +10804,9 @@
     ]
   },
   {
-    "number": "146",
     "name": "파이어",
+    "englishName": "Moltres",
+    "number": "146",
     "baseStats": {
       "hp": 90,
       "attack": 100,
@@ -10760,6 +10882,7 @@
   {
     "number": "1084",
     "name": "파이어(가라르)",
+    "englishName": "Moltres-Galar",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -10831,8 +10954,9 @@
     ]
   },
   {
-    "number": "147",
     "name": "미뇽",
+    "englishName": "Dratini",
+    "number": "147",
     "baseStats": {
       "hp": 41,
       "attack": 64,
@@ -10912,8 +11036,9 @@
     ]
   },
   {
-    "number": "148",
     "name": "신뇽",
+    "englishName": "Dragonair",
+    "number": "148",
     "baseStats": {
       "hp": 61,
       "attack": 84,
@@ -10994,8 +11119,9 @@
     ]
   },
   {
-    "number": "149",
     "name": "망나뇽",
+    "englishName": "Dragonite",
+    "number": "149",
     "baseStats": {
       "hp": 91,
       "attack": 134,
@@ -11112,8 +11238,9 @@
     ]
   },
   {
-    "number": "150",
     "name": "뮤츠",
+    "englishName": "Mewtwo",
+    "number": "150",
     "baseStats": {
       "hp": 106,
       "attack": 110,
@@ -11237,8 +11364,9 @@
     ]
   },
   {
-    "number": "151",
     "name": "뮤",
+    "englishName": "Mew",
+    "number": "151",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -11496,8 +11624,9 @@
     ]
   },
   {
-    "number": "152",
     "name": "치코리타",
+    "englishName": "Chikorita",
+    "number": "152",
     "baseStats": {
       "hp": 45,
       "attack": 49,
@@ -11569,8 +11698,9 @@
     ]
   },
   {
-    "number": "153",
     "name": "베이리프",
+    "englishName": "Bayleef",
+    "number": "153",
     "baseStats": {
       "hp": 60,
       "attack": 62,
@@ -11644,8 +11774,9 @@
     ]
   },
   {
-    "number": "154",
     "name": "메가니움",
+    "englishName": "Meganium",
+    "number": "154",
     "baseStats": {
       "hp": 80,
       "attack": 82,
@@ -11733,8 +11864,9 @@
     ]
   },
   {
-    "number": "155",
     "name": "브케인",
+    "englishName": "Cyndaquil",
+    "number": "155",
     "baseStats": {
       "hp": 39,
       "attack": 52,
@@ -11808,8 +11940,9 @@
     ]
   },
   {
-    "number": "156",
     "name": "마그케인",
+    "englishName": "Quilava",
+    "number": "156",
     "baseStats": {
       "hp": 58,
       "attack": 64,
@@ -11885,8 +12018,9 @@
     ]
   },
   {
-    "number": "157",
     "name": "블레이범",
+    "englishName": "Typhlosion",
+    "number": "157",
     "baseStats": {
       "hp": 78,
       "attack": 84,
@@ -11986,6 +12120,7 @@
   {
     "number": "1087",
     "name": "블레이범(히스이)",
+    "englishName": "Typhlosion-Hisui",
     "baseStats": {
       "hp": 73,
       "attack": 84,
@@ -12085,8 +12220,9 @@
     ]
   },
   {
-    "number": "158",
     "name": "리아코",
+    "englishName": "Totodile",
+    "number": "158",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -12173,8 +12309,9 @@
     ]
   },
   {
-    "number": "159",
     "name": "엘리게이",
+    "englishName": "Croconaw",
+    "number": "159",
     "baseStats": {
       "hp": 65,
       "attack": 80,
@@ -12263,8 +12400,9 @@
     ]
   },
   {
-    "number": "160",
     "name": "장크로다일",
+    "englishName": "Feraligatr",
+    "number": "160",
     "baseStats": {
       "hp": 85,
       "attack": 105,
@@ -12370,8 +12508,9 @@
     ]
   },
   {
-    "number": "161",
     "name": "꼬리선",
+    "englishName": "Sentret",
+    "number": "161",
     "baseStats": {
       "hp": 35,
       "attack": 46,
@@ -12458,8 +12597,9 @@
     ]
   },
   {
-    "number": "162",
     "name": "다꼬리",
+    "englishName": "Furret",
+    "number": "162",
     "baseStats": {
       "hp": 85,
       "attack": 76,
@@ -12553,8 +12693,9 @@
     ]
   },
   {
-    "number": "163",
     "name": "부우부",
+    "englishName": "Hoothoot",
+    "number": "163",
     "baseStats": {
       "hp": 60,
       "attack": 30,
@@ -12635,8 +12776,9 @@
     ]
   },
   {
-    "number": "164",
     "name": "야부엉",
+    "englishName": "Noctowl",
+    "number": "164",
     "baseStats": {
       "hp": 100,
       "attack": 50,
@@ -12726,8 +12868,9 @@
     ]
   },
   {
-    "number": "167",
     "name": "페이검",
+    "englishName": "Spinarak",
+    "number": "167",
     "baseStats": {
       "hp": 40,
       "attack": 60,
@@ -12805,8 +12948,9 @@
     ]
   },
   {
-    "number": "168",
     "name": "아리아도스",
+    "englishName": "Ariados",
+    "number": "168",
     "baseStats": {
       "hp": 70,
       "attack": 90,
@@ -12893,8 +13037,9 @@
     ]
   },
   {
-    "number": "170",
     "name": "초라기",
+    "englishName": "Chinchou",
+    "number": "170",
     "baseStats": {
       "hp": 75,
       "attack": 38,
@@ -12971,8 +13116,9 @@
     ]
   },
   {
-    "number": "171",
     "name": "랜턴",
+    "englishName": "Lanturn",
+    "number": "171",
     "baseStats": {
       "hp": 125,
       "attack": 58,
@@ -13055,8 +13201,9 @@
     ]
   },
   {
-    "number": "172",
     "name": "피츄",
+    "englishName": "Pichu",
+    "number": "172",
     "baseStats": {
       "hp": 20,
       "attack": 40,
@@ -13123,8 +13270,9 @@
     ]
   },
   {
-    "number": "173",
     "name": "삐",
+    "englishName": "Cleffa",
+    "number": "173",
     "baseStats": {
       "hp": 50,
       "attack": 25,
@@ -13203,8 +13351,9 @@
     ]
   },
   {
-    "number": "174",
     "name": "푸푸린",
+    "englishName": "Igglybuff",
+    "number": "174",
     "baseStats": {
       "hp": 90,
       "attack": 30,
@@ -13281,8 +13430,9 @@
     ]
   },
   {
-    "number": "179",
     "name": "메리프",
+    "englishName": "Mareep",
+    "number": "179",
     "baseStats": {
       "hp": 55,
       "attack": 40,
@@ -13355,8 +13505,9 @@
     ]
   },
   {
-    "number": "180",
     "name": "보송송",
+    "englishName": "Flaaffy",
+    "number": "180",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -13438,8 +13589,9 @@
     ]
   },
   {
-    "number": "181",
     "name": "전룡",
+    "englishName": "Ampharos",
+    "number": "181",
     "baseStats": {
       "hp": 90,
       "attack": 75,
@@ -13538,8 +13690,9 @@
     ]
   },
   {
-    "number": "182",
     "name": "아르코",
+    "englishName": "Bellossom",
+    "number": "182",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -13624,8 +13777,9 @@
     ]
   },
   {
-    "number": "183",
     "name": "마릴",
+    "englishName": "Marill",
+    "number": "183",
     "baseStats": {
       "hp": 70,
       "attack": 20,
@@ -13720,8 +13874,9 @@
     ]
   },
   {
-    "number": "184",
     "name": "마릴리",
+    "englishName": "Azumarill",
+    "number": "184",
     "baseStats": {
       "hp": 100,
       "attack": 50,
@@ -13819,8 +13974,9 @@
     ]
   },
   {
-    "number": "185",
     "name": "꼬지모",
+    "englishName": "Sudowoodo",
+    "number": "185",
     "baseStats": {
       "hp": 70,
       "attack": 100,
@@ -13917,8 +14073,9 @@
     ]
   },
   {
-    "number": "186",
     "name": "왕구리",
+    "englishName": "Politoed",
+    "number": "186",
     "baseStats": {
       "hp": 90,
       "attack": 75,
@@ -14008,8 +14165,9 @@
     ]
   },
   {
-    "number": "187",
     "name": "통통코",
+    "englishName": "Hoppip",
+    "number": "187",
     "baseStats": {
       "hp": 35,
       "attack": 35,
@@ -14091,8 +14249,9 @@
     ]
   },
   {
-    "number": "188",
     "name": "두코",
+    "englishName": "Skiploom",
+    "number": "188",
     "baseStats": {
       "hp": 55,
       "attack": 45,
@@ -14175,8 +14334,9 @@
     ]
   },
   {
-    "number": "189",
     "name": "솜솜코",
+    "englishName": "Jumpluff",
+    "number": "189",
     "baseStats": {
       "hp": 75,
       "attack": 55,
@@ -14261,8 +14421,9 @@
     ]
   },
   {
-    "number": "190",
     "name": "에이팜",
+    "englishName": "Aipom",
+    "number": "190",
     "baseStats": {
       "hp": 55,
       "attack": 70,
@@ -14356,8 +14517,9 @@
     ]
   },
   {
-    "number": "191",
     "name": "해너츠",
+    "englishName": "Sunkern",
+    "number": "191",
     "baseStats": {
       "hp": 30,
       "attack": 30,
@@ -14423,8 +14585,9 @@
     ]
   },
   {
-    "number": "192",
     "name": "해루미",
+    "englishName": "Sunflora",
+    "number": "192",
     "baseStats": {
       "hp": 75,
       "attack": 75,
@@ -14501,8 +14664,9 @@
     ]
   },
   {
-    "number": "193",
     "name": "왕자리",
+    "englishName": "Yanma",
+    "number": "193",
     "baseStats": {
       "hp": 65,
       "attack": 65,
@@ -14572,8 +14736,9 @@
     ]
   },
   {
-    "number": "194",
     "name": "우파",
+    "englishName": "Wooper",
+    "number": "194",
     "baseStats": {
       "hp": 55,
       "attack": 45,
@@ -14664,6 +14829,7 @@
   {
     "number": "1089",
     "name": "우파(팔데아)",
+    "englishName": "Wooper-Paldea",
     "baseStats": {
       "hp": 55,
       "attack": 45,
@@ -14752,8 +14918,9 @@
     ]
   },
   {
-    "number": "195",
     "name": "누오",
+    "englishName": "Quagsire",
+    "number": "195",
     "baseStats": {
       "hp": 95,
       "attack": 85,
@@ -14855,8 +15022,9 @@
     ]
   },
   {
-    "number": "196",
     "name": "에브이",
+    "englishName": "Espeon",
+    "number": "196",
     "baseStats": {
       "hp": 65,
       "attack": 65,
@@ -14960,8 +15128,9 @@
     ]
   },
   {
-    "number": "197",
     "name": "블래키",
+    "englishName": "Umbreon",
+    "number": "197",
     "baseStats": {
       "hp": 95,
       "attack": 65,
@@ -15060,8 +15229,9 @@
     ]
   },
   {
-    "number": "198",
     "name": "니로우",
+    "englishName": "Murkrow",
+    "number": "198",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -15148,8 +15318,9 @@
     ]
   },
   {
-    "number": "199",
     "name": "야도킹",
+    "englishName": "Slowking",
+    "number": "199",
     "baseStats": {
       "hp": 95,
       "attack": 75,
@@ -15270,6 +15441,7 @@
   {
     "number": "1090",
     "name": "야도킹(가라르)",
+    "englishName": "Slowking-Galar",
     "baseStats": {
       "hp": 95,
       "attack": 65,
@@ -15399,8 +15571,9 @@
     ]
   },
   {
-    "number": "200",
     "name": "무우마",
+    "englishName": "Misdreavus",
+    "number": "200",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -15497,8 +15670,9 @@
     ]
   },
   {
-    "number": "203",
     "name": "키링키",
+    "englishName": "Girafarig",
+    "number": "203",
     "baseStats": {
       "hp": 70,
       "attack": 80,
@@ -15602,8 +15776,9 @@
     ]
   },
   {
-    "number": "204",
     "name": "피콘",
+    "englishName": "Pineco",
+    "number": "204",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -15687,8 +15862,9 @@
     ]
   },
   {
-    "number": "205",
     "name": "쏘콘",
+    "englishName": "Forretress",
+    "number": "205",
     "baseStats": {
       "hp": 75,
       "attack": 90,
@@ -15791,8 +15967,9 @@
     ]
   },
   {
-    "number": "206",
     "name": "노고치",
+    "englishName": "Dunsparce",
+    "number": "206",
     "baseStats": {
       "hp": 100,
       "attack": 70,
@@ -15898,8 +16075,9 @@
     ]
   },
   {
-    "number": "207",
     "name": "글라이거",
+    "englishName": "Gligar",
+    "number": "207",
     "baseStats": {
       "hp": 65,
       "attack": 75,
@@ -15999,8 +16177,9 @@
     ]
   },
   {
-    "number": "209",
     "name": "블루",
+    "englishName": "Snubbull",
+    "number": "209",
     "baseStats": {
       "hp": 60,
       "attack": 80,
@@ -16104,8 +16283,9 @@
     ]
   },
   {
-    "number": "210",
     "name": "그랑블루",
+    "englishName": "Granbull",
+    "number": "210",
     "baseStats": {
       "hp": 90,
       "attack": 120,
@@ -16218,8 +16398,9 @@
     ]
   },
   {
-    "number": "211",
     "name": "침바루",
+    "englishName": "Qwilfish",
+    "number": "211",
     "baseStats": {
       "hp": 65,
       "attack": 95,
@@ -16317,6 +16498,7 @@
   {
     "number": "1119",
     "name": "침바루(히스이)",
+    "englishName": "Qwilfish-Hisui",
     "baseStats": {
       "hp": 65,
       "attack": 95,
@@ -16410,8 +16592,9 @@
     ]
   },
   {
-    "number": "212",
     "name": "핫삼",
+    "englishName": "Scizor",
+    "number": "212",
     "baseStats": {
       "hp": 70,
       "attack": 130,
@@ -16503,8 +16686,9 @@
     ]
   },
   {
-    "number": "214",
     "name": "헤라크로스",
+    "englishName": "Heracross",
+    "number": "214",
     "baseStats": {
       "hp": 80,
       "attack": 125,
@@ -16599,8 +16783,9 @@
     ]
   },
   {
-    "number": "215",
     "name": "포푸니",
+    "englishName": "Sneasel",
+    "number": "215",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -16695,6 +16880,7 @@
   {
     "number": "1122",
     "name": "포푸니(히스이)",
+    "englishName": "Sneasel-Hisui",
     "baseStats": {
       "hp": 55,
       "attack": 95,
@@ -16783,8 +16969,9 @@
     ]
   },
   {
-    "number": "216",
     "name": "깜지곰",
+    "englishName": "Teddiursa",
+    "number": "216",
     "baseStats": {
       "hp": 60,
       "attack": 80,
@@ -16876,8 +17063,9 @@
     ]
   },
   {
-    "number": "217",
     "name": "링곰",
+    "englishName": "Ursaring",
+    "number": "217",
     "baseStats": {
       "hp": 90,
       "attack": 130,
@@ -16978,8 +17166,9 @@
     ]
   },
   {
-    "number": "218",
     "name": "마그마그",
+    "englishName": "Slugma",
+    "number": "218",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -17060,8 +17249,9 @@
     ]
   },
   {
-    "number": "219",
     "name": "마그카르고",
+    "englishName": "Magcargo",
+    "number": "219",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -17151,8 +17341,9 @@
     ]
   },
   {
-    "number": "220",
     "name": "꾸꾸리",
+    "englishName": "Swinub",
+    "number": "220",
     "baseStats": {
       "hp": 50,
       "attack": 50,
@@ -17232,8 +17423,9 @@
     ]
   },
   {
-    "number": "221",
     "name": "메꾸리",
+    "englishName": "Piloswine",
+    "number": "221",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -17319,8 +17511,9 @@
     ]
   },
   {
-    "number": "225",
     "name": "딜리버드",
+    "englishName": "Delibird",
+    "number": "225",
     "baseStats": {
       "hp": 45,
       "attack": 55,
@@ -17402,8 +17595,9 @@
     ]
   },
   {
-    "number": "227",
     "name": "무장조",
+    "englishName": "Skarmory",
+    "number": "227",
     "baseStats": {
       "hp": 65,
       "attack": 80,
@@ -17488,8 +17682,9 @@
     ]
   },
   {
-    "number": "228",
     "name": "델빌",
+    "englishName": "Houndour",
+    "number": "228",
     "baseStats": {
       "hp": 45,
       "attack": 60,
@@ -17580,8 +17775,9 @@
     ]
   },
   {
-    "number": "229",
     "name": "헬가",
+    "englishName": "Houndoom",
+    "number": "229",
     "baseStats": {
       "hp": 75,
       "attack": 90,
@@ -17677,8 +17873,9 @@
     ]
   },
   {
-    "number": "230",
     "name": "킹드라",
+    "englishName": "Kingdra",
+    "number": "230",
     "baseStats": {
       "hp": 75,
       "attack": 95,
@@ -17758,8 +17955,9 @@
     ]
   },
   {
-    "number": "231",
     "name": "코코리",
+    "englishName": "Phanpy",
+    "number": "231",
     "baseStats": {
       "hp": 90,
       "attack": 60,
@@ -17844,8 +18042,9 @@
     ]
   },
   {
-    "number": "232",
     "name": "코리갑",
+    "englishName": "Donphan",
+    "number": "232",
     "baseStats": {
       "hp": 90,
       "attack": 120,
@@ -17947,8 +18146,9 @@
     ]
   },
   {
-    "number": "233",
     "name": "폴리곤2",
+    "englishName": "Porygon2",
+    "number": "233",
     "baseStats": {
       "hp": 85,
       "attack": 80,
@@ -18016,8 +18216,9 @@
     ]
   },
   {
-    "number": "234",
     "name": "노라키",
+    "englishName": "Stantler",
+    "number": "234",
     "baseStats": {
       "hp": 73,
       "attack": 95,
@@ -18111,8 +18312,9 @@
     ]
   },
   {
-    "number": "235",
     "name": "루브도",
+    "englishName": "Smeargle",
+    "number": "235",
     "baseStats": {
       "hp": 55,
       "attack": 20,
@@ -18129,8 +18331,9 @@
     "machineSkills": []
   },
   {
-    "number": "236",
     "name": "배루키",
+    "englishName": "Tyrogue",
+    "number": "236",
     "baseStats": {
       "hp": 35,
       "attack": 35,
@@ -18183,8 +18386,9 @@
     ]
   },
   {
-    "number": "237",
     "name": "카포에라",
+    "englishName": "Hitmontop",
+    "number": "237",
     "baseStats": {
       "hp": 50,
       "attack": 95,
@@ -18269,8 +18473,9 @@
     ]
   },
   {
-    "number": "239",
     "name": "에레키드",
+    "englishName": "Elekid",
+    "number": "239",
     "baseStats": {
       "hp": 45,
       "attack": 63,
@@ -18350,8 +18555,9 @@
     ]
   },
   {
-    "number": "240",
     "name": "마그비",
+    "englishName": "Magby",
+    "number": "240",
     "baseStats": {
       "hp": 45,
       "attack": 75,
@@ -18426,8 +18632,9 @@
     ]
   },
   {
-    "number": "242",
     "name": "해피너스",
+    "englishName": "Blissey",
+    "number": "242",
     "baseStats": {
       "hp": 255,
       "attack": 10,
@@ -18536,8 +18743,9 @@
     ]
   },
   {
-    "number": "243",
     "name": "라이코",
+    "englishName": "Raikou",
+    "number": "243",
     "baseStats": {
       "hp": 90,
       "attack": 85,
@@ -18618,8 +18826,9 @@
     ]
   },
   {
-    "number": "244",
     "name": "앤테이",
+    "englishName": "Entei",
+    "number": "244",
     "baseStats": {
       "hp": 115,
       "attack": 115,
@@ -18700,8 +18909,9 @@
     ]
   },
   {
-    "number": "245",
     "name": "스이쿤",
+    "englishName": "Suicune",
+    "number": "245",
     "baseStats": {
       "hp": 100,
       "attack": 75,
@@ -18780,8 +18990,9 @@
     ]
   },
   {
-    "number": "246",
     "name": "애버라스",
+    "englishName": "Larvitar",
+    "number": "246",
     "baseStats": {
       "hp": 50,
       "attack": 64,
@@ -18867,8 +19078,9 @@
     ]
   },
   {
-    "number": "247",
     "name": "데기라스",
+    "englishName": "Pupitar",
+    "number": "247",
     "baseStats": {
       "hp": 70,
       "attack": 84,
@@ -18958,8 +19170,9 @@
     ]
   },
   {
-    "number": "248",
     "name": "마기라스",
+    "englishName": "Tyranitar",
+    "number": "248",
     "baseStats": {
       "hp": 100,
       "attack": 134,
@@ -19088,8 +19301,9 @@
     ]
   },
   {
-    "number": "249",
     "name": "루기아",
+    "englishName": "Lugia",
+    "number": "249",
     "baseStats": {
       "hp": 106,
       "attack": 90,
@@ -19187,8 +19401,9 @@
     ]
   },
   {
-    "number": "250",
     "name": "칠색조",
+    "englishName": "Ho-Oh",
+    "number": "250",
     "baseStats": {
       "hp": 106,
       "attack": 130,
@@ -19273,8 +19488,9 @@
     ]
   },
   {
-    "number": "252",
     "name": "나무지기",
+    "englishName": "Treecko",
+    "number": "252",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -19357,8 +19573,9 @@
     ]
   },
   {
-    "number": "253",
     "name": "나무돌이",
+    "englishName": "Grovyle",
+    "number": "253",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -19452,8 +19669,9 @@
     ]
   },
   {
-    "number": "254",
     "name": "나무킹",
+    "englishName": "Sceptile",
+    "number": "254",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -19565,8 +19783,9 @@
     ]
   },
   {
-    "number": "255",
     "name": "아차모",
+    "englishName": "Torchic",
+    "number": "255",
     "baseStats": {
       "hp": 45,
       "attack": 60,
@@ -19642,8 +19861,9 @@
     ]
   },
   {
-    "number": "256",
     "name": "영치코",
+    "englishName": "Combusken",
+    "number": "256",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -19737,8 +19957,9 @@
     ]
   },
   {
-    "number": "257",
     "name": "번치코",
+    "englishName": "Blaziken",
+    "number": "257",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -19851,8 +20072,9 @@
     ]
   },
   {
-    "number": "258",
     "name": "물짱이",
+    "englishName": "Mudkip",
+    "number": "258",
     "baseStats": {
       "hp": 50,
       "attack": 70,
@@ -19934,8 +20156,9 @@
     ]
   },
   {
-    "number": "259",
     "name": "늪짱이",
+    "englishName": "Marshtomp",
+    "number": "259",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -20029,8 +20252,9 @@
     ]
   },
   {
-    "number": "260",
     "name": "대짱이",
+    "englishName": "Swampert",
+    "number": "260",
     "baseStats": {
       "hp": 100,
       "attack": 110,
@@ -20144,8 +20368,9 @@
     ]
   },
   {
-    "number": "261",
     "name": "포챠나",
+    "englishName": "Poochyena",
+    "number": "261",
     "baseStats": {
       "hp": 35,
       "attack": 55,
@@ -20219,8 +20444,9 @@
     ]
   },
   {
-    "number": "262",
     "name": "그라에나",
+    "englishName": "Mightyena",
+    "number": "262",
     "baseStats": {
       "hp": 70,
       "attack": 90,
@@ -20303,8 +20529,9 @@
     ]
   },
   {
-    "number": "270",
     "name": "연꽃몬",
+    "englishName": "Lotad",
+    "number": "270",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -20378,8 +20605,9 @@
     ]
   },
   {
-    "number": "271",
     "name": "로토스",
+    "englishName": "Lombre",
+    "number": "271",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -20470,8 +20698,9 @@
     ]
   },
   {
-    "number": "272",
     "name": "로파파",
+    "englishName": "Ludicolo",
+    "number": "272",
     "baseStats": {
       "hp": 80,
       "attack": 70,
@@ -20571,8 +20800,9 @@
     ]
   },
   {
-    "number": "273",
     "name": "도토링",
+    "englishName": "Seedot",
+    "number": "273",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -20642,8 +20872,9 @@
     ]
   },
   {
-    "number": "274",
     "name": "잎새코",
+    "englishName": "Nuzleaf",
+    "number": "274",
     "baseStats": {
       "hp": 70,
       "attack": 70,
@@ -20739,8 +20970,9 @@
     ]
   },
   {
-    "number": "275",
     "name": "다탱구",
+    "englishName": "Shiftry",
+    "number": "275",
     "baseStats": {
       "hp": 90,
       "attack": 100,
@@ -20862,8 +21094,9 @@
     ]
   },
   {
-    "number": "278",
     "name": "갈모매",
+    "englishName": "Wingull",
+    "number": "278",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -20938,8 +21171,9 @@
     ]
   },
   {
-    "number": "279",
     "name": "패리퍼",
+    "englishName": "Pelipper",
+    "number": "279",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -21029,8 +21263,9 @@
     ]
   },
   {
-    "number": "280",
     "name": "랄토스",
+    "englishName": "Ralts",
+    "number": "280",
     "baseStats": {
       "hp": 28,
       "attack": 25,
@@ -21126,8 +21361,9 @@
     ]
   },
   {
-    "number": "281",
     "name": "킬리아",
+    "englishName": "Kirlia",
+    "number": "281",
     "baseStats": {
       "hp": 38,
       "attack": 35,
@@ -21225,8 +21461,9 @@
     ]
   },
   {
-    "number": "282",
     "name": "가디안",
+    "englishName": "Gardevoir",
+    "number": "282",
     "baseStats": {
       "hp": 68,
       "attack": 65,
@@ -21339,8 +21576,9 @@
     ]
   },
   {
-    "number": "283",
     "name": "비구술",
+    "englishName": "Surskit",
+    "number": "283",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -21416,8 +21654,9 @@
     ]
   },
   {
-    "number": "284",
     "name": "비나방",
+    "englishName": "Masquerain",
+    "number": "284",
     "baseStats": {
       "hp": 70,
       "attack": 60,
@@ -21510,8 +21749,9 @@
     ]
   },
   {
-    "number": "285",
     "name": "버섯꼬",
+    "englishName": "Shroomish",
+    "number": "285",
     "baseStats": {
       "hp": 60,
       "attack": 40,
@@ -21577,8 +21817,9 @@
     ]
   },
   {
-    "number": "286",
     "name": "버섯모",
+    "englishName": "Breloom",
+    "number": "286",
     "baseStats": {
       "hp": 60,
       "attack": 130,
@@ -21676,8 +21917,9 @@
     ]
   },
   {
-    "number": "287",
     "name": "게을로",
+    "englishName": "Slakoth",
+    "number": "287",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -21765,8 +22007,9 @@
     ]
   },
   {
-    "number": "288",
     "name": "발바로",
+    "englishName": "Vigoroth",
+    "number": "288",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -21875,8 +22118,9 @@
     ]
   },
   {
-    "number": "289",
     "name": "게을킹",
+    "englishName": "Slaking",
+    "number": "289",
     "baseStats": {
       "hp": 150,
       "attack": 160,
@@ -21997,8 +22241,9 @@
     ]
   },
   {
-    "number": "296",
     "name": "마크탕",
+    "englishName": "Makuhita",
+    "number": "296",
     "baseStats": {
       "hp": 72,
       "attack": 60,
@@ -22091,8 +22336,9 @@
     ]
   },
   {
-    "number": "297",
     "name": "하리뭉",
+    "englishName": "Hariyama",
+    "number": "297",
     "baseStats": {
       "hp": 144,
       "attack": 120,
@@ -22194,8 +22440,9 @@
     ]
   },
   {
-    "number": "298",
     "name": "루리리",
+    "englishName": "Azurill",
+    "number": "298",
     "baseStats": {
       "hp": 50,
       "attack": 20,
@@ -22256,8 +22503,9 @@
     ]
   },
   {
-    "number": "299",
     "name": "코코파스",
+    "englishName": "Nosepass",
+    "number": "299",
     "baseStats": {
       "hp": 30,
       "attack": 45,
@@ -22340,8 +22588,9 @@
     ]
   },
   {
-    "number": "302",
     "name": "깜까미",
+    "englishName": "Sableye",
+    "number": "302",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -22455,8 +22704,9 @@
     ]
   },
   {
-    "number": "307",
     "name": "요가랑",
+    "englishName": "Meditite",
+    "number": "307",
     "baseStats": {
       "hp": 30,
       "attack": 40,
@@ -22557,8 +22807,9 @@
     ]
   },
   {
-    "number": "308",
     "name": "요가램",
+    "englishName": "Medicham",
+    "number": "308",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -22668,8 +22919,9 @@
     ]
   },
   {
-    "number": "311",
     "name": "플러시",
+    "englishName": "Plusle",
+    "number": "311",
     "baseStats": {
       "hp": 60,
       "attack": 50,
@@ -22753,8 +23005,9 @@
     ]
   },
   {
-    "number": "312",
     "name": "마이농",
+    "englishName": "Minun",
+    "number": "312",
     "baseStats": {
       "hp": 60,
       "attack": 40,
@@ -22837,8 +23090,9 @@
     ]
   },
   {
-    "number": "313",
     "name": "볼비트",
+    "englishName": "Volbeat",
+    "number": "313",
     "baseStats": {
       "hp": 65,
       "attack": 73,
@@ -22928,8 +23182,9 @@
     ]
   },
   {
-    "number": "314",
     "name": "네오비트",
+    "englishName": "Illumise",
+    "number": "314",
     "baseStats": {
       "hp": 65,
       "attack": 47,
@@ -23021,8 +23276,9 @@
     ]
   },
   {
-    "number": "316",
     "name": "꼴깍몬",
+    "englishName": "Gulpin",
+    "number": "316",
     "baseStats": {
       "hp": 70,
       "attack": 43,
@@ -23104,8 +23360,9 @@
     ]
   },
   {
-    "number": "317",
     "name": "꿀꺽몬",
+    "englishName": "Swalot",
+    "number": "317",
     "baseStats": {
       "hp": 100,
       "attack": 73,
@@ -23197,8 +23454,9 @@
     ]
   },
   {
-    "number": "322",
     "name": "둔타",
+    "englishName": "Numel",
+    "number": "322",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -23296,8 +23554,9 @@
     ]
   },
   {
-    "number": "323",
     "name": "폭타",
+    "englishName": "Camerupt",
+    "number": "323",
     "baseStats": {
       "hp": 70,
       "attack": 100,
@@ -23401,8 +23660,9 @@
     ]
   },
   {
-    "number": "324",
     "name": "코터스",
+    "englishName": "Torkoal",
+    "number": "324",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -23488,8 +23748,9 @@
     ]
   },
   {
-    "number": "325",
     "name": "피그점프",
+    "englishName": "Spoink",
+    "number": "325",
     "baseStats": {
       "hp": 60,
       "attack": 25,
@@ -23579,8 +23840,9 @@
     ]
   },
   {
-    "number": "326",
     "name": "피그킹",
+    "englishName": "Grumpig",
+    "number": "326",
     "baseStats": {
       "hp": 80,
       "attack": 45,
@@ -23697,8 +23959,9 @@
     ]
   },
   {
-    "number": "328",
     "name": "톱치",
+    "englishName": "Trapinch",
+    "number": "328",
     "baseStats": {
       "hp": 45,
       "attack": 100,
@@ -23765,8 +24028,9 @@
     ]
   },
   {
-    "number": "329",
     "name": "비브라바",
+    "englishName": "Vibrava",
+    "number": "329",
     "baseStats": {
       "hp": 50,
       "attack": 70,
@@ -23862,8 +24126,9 @@
     ]
   },
   {
-    "number": "330",
     "name": "플라이곤",
+    "englishName": "Flygon",
+    "number": "330",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -23977,8 +24242,9 @@
     ]
   },
   {
-    "number": "331",
     "name": "선인왕",
+    "englishName": "Cacnea",
+    "number": "331",
     "baseStats": {
       "hp": 50,
       "attack": 85,
@@ -24071,8 +24337,9 @@
     ]
   },
   {
-    "number": "332",
     "name": "밤선인",
+    "englishName": "Cacturne",
+    "number": "332",
     "baseStats": {
       "hp": 70,
       "attack": 115,
@@ -24176,8 +24443,9 @@
     ]
   },
   {
-    "number": "333",
     "name": "파비코",
+    "englishName": "Swablu",
+    "number": "333",
     "baseStats": {
       "hp": 45,
       "attack": 40,
@@ -24251,8 +24519,9 @@
     ]
   },
   {
-    "number": "334",
     "name": "파비코리",
+    "englishName": "Altaria",
+    "number": "334",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -24347,8 +24616,9 @@
     ]
   },
   {
-    "number": "335",
     "name": "쟝고",
+    "englishName": "Zangoose",
+    "number": "335",
     "baseStats": {
       "hp": 73,
       "attack": 115,
@@ -24458,8 +24728,9 @@
     ]
   },
   {
-    "number": "336",
     "name": "세비퍼",
+    "englishName": "Seviper",
+    "number": "336",
     "baseStats": {
       "hp": 73,
       "attack": 100,
@@ -24559,8 +24830,9 @@
     ]
   },
   {
-    "number": "339",
     "name": "미꾸리",
+    "englishName": "Barboach",
+    "number": "339",
     "baseStats": {
       "hp": 50,
       "attack": 48,
@@ -24635,8 +24907,9 @@
     ]
   },
   {
-    "number": "340",
     "name": "메깅",
+    "englishName": "Whiscash",
+    "number": "340",
     "baseStats": {
       "hp": 110,
       "attack": 78,
@@ -24723,8 +24996,9 @@
     ]
   },
   {
-    "number": "341",
     "name": "가재군",
+    "englishName": "Corphish",
+    "number": "341",
     "baseStats": {
       "hp": 43,
       "attack": 80,
@@ -24804,8 +25078,9 @@
     ]
   },
   {
-    "number": "342",
     "name": "가재장군",
+    "englishName": "Crawdaunt",
+    "number": "342",
     "baseStats": {
       "hp": 63,
       "attack": 120,
@@ -24899,8 +25174,9 @@
     ]
   },
   {
-    "number": "349",
     "name": "빈티나",
+    "englishName": "Feebas",
+    "number": "349",
     "baseStats": {
       "hp": 20,
       "attack": 15,
@@ -24954,8 +25230,9 @@
     ]
   },
   {
-    "number": "350",
     "name": "밀로틱",
+    "englishName": "Milotic",
+    "number": "350",
     "baseStats": {
       "hp": 95,
       "attack": 60,
@@ -25048,8 +25325,9 @@
     ]
   },
   {
-    "number": "353",
     "name": "어둠대신",
+    "englishName": "Shuppet",
+    "number": "353",
     "baseStats": {
       "hp": 44,
       "attack": 75,
@@ -25132,8 +25410,9 @@
     ]
   },
   {
-    "number": "354",
     "name": "다크펫",
+    "englishName": "Banette",
+    "number": "354",
     "baseStats": {
       "hp": 64,
       "attack": 115,
@@ -25225,8 +25504,9 @@
     ]
   },
   {
-    "number": "355",
     "name": "해골몽",
+    "englishName": "Duskull",
+    "number": "355",
     "baseStats": {
       "hp": 20,
       "attack": 40,
@@ -25301,8 +25581,9 @@
     ]
   },
   {
-    "number": "356",
     "name": "미라몽",
+    "englishName": "Dusclops",
+    "number": "356",
     "baseStats": {
       "hp": 40,
       "attack": 70,
@@ -25392,8 +25673,9 @@
     ]
   },
   {
-    "number": "357",
     "name": "트로피우스",
+    "englishName": "Tropius",
+    "number": "357",
     "baseStats": {
       "hp": 99,
       "attack": 68,
@@ -25482,8 +25764,9 @@
     ]
   },
   {
-    "number": "358",
     "name": "치렁",
+    "englishName": "Chimecho",
+    "number": "358",
     "baseStats": {
       "hp": 75,
       "attack": 50,
@@ -25573,8 +25856,9 @@
     ]
   },
   {
-    "number": "361",
     "name": "눈꼬마",
+    "englishName": "Snorunt",
+    "number": "361",
     "baseStats": {
       "hp": 50,
       "attack": 50,
@@ -25643,8 +25927,9 @@
     ]
   },
   {
-    "number": "362",
     "name": "얼음귀신",
+    "englishName": "Glalie",
+    "number": "362",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -25725,8 +26010,9 @@
     ]
   },
   {
-    "number": "370",
     "name": "사랑동이",
+    "englishName": "Luvdisc",
+    "number": "370",
     "baseStats": {
       "hp": 43,
       "attack": 30,
@@ -25791,8 +26077,9 @@
     ]
   },
   {
-    "number": "371",
     "name": "아공이",
+    "englishName": "Bagon",
+    "number": "371",
     "baseStats": {
       "hp": 45,
       "attack": 75,
@@ -25866,8 +26153,9 @@
     ]
   },
   {
-    "number": "372",
     "name": "쉘곤",
+    "englishName": "Shelgon",
+    "number": "372",
     "baseStats": {
       "hp": 65,
       "attack": 95,
@@ -25943,8 +26231,9 @@
     ]
   },
   {
-    "number": "373",
     "name": "보만다",
+    "englishName": "Salamence",
+    "number": "373",
     "baseStats": {
       "hp": 95,
       "attack": 135,
@@ -26038,8 +26327,9 @@
     ]
   },
   {
-    "number": "374",
     "name": "메탕",
+    "englishName": "Beldum",
+    "number": "374",
     "baseStats": {
       "hp": 40,
       "attack": 55,
@@ -26063,8 +26353,9 @@
     ]
   },
   {
-    "number": "375",
     "name": "메탕구",
+    "englishName": "Metang",
+    "number": "375",
     "baseStats": {
       "hp": 60,
       "attack": 75,
@@ -26149,8 +26440,9 @@
     ]
   },
   {
-    "number": "376",
     "name": "메타그로스",
+    "englishName": "Metagross",
+    "number": "376",
     "baseStats": {
       "hp": 80,
       "attack": 135,
@@ -26246,8 +26538,9 @@
     ]
   },
   {
-    "number": "377",
     "name": "레지락",
+    "englishName": "Regirock",
+    "number": "377",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -26327,8 +26620,9 @@
     ]
   },
   {
-    "number": "378",
     "name": "레지아이스",
+    "englishName": "Regice",
+    "number": "378",
     "baseStats": {
       "hp": 80,
       "attack": 50,
@@ -26400,8 +26694,9 @@
     ]
   },
   {
-    "number": "379",
     "name": "레지스틸",
+    "englishName": "Registeel",
+    "number": "379",
     "baseStats": {
       "hp": 80,
       "attack": 75,
@@ -26482,8 +26777,9 @@
     ]
   },
   {
-    "number": "380",
     "name": "라티아스",
+    "englishName": "Latias",
+    "number": "380",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -26585,8 +26881,9 @@
     ]
   },
   {
-    "number": "381",
     "name": "라티오스",
+    "englishName": "Latios",
+    "number": "381",
     "baseStats": {
       "hp": 80,
       "attack": 90,
@@ -26685,8 +26982,9 @@
     ]
   },
   {
-    "number": "382",
     "name": "가이오가",
+    "englishName": "Kyogre",
+    "number": "382",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -26756,8 +27054,9 @@
     ]
   },
   {
-    "number": "383",
     "name": "그란돈",
+    "englishName": "Groudon",
+    "number": "383",
     "baseStats": {
       "hp": 100,
       "attack": 150,
@@ -26851,8 +27150,9 @@
     ]
   },
   {
-    "number": "384",
     "name": "레쿠쟈",
+    "englishName": "Rayquaza",
+    "number": "384",
     "baseStats": {
       "hp": 105,
       "attack": 150,
@@ -26953,8 +27253,9 @@
     ]
   },
   {
-    "number": "385",
     "name": "지라치",
+    "englishName": "Jirachi",
+    "number": "385",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -27052,8 +27353,9 @@
     ]
   },
   {
-    "number": "386",
     "name": "테오키스",
+    "englishName": "Deoxys-Normal",
+    "number": "386",
     "baseStats": {
       "hp": 50,
       "attack": 150,
@@ -27153,6 +27455,7 @@
   {
     "number": "1153",
     "name": "테오키스(어택)",
+    "englishName": "Deoxys-Attack",
     "baseStats": {
       "hp": 50,
       "attack": 180,
@@ -27253,6 +27556,7 @@
   {
     "number": "1154",
     "name": "테오키스(디펜스)",
+    "englishName": "Deoxys-Defense",
     "baseStats": {
       "hp": 50,
       "attack": 70,
@@ -27357,6 +27661,7 @@
   {
     "number": "1155",
     "name": "테오키스(스피드)",
+    "englishName": "Deoxys-Speed",
     "baseStats": {
       "hp": 50,
       "attack": 95,
@@ -27456,8 +27761,9 @@
     ]
   },
   {
-    "number": "387",
     "name": "모부기",
+    "englishName": "Turtwig",
+    "number": "387",
     "baseStats": {
       "hp": 55,
       "attack": 68,
@@ -27539,8 +27845,9 @@
     ]
   },
   {
-    "number": "388",
     "name": "수풀부기",
+    "englishName": "Grotle",
+    "number": "388",
     "baseStats": {
       "hp": 75,
       "attack": 89,
@@ -27622,8 +27929,9 @@
     ]
   },
   {
-    "number": "389",
     "name": "토대부기",
+    "englishName": "Torterra",
+    "number": "389",
     "baseStats": {
       "hp": 95,
       "attack": 109,
@@ -27726,8 +28034,9 @@
     ]
   },
   {
-    "number": "390",
     "name": "불꽃숭이",
+    "englishName": "Chimchar",
+    "number": "390",
     "baseStats": {
       "hp": 44,
       "attack": 58,
@@ -27825,8 +28134,9 @@
     ]
   },
   {
-    "number": "391",
     "name": "파이숭이",
+    "englishName": "Monferno",
+    "number": "391",
     "baseStats": {
       "hp": 64,
       "attack": 78,
@@ -27932,8 +28242,9 @@
     ]
   },
   {
-    "number": "392",
     "name": "초염몽",
+    "englishName": "Infernape",
+    "number": "392",
     "baseStats": {
       "hp": 76,
       "attack": 104,
@@ -28059,8 +28370,9 @@
     ]
   },
   {
-    "number": "393",
     "name": "팽도리",
+    "englishName": "Piplup",
+    "number": "393",
     "baseStats": {
       "hp": 53,
       "attack": 51,
@@ -28136,8 +28448,9 @@
     ]
   },
   {
-    "number": "394",
     "name": "팽태자",
+    "englishName": "Prinplup",
+    "number": "394",
     "baseStats": {
       "hp": 64,
       "attack": 66,
@@ -28217,8 +28530,9 @@
     ]
   },
   {
-    "number": "395",
     "name": "엠페르트",
+    "englishName": "Empoleon",
+    "number": "395",
     "baseStats": {
       "hp": 84,
       "attack": 86,
@@ -28327,8 +28641,9 @@
     ]
   },
   {
-    "number": "396",
     "name": "찌르꼬",
+    "englishName": "Starly",
+    "number": "396",
     "baseStats": {
       "hp": 40,
       "attack": 55,
@@ -28394,8 +28709,9 @@
     ]
   },
   {
-    "number": "397",
     "name": "찌르버드",
+    "englishName": "Staravia",
+    "number": "397",
     "baseStats": {
       "hp": 55,
       "attack": 75,
@@ -28461,8 +28777,9 @@
     ]
   },
   {
-    "number": "398",
     "name": "찌르호크",
+    "englishName": "Staraptor",
+    "number": "398",
     "baseStats": {
       "hp": 85,
       "attack": 120,
@@ -28533,8 +28850,9 @@
     ]
   },
   {
-    "number": "401",
     "name": "귀뚤뚜기",
+    "englishName": "Kricketot",
+    "number": "401",
     "baseStats": {
       "hp": 37,
       "attack": 25,
@@ -28561,8 +28879,9 @@
     ]
   },
   {
-    "number": "402",
     "name": "귀뚤톡크",
+    "englishName": "Kricketune",
+    "number": "402",
     "baseStats": {
       "hp": 77,
       "attack": 85,
@@ -28628,8 +28947,9 @@
     ]
   },
   {
-    "number": "403",
     "name": "꼬링크",
+    "englishName": "Shinx",
+    "number": "403",
     "baseStats": {
       "hp": 45,
       "attack": 65,
@@ -28707,8 +29027,9 @@
     ]
   },
   {
-    "number": "404",
     "name": "럭시오",
+    "englishName": "Luxio",
+    "number": "404",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -28786,8 +29107,9 @@
     ]
   },
   {
-    "number": "405",
     "name": "렌트라",
+    "englishName": "Luxray",
+    "number": "405",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -28872,8 +29194,9 @@
     ]
   },
   {
-    "number": "408",
     "name": "두개도스",
+    "englishName": "Cranidos",
+    "number": "408",
     "baseStats": {
       "hp": 67,
       "attack": 125,
@@ -28955,8 +29278,9 @@
     ]
   },
   {
-    "number": "409",
     "name": "램펄드",
+    "englishName": "Rampardos",
+    "number": "409",
     "baseStats": {
       "hp": 97,
       "attack": 165,
@@ -29053,8 +29377,9 @@
     ]
   },
   {
-    "number": "410",
     "name": "방패톱스",
+    "englishName": "Shieldon",
+    "number": "410",
     "baseStats": {
       "hp": 30,
       "attack": 42,
@@ -29137,8 +29462,9 @@
     ]
   },
   {
-    "number": "411",
     "name": "바리톱스",
+    "englishName": "Bastiodon",
+    "number": "411",
     "baseStats": {
       "hp": 60,
       "attack": 52,
@@ -29234,8 +29560,9 @@
     ]
   },
   {
-    "number": "415",
     "name": "세꿀버리",
+    "englishName": "Combee",
+    "number": "415",
     "baseStats": {
       "hp": 30,
       "attack": 30,
@@ -29264,8 +29591,9 @@
     ]
   },
   {
-    "number": "416",
     "name": "비퀸",
+    "englishName": "Vespiquen",
+    "number": "416",
     "baseStats": {
       "hp": 70,
       "attack": 80,
@@ -29346,8 +29674,9 @@
     ]
   },
   {
-    "number": "417",
     "name": "파치리스",
+    "englishName": "Pachirisu",
+    "number": "417",
     "baseStats": {
       "hp": 60,
       "attack": 45,
@@ -29440,8 +29769,9 @@
     ]
   },
   {
-    "number": "418",
     "name": "브이젤",
+    "englishName": "Buizel",
+    "number": "418",
     "baseStats": {
       "hp": 55,
       "attack": 65,
@@ -29523,8 +29853,9 @@
     ]
   },
   {
-    "number": "419",
     "name": "플로젤",
+    "englishName": "Floatzel",
+    "number": "419",
     "baseStats": {
       "hp": 85,
       "attack": 105,
@@ -29616,8 +29947,9 @@
     ]
   },
   {
-    "number": "422",
     "name": "깝질무",
+    "englishName": "Shellos",
+    "number": "422",
     "baseStats": {
       "hp": 76,
       "attack": 48,
@@ -29694,8 +30026,9 @@
     ]
   },
   {
-    "number": "423",
     "name": "트리토돈",
+    "englishName": "Gastrodon",
+    "number": "423",
     "baseStats": {
       "hp": 111,
       "attack": 83,
@@ -29783,8 +30116,9 @@
     ]
   },
   {
-    "number": "424",
     "name": "겟핸보숭",
+    "englishName": "Ambipom",
+    "number": "424",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -29881,8 +30215,9 @@
     ]
   },
   {
-    "number": "425",
     "name": "흔들풍손",
+    "englishName": "Drifloon",
+    "number": "425",
     "baseStats": {
       "hp": 90,
       "attack": 50,
@@ -29966,8 +30301,9 @@
     ]
   },
   {
-    "number": "426",
     "name": "둥실라이드",
+    "englishName": "Drifblim",
+    "number": "426",
     "baseStats": {
       "hp": 150,
       "attack": 80,
@@ -30058,8 +30394,9 @@
     ]
   },
   {
-    "number": "429",
     "name": "무우마직",
+    "englishName": "Mismagius",
+    "number": "429",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -30152,8 +30489,9 @@
     ]
   },
   {
-    "number": "430",
     "name": "돈크로우",
+    "englishName": "Honchkrow",
+    "number": "430",
     "baseStats": {
       "hp": 100,
       "attack": 125,
@@ -30242,8 +30580,9 @@
     ]
   },
   {
-    "number": "433",
     "name": "랑딸랑",
+    "englishName": "Chingling",
+    "number": "433",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -30316,8 +30655,9 @@
     ]
   },
   {
-    "number": "434",
     "name": "스컹뿡",
+    "englishName": "Stunky",
+    "number": "434",
     "baseStats": {
       "hp": 63,
       "attack": 63,
@@ -30403,8 +30743,9 @@
     ]
   },
   {
-    "number": "435",
     "name": "스컹탱크",
+    "englishName": "Skuntank",
+    "number": "435",
     "baseStats": {
       "hp": 103,
       "attack": 93,
@@ -30496,8 +30837,9 @@
     ]
   },
   {
-    "number": "436",
     "name": "동미러",
+    "englishName": "Bronzor",
+    "number": "436",
     "baseStats": {
       "hp": 57,
       "attack": 24,
@@ -30582,8 +30924,9 @@
     ]
   },
   {
-    "number": "437",
     "name": "동탁군",
+    "englishName": "Bronzong",
+    "number": "437",
     "baseStats": {
       "hp": 67,
       "attack": 89,
@@ -30681,8 +31024,9 @@
     ]
   },
   {
-    "number": "438",
     "name": "꼬지지",
+    "englishName": "Bonsly",
+    "number": "438",
     "baseStats": {
       "hp": 50,
       "attack": 80,
@@ -30759,8 +31103,9 @@
     ]
   },
   {
-    "number": "440",
     "name": "핑복",
+    "englishName": "Happiny",
+    "number": "440",
     "baseStats": {
       "hp": 100,
       "attack": 5,
@@ -30817,8 +31162,9 @@
     ]
   },
   {
-    "number": "442",
     "name": "화강돌",
+    "englishName": "Spiritomb",
+    "number": "442",
     "baseStats": {
       "hp": 50,
       "attack": 92,
@@ -30900,8 +31246,9 @@
     ]
   },
   {
-    "number": "443",
     "name": "딥상어동",
+    "englishName": "Gible",
+    "number": "443",
     "baseStats": {
       "hp": 58,
       "attack": 70,
@@ -30979,8 +31326,9 @@
     ]
   },
   {
-    "number": "444",
     "name": "한바이트",
+    "englishName": "Gabite",
+    "number": "444",
     "baseStats": {
       "hp": 68,
       "attack": 90,
@@ -31062,8 +31410,9 @@
     ]
   },
   {
-    "number": "445",
     "name": "한카리아스",
+    "englishName": "Garchomp",
+    "number": "445",
     "baseStats": {
       "hp": 108,
       "attack": 130,
@@ -31155,8 +31504,9 @@
     ]
   },
   {
-    "number": "446",
     "name": "먹고자",
+    "englishName": "Munchlax",
+    "number": "446",
     "baseStats": {
       "hp": 135,
       "attack": 85,
@@ -31247,8 +31597,9 @@
     ]
   },
   {
-    "number": "447",
     "name": "리오르",
+    "englishName": "Riolu",
+    "number": "447",
     "baseStats": {
       "hp": 40,
       "attack": 70,
@@ -31333,8 +31684,9 @@
     ]
   },
   {
-    "number": "448",
     "name": "루카리오",
+    "englishName": "Lucario",
+    "number": "448",
     "baseStats": {
       "hp": 70,
       "attack": 110,
@@ -31447,8 +31799,9 @@
     ]
   },
   {
-    "number": "449",
     "name": "히포포타스",
+    "englishName": "Hippopotas",
+    "number": "449",
     "baseStats": {
       "hp": 68,
       "attack": 72,
@@ -31523,8 +31876,9 @@
     ]
   },
   {
-    "number": "450",
     "name": "하마돈",
+    "englishName": "Hippowdon",
+    "number": "450",
     "baseStats": {
       "hp": 108,
       "attack": 112,
@@ -31608,8 +31962,9 @@
     ]
   },
   {
-    "number": "453",
     "name": "삐딱구리",
+    "englishName": "Croagunk",
+    "number": "453",
     "baseStats": {
       "hp": 48,
       "attack": 61,
@@ -31707,8 +32062,9 @@
     ]
   },
   {
-    "number": "454",
     "name": "독개굴",
+    "englishName": "Toxicroak",
+    "number": "454",
     "baseStats": {
       "hp": 83,
       "attack": 106,
@@ -31813,8 +32169,9 @@
     ]
   },
   {
-    "number": "456",
     "name": "형광어",
+    "englishName": "Finneon",
+    "number": "456",
     "baseStats": {
       "hp": 49,
       "attack": 49,
@@ -31887,8 +32244,9 @@
     ]
   },
   {
-    "number": "457",
     "name": "네오라이트",
+    "englishName": "Lumineon",
+    "number": "457",
     "baseStats": {
       "hp": 69,
       "attack": 69,
@@ -31966,8 +32324,9 @@
     ]
   },
   {
-    "number": "459",
     "name": "눈쓰개",
+    "englishName": "Snover",
+    "number": "459",
     "baseStats": {
       "hp": 60,
       "attack": 62,
@@ -32039,8 +32398,9 @@
     ]
   },
   {
-    "number": "460",
     "name": "눈설왕",
+    "englishName": "Abomasnow",
+    "number": "460",
     "baseStats": {
       "hp": 90,
       "attack": 92,
@@ -32131,8 +32491,9 @@
     ]
   },
   {
-    "number": "461",
     "name": "포푸니라",
+    "englishName": "Weavile",
+    "number": "461",
     "baseStats": {
       "hp": 70,
       "attack": 120,
@@ -32237,8 +32598,9 @@
     ]
   },
   {
-    "number": "462",
     "name": "자포코일",
+    "englishName": "Magnezone",
+    "number": "462",
     "baseStats": {
       "hp": 70,
       "attack": 70,
@@ -32320,8 +32682,9 @@
     ]
   },
   {
-    "number": "464",
     "name": "거대코뿌리",
+    "englishName": "Rhyperior",
+    "number": "464",
     "baseStats": {
       "hp": 115,
       "attack": 140,
@@ -32440,8 +32803,9 @@
     ]
   },
   {
-    "number": "466",
     "name": "에레키블",
+    "englishName": "Electivire",
+    "number": "466",
     "baseStats": {
       "hp": 75,
       "attack": 123,
@@ -32536,8 +32900,9 @@
     ]
   },
   {
-    "number": "467",
     "name": "마그마번",
+    "englishName": "Magmortar",
+    "number": "467",
     "baseStats": {
       "hp": 75,
       "attack": 95,
@@ -32633,8 +32998,9 @@
     ]
   },
   {
-    "number": "469",
     "name": "메가자리",
+    "englishName": "Yanmega",
+    "number": "469",
     "baseStats": {
       "hp": 86,
       "attack": 76,
@@ -32712,8 +33078,9 @@
     ]
   },
   {
-    "number": "470",
     "name": "리피아",
+    "englishName": "Leafeon",
+    "number": "470",
     "baseStats": {
       "hp": 65,
       "attack": 110,
@@ -32809,8 +33176,9 @@
     ]
   },
   {
-    "number": "471",
     "name": "글레이시아",
+    "englishName": "Glaceon",
+    "number": "471",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -32903,8 +33271,9 @@
     ]
   },
   {
-    "number": "472",
     "name": "글라이온",
+    "englishName": "Gliscor",
+    "number": "472",
     "baseStats": {
       "hp": 75,
       "attack": 95,
@@ -33008,8 +33377,9 @@
     ]
   },
   {
-    "number": "473",
     "name": "맘모꾸리",
+    "englishName": "Mamoswine",
+    "number": "473",
     "baseStats": {
       "hp": 110,
       "attack": 130,
@@ -33103,8 +33473,9 @@
     ]
   },
   {
-    "number": "474",
     "name": "폴리곤Z",
+    "englishName": "Porygon-Z",
+    "number": "474",
     "baseStats": {
       "hp": 85,
       "attack": 80,
@@ -33178,8 +33549,9 @@
     ]
   },
   {
-    "number": "475",
     "name": "엘레이드",
+    "englishName": "Gallade",
+    "number": "475",
     "baseStats": {
       "hp": 68,
       "attack": 125,
@@ -33328,8 +33700,9 @@
     ]
   },
   {
-    "number": "476",
     "name": "대코파스",
+    "englishName": "Probopass",
+    "number": "476",
     "baseStats": {
       "hp": 60,
       "attack": 55,
@@ -33422,8 +33795,9 @@
     ]
   },
   {
-    "number": "477",
     "name": "야느와르몽",
+    "englishName": "Dusknoir",
+    "number": "477",
     "baseStats": {
       "hp": 45,
       "attack": 100,
@@ -33520,8 +33894,9 @@
     ]
   },
   {
-    "number": "478",
     "name": "눈여아",
+    "englishName": "Froslass",
+    "number": "478",
     "baseStats": {
       "hp": 70,
       "attack": 80,
@@ -33620,8 +33995,9 @@
     ]
   },
   {
-    "number": "479",
     "name": "로토무",
+    "englishName": "Rotom",
+    "number": "479",
     "baseStats": {
       "hp": 50,
       "attack": 50,
@@ -33692,6 +34068,7 @@
   {
     "number": "1170",
     "name": "로토무(히트)",
+    "englishName": "Rotom-Heat",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -33762,6 +34139,7 @@
   {
     "number": "1171",
     "name": "로토무(워시)",
+    "englishName": "Rotom-Wash",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -33832,6 +34210,7 @@
   {
     "number": "1172",
     "name": "로토무(프로스트)",
+    "englishName": "Rotom-Frost",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -33902,6 +34281,7 @@
   {
     "number": "1173",
     "name": "로토무(스핀)",
+    "englishName": "Rotom-Fan",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -33972,6 +34352,7 @@
   {
     "number": "1174",
     "name": "로토무(커트)",
+    "englishName": "Rotom-Mow",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -34040,8 +34421,9 @@
     ]
   },
   {
-    "number": "480",
     "name": "유크시",
+    "englishName": "Uxie",
+    "number": "480",
     "baseStats": {
       "hp": 75,
       "attack": 75,
@@ -34145,8 +34527,9 @@
     ]
   },
   {
-    "number": "481",
     "name": "엠라이트",
+    "englishName": "Mesprit",
+    "number": "481",
     "baseStats": {
       "hp": 80,
       "attack": 105,
@@ -34249,8 +34632,9 @@
     ]
   },
   {
-    "number": "482",
     "name": "아그놈",
+    "englishName": "Azelf",
+    "number": "482",
     "baseStats": {
       "hp": 75,
       "attack": 125,
@@ -34356,8 +34740,9 @@
     ]
   },
   {
-    "number": "483",
     "name": "디아루가",
+    "englishName": "Dialga",
+    "number": "483",
     "baseStats": {
       "hp": 100,
       "attack": 120,
@@ -34448,6 +34833,7 @@
   {
     "number": "1175",
     "name": "디아루가(오리진)",
+    "englishName": "Dialga-Origin",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -34536,8 +34922,9 @@
     ]
   },
   {
-    "number": "484",
     "name": "펄기아",
+    "englishName": "Palkia",
+    "number": "484",
     "baseStats": {
       "hp": 90,
       "attack": 120,
@@ -34632,6 +35019,7 @@
   {
     "number": "1176",
     "name": "펄기아(오리진)",
+    "englishName": "Palkia-Origin",
     "baseStats": {
       "hp": 90,
       "attack": 100,
@@ -34724,8 +35112,9 @@
     ]
   },
   {
-    "number": "485",
     "name": "히드런",
+    "englishName": "Heatran",
+    "number": "485",
     "baseStats": {
       "hp": 91,
       "attack": 90,
@@ -34809,8 +35198,9 @@
     ]
   },
   {
-    "number": "486",
     "name": "레지기가스",
+    "englishName": "Regigigas",
+    "number": "486",
     "baseStats": {
       "hp": 110,
       "attack": 160,
@@ -34887,8 +35277,9 @@
     ]
   },
   {
-    "number": "487",
     "name": "기라티나",
+    "englishName": "Giratina-altered",
+    "number": "487",
     "baseStats": {
       "hp": 150,
       "attack": 100,
@@ -34972,6 +35363,7 @@
   {
     "number": "1177",
     "name": "기라티나(오리진)",
+    "englishName": "Giratina-Origin",
     "baseStats": {
       "hp": 150,
       "attack": 120,
@@ -35053,8 +35445,9 @@
     ]
   },
   {
-    "number": "488",
     "name": "크레세리아",
+    "englishName": "Cresselia",
+    "number": "488",
     "baseStats": {
       "hp": 120,
       "attack": 70,
@@ -35131,8 +35524,9 @@
     ]
   },
   {
-    "number": "489",
     "name": "피오네",
+    "englishName": "Phione",
+    "number": "489",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -35195,8 +35589,9 @@
     ]
   },
   {
-    "number": "490",
     "name": "마나피",
+    "englishName": "Manaphy",
+    "number": "490",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -35274,8 +35669,9 @@
     ]
   },
   {
-    "number": "491",
     "name": "다크라이",
+    "englishName": "Darkrai",
+    "number": "491",
     "baseStats": {
       "hp": 70,
       "attack": 90,
@@ -35356,8 +35752,9 @@
     ]
   },
   {
-    "number": "492",
     "name": "쉐이미",
+    "englishName": "Shaymin-land",
+    "number": "492",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -35426,6 +35823,7 @@
   {
     "number": "1178",
     "name": "쉐이미(스카이폼)",
+    "englishName": "Shaymin-sky",
     "baseStats": {
       "hp": 100,
       "attack": 103,
@@ -35492,8 +35890,9 @@
     ]
   },
   {
-    "number": "493",
     "name": "아르세우스",
+    "englishName": "Arceus",
+    "number": "493",
     "baseStats": {
       "hp": 120,
       "attack": 120,
@@ -35636,8 +36035,9 @@
     ]
   },
   {
-    "number": "495",
     "name": "주리비얀",
+    "englishName": "Snivy",
+    "number": "495",
     "baseStats": {
       "hp": 45,
       "attack": 45,
@@ -35709,8 +36109,9 @@
     ]
   },
   {
-    "number": "496",
     "name": "샤비",
+    "englishName": "Servine",
+    "number": "496",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -35782,8 +36183,9 @@
     ]
   },
   {
-    "number": "497",
     "name": "샤로다",
+    "englishName": "Serperior",
+    "number": "497",
     "baseStats": {
       "hp": 75,
       "attack": 75,
@@ -35865,8 +36267,9 @@
     ]
   },
   {
-    "number": "498",
     "name": "뚜꾸리",
+    "englishName": "Tepig",
+    "number": "498",
     "baseStats": {
       "hp": 65,
       "attack": 63,
@@ -35943,8 +36346,9 @@
     ]
   },
   {
-    "number": "499",
     "name": "챠오꿀",
+    "englishName": "Pignite",
+    "number": "499",
     "baseStats": {
       "hp": 90,
       "attack": 93,
@@ -36041,8 +36445,9 @@
     ]
   },
   {
-    "number": "500",
     "name": "염무왕",
+    "englishName": "Emboar",
+    "number": "500",
     "baseStats": {
       "hp": 110,
       "attack": 123,
@@ -36151,8 +36556,9 @@
     ]
   },
   {
-    "number": "501",
     "name": "수댕이",
+    "englishName": "Oshawott",
+    "number": "501",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -36231,8 +36637,9 @@
     ]
   },
   {
-    "number": "502",
     "name": "쌍검자비",
+    "englishName": "Dewott",
+    "number": "502",
     "baseStats": {
       "hp": 75,
       "attack": 75,
@@ -36313,8 +36720,9 @@
     ]
   },
   {
-    "number": "503",
     "name": "대검귀",
+    "englishName": "Samurott",
+    "number": "503",
     "baseStats": {
       "hp": 95,
       "attack": 100,
@@ -36408,6 +36816,7 @@
   {
     "number": "1196",
     "name": "대검귀(히스이)",
+    "englishName": "Samurott-Hisui",
     "baseStats": {
       "hp": 90,
       "attack": 108,
@@ -36504,8 +36913,9 @@
     ]
   },
   {
-    "number": "522",
     "name": "줄뮤마",
+    "englishName": "Blitzle",
+    "number": "522",
     "baseStats": {
       "hp": 45,
       "attack": 60,
@@ -36575,8 +36985,9 @@
     ]
   },
   {
-    "number": "523",
     "name": "제브라이카",
+    "englishName": "Zebstrika",
+    "number": "523",
     "baseStats": {
       "hp": 75,
       "attack": 100,
@@ -36653,8 +37064,9 @@
     ]
   },
   {
-    "number": "529",
     "name": "두더류",
+    "englishName": "Drilbur",
+    "number": "529",
     "baseStats": {
       "hp": 60,
       "attack": 85,
@@ -36726,8 +37138,9 @@
     ]
   },
   {
-    "number": "530",
     "name": "몰드류",
+    "englishName": "Excadrill",
+    "number": "530",
     "baseStats": {
       "hp": 110,
       "attack": 135,
@@ -36810,8 +37223,9 @@
     ]
   },
   {
-    "number": "532",
     "name": "으랏차",
+    "englishName": "Timburr",
+    "number": "532",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -36887,8 +37301,9 @@
     ]
   },
   {
-    "number": "533",
     "name": "토쇠골",
+    "englishName": "Gurdurr",
+    "number": "533",
     "baseStats": {
       "hp": 85,
       "attack": 105,
@@ -36965,8 +37380,9 @@
     ]
   },
   {
-    "number": "534",
     "name": "노보청",
+    "englishName": "Conkeldurr",
+    "number": "534",
     "baseStats": {
       "hp": 105,
       "attack": 140,
@@ -37052,8 +37468,9 @@
     ]
   },
   {
-    "number": "540",
     "name": "두르보",
+    "englishName": "Sewaddle",
+    "number": "540",
     "baseStats": {
       "hp": 45,
       "attack": 53,
@@ -37115,8 +37532,9 @@
     ]
   },
   {
-    "number": "541",
     "name": "두르쿤",
+    "englishName": "Swadloon",
+    "number": "541",
     "baseStats": {
       "hp": 55,
       "attack": 63,
@@ -37180,8 +37598,9 @@
     ]
   },
   {
-    "number": "542",
     "name": "모아머",
+    "englishName": "Leavanny",
+    "number": "542",
     "baseStats": {
       "hp": 75,
       "attack": 103,
@@ -37270,8 +37689,9 @@
     ]
   },
   {
-    "number": "546",
     "name": "소미안",
+    "englishName": "Cottonee",
+    "number": "546",
     "baseStats": {
       "hp": 40,
       "attack": 27,
@@ -37336,8 +37756,9 @@
     ]
   },
   {
-    "number": "547",
     "name": "엘풍",
+    "englishName": "Whimsicott",
+    "number": "547",
     "baseStats": {
       "hp": 60,
       "attack": 67,
@@ -37419,8 +37840,9 @@
     ]
   },
   {
-    "number": "548",
     "name": "치릴리",
+    "englishName": "Petilil",
+    "number": "548",
     "baseStats": {
       "hp": 45,
       "attack": 35,
@@ -37481,8 +37903,9 @@
     ]
   },
   {
-    "number": "549",
     "name": "드레디어",
+    "englishName": "Lilligant",
+    "number": "549",
     "baseStats": {
       "hp": 70,
       "attack": 60,
@@ -37559,6 +37982,7 @@
   {
     "number": "1198",
     "name": "드레디어(히스이)",
+    "englishName": "Lilligant-Hisui",
     "baseStats": {
       "hp": 70,
       "attack": 105,
@@ -37651,8 +38075,9 @@
     ]
   },
   {
-    "number": "550",
     "name": "배쓰나이",
+    "englishName": "Basculin-Red-Striped",
+    "number": "550",
     "baseStats": {
       "hp": 70,
       "attack": 92,
@@ -37728,6 +38153,7 @@
   {
     "number": "1199",
     "name": "배쓰나이(청색근)",
+    "englishName": "Basculin-Blue-Striped",
     "baseStats": {
       "hp": 70,
       "attack": 92,
@@ -37803,6 +38229,7 @@
   {
     "number": "1200",
     "name": "배쓰나이(백색근)",
+    "englishName": "Basculin-White-Striped",
     "baseStats": {
       "hp": 70,
       "attack": 92,
@@ -37873,8 +38300,9 @@
     ]
   },
   {
-    "number": "551",
     "name": "깜눈크",
+    "englishName": "Sandile",
+    "number": "551",
     "baseStats": {
       "hp": 50,
       "attack": 72,
@@ -37956,8 +38384,9 @@
     ]
   },
   {
-    "number": "552",
     "name": "악비르",
+    "englishName": "Krokorok",
+    "number": "552",
     "baseStats": {
       "hp": 60,
       "attack": 82,
@@ -38049,8 +38478,9 @@
     ]
   },
   {
-    "number": "553",
     "name": "악비아르",
+    "englishName": "Krookodile",
+    "number": "553",
     "baseStats": {
       "hp": 95,
       "attack": 117,
@@ -38154,8 +38584,9 @@
     ]
   },
   {
-    "number": "559",
     "name": "곤율랭",
+    "englishName": "Scraggy",
+    "number": "559",
     "baseStats": {
       "hp": 50,
       "attack": 75,
@@ -38254,8 +38685,9 @@
     ]
   },
   {
-    "number": "560",
     "name": "곤율거니",
+    "englishName": "Scrafty",
+    "number": "560",
     "baseStats": {
       "hp": 65,
       "attack": 90,
@@ -38362,8 +38794,9 @@
     ]
   },
   {
-    "number": "570",
     "name": "조로아",
+    "englishName": "Zorua",
+    "number": "570",
     "baseStats": {
       "hp": 40,
       "attack": 65,
@@ -38449,6 +38882,7 @@
   {
     "number": "1206",
     "name": "조로아(히스이)",
+    "englishName": "Zorua-Hisui",
     "baseStats": {
       "hp": 35,
       "attack": 60,
@@ -38530,8 +38964,9 @@
     ]
   },
   {
-    "number": "571",
     "name": "조로아크",
+    "englishName": "Zoroark",
+    "number": "571",
     "baseStats": {
       "hp": 60,
       "attack": 105,
@@ -38631,6 +39066,7 @@
   {
     "number": "1207",
     "name": "조로아크(히스이)",
+    "englishName": "Zoroark-Hisui",
     "baseStats": {
       "hp": 55,
       "attack": 100,
@@ -38731,8 +39167,9 @@
     ]
   },
   {
-    "number": "572",
     "name": "치라미",
+    "englishName": "Minccino",
+    "number": "572",
     "baseStats": {
       "hp": 55,
       "attack": 50,
@@ -38809,8 +39246,9 @@
     ]
   },
   {
-    "number": "573",
     "name": "치라치노",
+    "englishName": "Cinccino",
+    "number": "573",
     "baseStats": {
       "hp": 75,
       "attack": 95,
@@ -38899,8 +39337,9 @@
     ]
   },
   {
-    "number": "574",
     "name": "고디탱",
+    "englishName": "Gothita",
+    "number": "574",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -38981,8 +39420,9 @@
     ]
   },
   {
-    "number": "575",
     "name": "고디보미",
+    "englishName": "Gothorita",
+    "number": "575",
     "baseStats": {
       "hp": 60,
       "attack": 45,
@@ -39063,8 +39503,9 @@
     ]
   },
   {
-    "number": "576",
     "name": "고디모아젤",
+    "englishName": "Gothitelle",
+    "number": "576",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -39152,8 +39593,9 @@
     ]
   },
   {
-    "number": "577",
     "name": "유니란",
+    "englishName": "Solosis",
+    "number": "577",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -39233,8 +39675,9 @@
     ]
   },
   {
-    "number": "578",
     "name": "듀란",
+    "englishName": "Duosion",
+    "number": "578",
     "baseStats": {
       "hp": 65,
       "attack": 40,
@@ -39314,8 +39757,9 @@
     ]
   },
   {
-    "number": "579",
     "name": "란쿨루스",
+    "englishName": "Reuniclus",
+    "number": "579",
     "baseStats": {
       "hp": 110,
       "attack": 65,
@@ -39409,8 +39853,9 @@
     ]
   },
   {
-    "number": "580",
     "name": "꼬지보리",
+    "englishName": "Ducklett",
+    "number": "580",
     "baseStats": {
       "hp": 62,
       "attack": 44,
@@ -39478,8 +39923,9 @@
     ]
   },
   {
-    "number": "581",
     "name": "스완나",
+    "englishName": "Swanna",
+    "number": "581",
     "baseStats": {
       "hp": 75,
       "attack": 87,
@@ -39555,8 +40001,9 @@
     ]
   },
   {
-    "number": "585",
     "name": "사철록",
+    "englishName": "Deerling",
+    "number": "585",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -39631,8 +40078,9 @@
     ]
   },
   {
-    "number": "586",
     "name": "바라철록",
+    "englishName": "Sawsbuck",
+    "number": "586",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -39718,8 +40166,9 @@
     ]
   },
   {
-    "number": "590",
     "name": "깜놀버슬",
+    "englishName": "Foongus",
+    "number": "590",
     "baseStats": {
       "hp": 69,
       "attack": 55,
@@ -39780,8 +40229,9 @@
     ]
   },
   {
-    "number": "591",
     "name": "뽀록나",
+    "englishName": "Amoonguss",
+    "number": "591",
     "baseStats": {
       "hp": 114,
       "attack": 85,
@@ -39847,8 +40297,9 @@
     ]
   },
   {
-    "number": "594",
     "name": "맘복치",
+    "englishName": "Alomomola",
+    "number": "594",
     "baseStats": {
       "hp": 165,
       "attack": 75,
@@ -39927,8 +40378,9 @@
     ]
   },
   {
-    "number": "595",
     "name": "파쪼옥",
+    "englishName": "Joltik",
+    "number": "595",
     "baseStats": {
       "hp": 50,
       "attack": 47,
@@ -39998,8 +40450,9 @@
     ]
   },
   {
-    "number": "596",
     "name": "전툴라",
+    "englishName": "Galvantula",
+    "number": "596",
     "baseStats": {
       "hp": 70,
       "attack": 77,
@@ -40074,8 +40527,9 @@
     ]
   },
   {
-    "number": "602",
     "name": "저리어",
+    "englishName": "Tynamo",
+    "number": "602",
     "baseStats": {
       "hp": 35,
       "attack": 55,
@@ -40101,8 +40555,9 @@
     ]
   },
   {
-    "number": "603",
     "name": "저리릴",
+    "englishName": "Eelektrik",
+    "number": "603",
     "baseStats": {
       "hp": 65,
       "attack": 85,
@@ -40168,8 +40623,9 @@
     ]
   },
   {
-    "number": "604",
     "name": "저리더프",
+    "englishName": "Eelektross",
+    "number": "604",
     "baseStats": {
       "hp": 85,
       "attack": 115,
@@ -40258,8 +40714,9 @@
     ]
   },
   {
-    "number": "607",
     "name": "불켜미",
+    "englishName": "Litwick",
+    "number": "607",
     "baseStats": {
       "hp": 50,
       "attack": 30,
@@ -40337,8 +40794,9 @@
     ]
   },
   {
-    "number": "608",
     "name": "램프라",
+    "englishName": "Lampent",
+    "number": "608",
     "baseStats": {
       "hp": 60,
       "attack": 40,
@@ -40417,8 +40875,9 @@
     ]
   },
   {
-    "number": "609",
     "name": "샹델라",
+    "englishName": "Chandelure",
+    "number": "609",
     "baseStats": {
       "hp": 60,
       "attack": 55,
@@ -40500,8 +40959,9 @@
     ]
   },
   {
-    "number": "610",
     "name": "터검니",
+    "englishName": "Axew",
+    "number": "610",
     "baseStats": {
       "hp": 46,
       "attack": 87,
@@ -40588,8 +41048,9 @@
     ]
   },
   {
-    "number": "611",
     "name": "액슨도",
+    "englishName": "Fraxure",
+    "number": "611",
     "baseStats": {
       "hp": 66,
       "attack": 117,
@@ -40677,8 +41138,9 @@
     ]
   },
   {
-    "number": "612",
     "name": "액스라이즈",
+    "englishName": "Haxorus",
+    "number": "612",
     "baseStats": {
       "hp": 76,
       "attack": 147,
@@ -40774,8 +41236,9 @@
     ]
   },
   {
-    "number": "613",
     "name": "코고미",
+    "englishName": "Cubchoo",
+    "number": "613",
     "baseStats": {
       "hp": 55,
       "attack": 70,
@@ -40860,8 +41323,9 @@
     ]
   },
   {
-    "number": "614",
     "name": "툰베어",
+    "englishName": "Beartic",
+    "number": "614",
     "baseStats": {
       "hp": 95,
       "attack": 130,
@@ -40966,8 +41430,9 @@
     ]
   },
   {
-    "number": "615",
     "name": "프리지오",
+    "englishName": "Cryogonal",
+    "number": "615",
     "baseStats": {
       "hp": 80,
       "attack": 50,
@@ -41040,8 +41505,9 @@
     ]
   },
   {
-    "number": "619",
     "name": "비조푸",
+    "englishName": "Mienfoo",
+    "number": "619",
     "baseStats": {
       "hp": 45,
       "attack": 85,
@@ -41118,8 +41584,9 @@
     ]
   },
   {
-    "number": "620",
     "name": "비조도",
+    "englishName": "Mienshao",
+    "number": "620",
     "baseStats": {
       "hp": 65,
       "attack": 125,
@@ -41203,8 +41670,9 @@
     ]
   },
   {
-    "number": "622",
     "name": "골비람",
+    "englishName": "Golett",
+    "number": "622",
     "baseStats": {
       "hp": 59,
       "attack": 74,
@@ -41293,8 +41761,9 @@
     ]
   },
   {
-    "number": "623",
     "name": "골루그",
+    "englishName": "Golurk",
+    "number": "623",
     "baseStats": {
       "hp": 89,
       "attack": 124,
@@ -41402,8 +41871,9 @@
     ]
   },
   {
-    "number": "624",
     "name": "자망칼",
+    "englishName": "Pawniard",
+    "number": "624",
     "baseStats": {
       "hp": 45,
       "attack": 85,
@@ -41482,8 +41952,9 @@
     ]
   },
   {
-    "number": "625",
     "name": "절각참",
+    "englishName": "Bisharp",
+    "number": "625",
     "baseStats": {
       "hp": 65,
       "attack": 125,
@@ -41568,8 +42039,9 @@
     ]
   },
   {
-    "number": "627",
     "name": "수리둥보",
+    "englishName": "Rufflet",
+    "number": "627",
     "baseStats": {
       "hp": 70,
       "attack": 83,
@@ -41638,8 +42110,9 @@
     ]
   },
   {
-    "number": "628",
     "name": "워글",
+    "englishName": "Braviary",
+    "number": "628",
     "baseStats": {
       "hp": 100,
       "attack": 123,
@@ -41716,6 +42189,7 @@
   {
     "number": "1215",
     "name": "워글(히스이)",
+    "englishName": "Braviary-Hisui",
     "baseStats": {
       "hp": 110,
       "attack": 83,
@@ -41809,8 +42283,9 @@
     ]
   },
   {
-    "number": "629",
     "name": "벌차이",
+    "englishName": "Vullaby",
+    "number": "629",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -41885,8 +42360,9 @@
     ]
   },
   {
-    "number": "630",
     "name": "버랜지나",
+    "englishName": "Mandibuzz",
+    "number": "630",
     "baseStats": {
       "hp": 110,
       "attack": 65,
@@ -41970,8 +42446,9 @@
     ]
   },
   {
-    "number": "633",
     "name": "모노두",
+    "englishName": "Deino",
+    "number": "633",
     "baseStats": {
       "hp": 52,
       "attack": 65,
@@ -42044,8 +42521,9 @@
     ]
   },
   {
-    "number": "634",
     "name": "디헤드",
+    "englishName": "Zweilous",
+    "number": "634",
     "baseStats": {
       "hp": 72,
       "attack": 85,
@@ -42122,8 +42600,9 @@
     ]
   },
   {
-    "number": "635",
     "name": "삼삼드래",
+    "englishName": "Hydreigon",
+    "number": "635",
     "baseStats": {
       "hp": 92,
       "attack": 105,
@@ -42228,8 +42707,9 @@
     ]
   },
   {
-    "number": "636",
     "name": "활화르바",
+    "englishName": "Larvesta",
+    "number": "636",
     "baseStats": {
       "hp": 55,
       "attack": 85,
@@ -42301,8 +42781,9 @@
     ]
   },
   {
-    "number": "637",
     "name": "불카모스",
+    "englishName": "Volcarona",
+    "number": "637",
     "baseStats": {
       "hp": 85,
       "attack": 60,
@@ -42394,8 +42875,9 @@
     ]
   },
   {
-    "number": "638",
     "name": "코바르온",
+    "englishName": "Cobalion",
+    "number": "638",
     "baseStats": {
       "hp": 91,
       "attack": 90,
@@ -42477,8 +42959,9 @@
     ]
   },
   {
-    "number": "639",
     "name": "테라키온",
+    "englishName": "Terrakion",
+    "number": "639",
     "baseStats": {
       "hp": 91,
       "attack": 129,
@@ -42557,8 +43040,9 @@
     ]
   },
   {
-    "number": "640",
     "name": "비리디온",
+    "englishName": "Virizion",
+    "number": "640",
     "baseStats": {
       "hp": 91,
       "attack": 90,
@@ -42641,8 +43125,9 @@
     ]
   },
   {
-    "number": "641",
     "name": "토네로스",
+    "englishName": "Tornadus-incarnate",
+    "number": "641",
     "baseStats": {
       "hp": 79,
       "attack": 115,
@@ -42726,6 +43211,7 @@
   {
     "number": "1216",
     "name": "토네로스(영물)",
+    "englishName": "Tornadus-Therian",
     "baseStats": {
       "hp": 79,
       "attack": 100,
@@ -42807,8 +43293,9 @@
     ]
   },
   {
-    "number": "642",
     "name": "볼트로스",
+    "englishName": "Thundurus-Incarnate",
+    "number": "642",
     "baseStats": {
       "hp": 79,
       "attack": 115,
@@ -42898,6 +43385,7 @@
   {
     "number": "1217",
     "name": "볼트로스(영물)",
+    "englishName": "Thundurus-Therian",
     "baseStats": {
       "hp": 79,
       "attack": 105,
@@ -42985,8 +43473,9 @@
     ]
   },
   {
-    "number": "643",
     "name": "레시라무",
+    "englishName": "Reshiram",
+    "number": "643",
     "baseStats": {
       "hp": 100,
       "attack": 120,
@@ -43077,8 +43566,9 @@
     ]
   },
   {
-    "number": "644",
     "name": "제크로무",
+    "englishName": "Zekrom",
+    "number": "644",
     "baseStats": {
       "hp": 100,
       "attack": 150,
@@ -43174,8 +43664,9 @@
     ]
   },
   {
-    "number": "645",
     "name": "랜드로스",
+    "englishName": "Landorus-Incarnate",
+    "number": "645",
     "baseStats": {
       "hp": 89,
       "attack": 125,
@@ -43259,6 +43750,7 @@
   {
     "number": "1218",
     "name": "랜드로스(영물)",
+    "englishName": "Landorus-Therian",
     "baseStats": {
       "hp": 89,
       "attack": 145,
@@ -43340,8 +43832,9 @@
     ]
   },
   {
-    "number": "646",
     "name": "큐레무",
+    "englishName": "Kyurem",
+    "number": "646",
     "baseStats": {
       "hp": 125,
       "attack": 130,
@@ -43430,6 +43923,7 @@
   {
     "number": "1219",
     "name": "큐레무(화이트)",
+    "englishName": "Kyurem-White",
     "baseStats": {
       "hp": 125,
       "attack": 120,
@@ -43518,6 +44012,7 @@
   {
     "number": "1220",
     "name": "큐레무(블랙)",
+    "englishName": "Kyurem-Black",
     "baseStats": {
       "hp": 125,
       "attack": 170,
@@ -43604,8 +44099,9 @@
     ]
   },
   {
-    "number": "647",
     "name": "케르디오",
+    "englishName": "Keldeo-Ordinary",
+    "number": "647",
     "baseStats": {
       "hp": 91,
       "attack": 72,
@@ -43685,8 +44181,9 @@
     ]
   },
   {
-    "number": "648",
     "name": "메로엣타",
+    "englishName": "Meloetta-aria",
+    "number": "648",
     "baseStats": {
       "hp": 100,
       "attack": 77,
@@ -43777,8 +44274,9 @@
     ]
   },
   {
-    "number": "650",
     "name": "도치마론",
+    "englishName": "Chespin",
+    "number": "650",
     "baseStats": {
       "hp": 56,
       "attack": 61,
@@ -43866,8 +44364,9 @@
     ]
   },
   {
-    "number": "651",
     "name": "도치보구",
+    "englishName": "Quilladin",
+    "number": "651",
     "baseStats": {
       "hp": 61,
       "attack": 78,
@@ -43962,8 +44461,9 @@
     ]
   },
   {
-    "number": "652",
     "name": "브리가론",
+    "englishName": "Chesnaught",
+    "number": "652",
     "baseStats": {
       "hp": 88,
       "attack": 107,
@@ -44081,8 +44581,9 @@
     ]
   },
   {
-    "number": "653",
     "name": "푸호꼬",
+    "englishName": "Fennekin",
+    "number": "653",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -44162,8 +44663,9 @@
     ]
   },
   {
-    "number": "654",
     "name": "테르나",
+    "englishName": "Braixen",
+    "number": "654",
     "baseStats": {
       "hp": 59,
       "attack": 59,
@@ -44248,8 +44750,9 @@
     ]
   },
   {
-    "number": "655",
     "name": "마폭시",
+    "englishName": "Delphox",
+    "number": "655",
     "baseStats": {
       "hp": 75,
       "attack": 69,
@@ -44357,8 +44860,9 @@
     ]
   },
   {
-    "number": "656",
     "name": "개구마르",
+    "englishName": "Froakie",
+    "number": "656",
     "baseStats": {
       "hp": 41,
       "attack": 56,
@@ -44435,8 +44939,9 @@
     ]
   },
   {
-    "number": "657",
     "name": "개굴반장",
+    "englishName": "Frogadier",
+    "number": "657",
     "baseStats": {
       "hp": 54,
       "attack": 63,
@@ -44517,8 +45022,9 @@
     ]
   },
   {
-    "number": "658",
     "name": "개굴닌자",
+    "englishName": "Greninja",
+    "number": "658",
     "baseStats": {
       "hp": 72,
       "attack": 95,
@@ -44613,8 +45119,9 @@
     ]
   },
   {
-    "number": "661",
     "name": "화살꼬빈",
+    "englishName": "Fletchling",
+    "number": "661",
     "baseStats": {
       "hp": 45,
       "attack": 50,
@@ -44679,8 +45186,9 @@
     ]
   },
   {
-    "number": "662",
     "name": "불화살빈",
+    "englishName": "Fletchinder",
+    "number": "662",
     "baseStats": {
       "hp": 62,
       "attack": 73,
@@ -44752,8 +45260,9 @@
     ]
   },
   {
-    "number": "663",
     "name": "파이어로",
+    "englishName": "Talonflame",
+    "number": "663",
     "baseStats": {
       "hp": 78,
       "attack": 81,
@@ -44832,8 +45341,9 @@
     ]
   },
   {
-    "number": "664",
     "name": "분이벌레",
+    "englishName": "Scatterbug",
+    "number": "664",
     "baseStats": {
       "hp": 38,
       "attack": 35,
@@ -44862,8 +45372,9 @@
     ]
   },
   {
-    "number": "665",
     "name": "분떠도리",
+    "englishName": "Spewpa",
+    "number": "665",
     "baseStats": {
       "hp": 45,
       "attack": 22,
@@ -44892,8 +45403,9 @@
     ]
   },
   {
-    "number": "666",
     "name": "비비용",
+    "englishName": "Vivillon",
+    "number": "666",
     "baseStats": {
       "hp": 80,
       "attack": 52,
@@ -44962,8 +45474,9 @@
     ]
   },
   {
-    "number": "667",
     "name": "레오꼬",
+    "englishName": "Litleo",
+    "number": "667",
     "baseStats": {
       "hp": 62,
       "attack": 50,
@@ -45040,8 +45553,9 @@
     ]
   },
   {
-    "number": "668",
     "name": "화염레오",
+    "englishName": "Pyroar",
+    "number": "668",
     "baseStats": {
       "hp": 86,
       "attack": 68,
@@ -45124,8 +45638,9 @@
     ]
   },
   {
-    "number": "669",
     "name": "플라베베",
+    "englishName": "Flabebe",
+    "number": "669",
     "baseStats": {
       "hp": 44,
       "attack": 38,
@@ -45195,8 +45710,9 @@
     ]
   },
   {
-    "number": "670",
     "name": "플라엣테",
+    "englishName": "Floette",
+    "number": "670",
     "baseStats": {
       "hp": 54,
       "attack": 45,
@@ -45269,8 +45785,9 @@
     ]
   },
   {
-    "number": "671",
     "name": "플라제스",
+    "englishName": "Florges",
+    "number": "671",
     "baseStats": {
       "hp": 78,
       "attack": 65,
@@ -45345,8 +45862,9 @@
     ]
   },
   {
-    "number": "672",
     "name": "메이클",
+    "englishName": "Skiddo",
+    "number": "672",
     "baseStats": {
       "hp": 66,
       "attack": 65,
@@ -45422,8 +45940,9 @@
     ]
   },
   {
-    "number": "673",
     "name": "고고트",
+    "englishName": "Gogoat",
+    "number": "673",
     "baseStats": {
       "hp": 123,
       "attack": 100,
@@ -45508,8 +46027,9 @@
     ]
   },
   {
-    "number": "677",
     "name": "냐스퍼",
+    "englishName": "Espurr",
+    "number": "677",
     "baseStats": {
       "hp": 62,
       "attack": 48,
@@ -45576,8 +46096,9 @@
     ]
   },
   {
-    "number": "678",
     "name": "냐오닉스",
+    "englishName": "Meowstic-Male",
+    "number": "678",
     "baseStats": {
       "hp": 74,
       "attack": 48,
@@ -45665,6 +46186,7 @@
   {
     "number": "1308",
     "name": "냐오닉스(암컷)",
+    "englishName": "Meowstic-Female",
     "baseStats": {
       "hp": 74,
       "attack": 48,
@@ -45750,8 +46272,9 @@
     ]
   },
   {
-    "number": "686",
     "name": "오케이징",
+    "englishName": "Inkay",
+    "number": "686",
     "baseStats": {
       "hp": 53,
       "attack": 54,
@@ -45830,8 +46353,9 @@
     ]
   },
   {
-    "number": "687",
     "name": "칼라마네로",
+    "englishName": "Malamar",
+    "number": "687",
     "baseStats": {
       "hp": 86,
       "attack": 92,
@@ -45918,8 +46442,9 @@
     ]
   },
   {
-    "number": "690",
     "name": "수레기",
+    "englishName": "Skrelp",
+    "number": "690",
     "baseStats": {
       "hp": 50,
       "attack": 60,
@@ -45996,8 +46521,9 @@
     ]
   },
   {
-    "number": "691",
     "name": "드래캄",
+    "englishName": "Dragalge",
+    "number": "691",
     "baseStats": {
       "hp": 65,
       "attack": 75,
@@ -46080,8 +46606,9 @@
     ]
   },
   {
-    "number": "692",
     "name": "완철포",
+    "englishName": "Clauncher",
+    "number": "692",
     "baseStats": {
       "hp": 50,
       "attack": 53,
@@ -46152,8 +46679,9 @@
     ]
   },
   {
-    "number": "693",
     "name": "블로스터",
+    "englishName": "Clawitzer",
+    "number": "693",
     "baseStats": {
       "hp": 71,
       "attack": 73,
@@ -46234,8 +46762,9 @@
     ]
   },
   {
-    "number": "700",
     "name": "님피아",
+    "englishName": "Sylveon",
+    "number": "700",
     "baseStats": {
       "hp": 95,
       "attack": 65,
@@ -46328,8 +46857,9 @@
     ]
   },
   {
-    "number": "701",
     "name": "루차불",
+    "englishName": "Hawlucha",
+    "number": "701",
     "baseStats": {
       "hp": 78,
       "attack": 92,
@@ -46428,8 +46958,9 @@
     ]
   },
   {
-    "number": "702",
     "name": "데덴네",
+    "englishName": "Dedenne",
+    "number": "702",
     "baseStats": {
       "hp": 67,
       "attack": 58,
@@ -46508,8 +47039,9 @@
     ]
   },
   {
-    "number": "703",
     "name": "멜리시",
+    "englishName": "Carbink",
+    "number": "703",
     "baseStats": {
       "hp": 50,
       "attack": 50,
@@ -46586,8 +47118,9 @@
     ]
   },
   {
-    "number": "704",
     "name": "미끄메라",
+    "englishName": "Goomy",
+    "number": "704",
     "baseStats": {
       "hp": 45,
       "attack": 50,
@@ -46645,8 +47178,9 @@
     ]
   },
   {
-    "number": "705",
     "name": "미끄네일",
+    "englishName": "Sliggoo",
+    "number": "705",
     "baseStats": {
       "hp": 68,
       "attack": 75,
@@ -46713,6 +47247,7 @@
   {
     "number": "1310",
     "name": "미끄네일(히스이)",
+    "englishName": "Sliggoo-Hisui",
     "baseStats": {
       "hp": 58,
       "attack": 75,
@@ -46784,8 +47319,9 @@
     ]
   },
   {
-    "number": "706",
     "name": "미끄래곤",
+    "englishName": "Goodra",
+    "number": "706",
     "baseStats": {
       "hp": 90,
       "attack": 100,
@@ -46877,6 +47413,7 @@
   {
     "number": "1311",
     "name": "미끄래곤(히스이)",
+    "englishName": "Goodra-Hisui",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -46973,8 +47510,9 @@
     ]
   },
   {
-    "number": "707",
     "name": "클레피",
+    "englishName": "Klefki",
+    "number": "707",
     "baseStats": {
       "hp": 57,
       "attack": 80,
@@ -47044,8 +47582,9 @@
     ]
   },
   {
-    "number": "708",
     "name": "나목령",
+    "englishName": "Phantump",
+    "number": "708",
     "baseStats": {
       "hp": 43,
       "attack": 70,
@@ -47127,8 +47666,9 @@
     ]
   },
   {
-    "number": "709",
     "name": "대로트",
+    "englishName": "Trevenant",
+    "number": "709",
     "baseStats": {
       "hp": 85,
       "attack": 110,
@@ -47226,8 +47766,9 @@
     ]
   },
   {
-    "number": "712",
     "name": "꽁어름",
+    "englishName": "Bergmite",
+    "number": "712",
     "baseStats": {
       "hp": 55,
       "attack": 69,
@@ -47293,8 +47834,9 @@
     ]
   },
   {
-    "number": "713",
     "name": "크레베이스",
+    "englishName": "Avalugg",
+    "number": "713",
     "baseStats": {
       "hp": 95,
       "attack": 117,
@@ -47377,6 +47919,7 @@
   {
     "number": "1318",
     "name": "크레베이스(히스이)",
+    "englishName": "Avalugg-Hisui",
     "baseStats": {
       "hp": 95,
       "attack": 127,
@@ -47461,8 +48004,9 @@
     ]
   },
   {
-    "number": "714",
     "name": "음뱃",
+    "englishName": "Noibat",
+    "number": "714",
     "baseStats": {
       "hp": 40,
       "attack": 30,
@@ -47538,8 +48082,9 @@
     ]
   },
   {
-    "number": "715",
     "name": "음번",
+    "englishName": "Noivern",
+    "number": "715",
     "baseStats": {
       "hp": 85,
       "attack": 70,
@@ -47631,8 +48176,9 @@
     ]
   },
   {
-    "number": "719",
     "name": "디안시",
+    "englishName": "Diancie",
+    "number": "719",
     "baseStats": {
       "hp": 50,
       "attack": 100,
@@ -47718,8 +48264,9 @@
     ]
   },
   {
-    "number": "720",
     "name": "후파",
+    "englishName": "Hoopa",
+    "number": "720",
     "baseStats": {
       "hp": 80,
       "attack": 110,
@@ -47812,6 +48359,7 @@
   {
     "number": "1325",
     "name": "후파(굴레를 벗어난)",
+    "englishName": "Hoopa-Unbound",
     "baseStats": {
       "hp": 80,
       "attack": 160,
@@ -47900,8 +48448,9 @@
     ]
   },
   {
-    "number": "721",
     "name": "볼케니온",
+    "englishName": "Volcanion",
+    "number": "721",
     "baseStats": {
       "hp": 80,
       "attack": 110,
@@ -47994,8 +48543,9 @@
     ]
   },
   {
-    "number": "722",
     "name": "나몰빼미",
+    "englishName": "Rowlet",
+    "number": "722",
     "baseStats": {
       "hp": 68,
       "attack": 55,
@@ -48072,8 +48622,9 @@
     ]
   },
   {
-    "number": "723",
     "name": "빼미스로우",
+    "englishName": "Dartrix",
+    "number": "723",
     "baseStats": {
       "hp": 78,
       "attack": 75,
@@ -48152,8 +48703,9 @@
     ]
   },
   {
-    "number": "724",
     "name": "모크나이퍼",
+    "englishName": "Decidueye",
+    "number": "724",
     "baseStats": {
       "hp": 78,
       "attack": 107,
@@ -48257,6 +48809,7 @@
   {
     "number": "1326",
     "name": "모크나이퍼(히스이)",
+    "englishName": "Decidueye-Hisui",
     "baseStats": {
       "hp": 88,
       "attack": 112,
@@ -48356,8 +48909,9 @@
     ]
   },
   {
-    "number": "725",
     "name": "냐오불",
+    "englishName": "Litten",
+    "number": "725",
     "baseStats": {
       "hp": 45,
       "attack": 65,
@@ -48430,8 +48984,9 @@
     ]
   },
   {
-    "number": "726",
     "name": "냐오히트",
+    "englishName": "Torracat",
+    "number": "726",
     "baseStats": {
       "hp": 65,
       "attack": 85,
@@ -48504,8 +49059,9 @@
     ]
   },
   {
-    "number": "727",
     "name": "어흥염",
+    "englishName": "Incineroar",
+    "number": "727",
     "baseStats": {
       "hp": 95,
       "attack": 115,
@@ -48613,8 +49169,9 @@
     ]
   },
   {
-    "number": "728",
     "name": "누리공",
+    "englishName": "Popplio",
+    "number": "728",
     "baseStats": {
       "hp": 50,
       "attack": 54,
@@ -48683,8 +49240,9 @@
     ]
   },
   {
-    "number": "729",
     "name": "키요공",
+    "englishName": "Brionne",
+    "number": "729",
     "baseStats": {
       "hp": 60,
       "attack": 69,
@@ -48754,8 +49312,9 @@
     ]
   },
   {
-    "number": "730",
     "name": "누리레느",
+    "englishName": "Primarina",
+    "number": "730",
     "baseStats": {
       "hp": 80,
       "attack": 74,
@@ -48845,8 +49404,9 @@
     ]
   },
   {
-    "number": "731",
     "name": "콕코구리",
+    "englishName": "Pikipek",
+    "number": "731",
     "baseStats": {
       "hp": 35,
       "attack": 75,
@@ -48913,8 +49473,9 @@
     ]
   },
   {
-    "number": "732",
     "name": "크라파",
+    "englishName": "Trumbeak",
+    "number": "732",
     "baseStats": {
       "hp": 55,
       "attack": 85,
@@ -48986,8 +49547,9 @@
     ]
   },
   {
-    "number": "733",
     "name": "왕큰부리",
+    "englishName": "Toucannon",
+    "number": "733",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -49069,8 +49631,9 @@
     ]
   },
   {
-    "number": "734",
     "name": "영구스",
+    "englishName": "Yungoos",
+    "number": "734",
     "baseStats": {
       "hp": 48,
       "attack": 70,
@@ -49144,8 +49707,9 @@
     ]
   },
   {
-    "number": "735",
     "name": "형사구스",
+    "englishName": "Gumshoos",
+    "number": "735",
     "baseStats": {
       "hp": 88,
       "attack": 110,
@@ -49233,8 +49797,9 @@
     ]
   },
   {
-    "number": "736",
     "name": "턱지충이",
+    "englishName": "Grubbin",
+    "number": "736",
     "baseStats": {
       "hp": 47,
       "attack": 62,
@@ -49295,8 +49860,9 @@
     ]
   },
   {
-    "number": "737",
     "name": "전지충이",
+    "englishName": "Charjabug",
+    "number": "737",
     "baseStats": {
       "hp": 57,
       "attack": 82,
@@ -49364,8 +49930,9 @@
     ]
   },
   {
-    "number": "738",
     "name": "투구뿌논",
+    "englishName": "Vikavolt",
+    "number": "738",
     "baseStats": {
       "hp": 77,
       "attack": 70,
@@ -49454,8 +50021,9 @@
     ]
   },
   {
-    "number": "739",
     "name": "오기지게",
+    "englishName": "Crabrawler",
+    "number": "739",
     "baseStats": {
       "hp": 47,
       "attack": 82,
@@ -49534,8 +50102,9 @@
     ]
   },
   {
-    "number": "740",
     "name": "모단단게",
+    "englishName": "Crabominable",
+    "number": "740",
     "baseStats": {
       "hp": 97,
       "attack": 132,
@@ -49627,6 +50196,7 @@
   {
     "number": "741",
     "name": "춤추새(이글이글스타일)",
+    "englishName": "Oricorio-Baile",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -49701,6 +50271,7 @@
   {
     "number": "1327",
     "name": "춤추새(파칙파칙스타일)",
+    "englishName": "Oricorio-Pom-Pom",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -49775,6 +50346,7 @@
   {
     "number": "1328",
     "name": "춤추새(훌라훌라스타일)",
+    "englishName": "Oricorio-Pau",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -49849,6 +50421,7 @@
   {
     "number": "1329",
     "name": "춤추새(하늘하늘스타일)",
+    "englishName": "Oricorio-Sensu",
     "baseStats": {
       "hp": 75,
       "attack": 70,
@@ -49921,8 +50494,9 @@
     ]
   },
   {
-    "number": "742",
     "name": "에블리",
+    "englishName": "Cutiefly",
+    "number": "742",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -49994,8 +50568,9 @@
     ]
   },
   {
-    "number": "743",
     "name": "에리본",
+    "englishName": "Ribombee",
+    "number": "743",
     "baseStats": {
       "hp": 60,
       "attack": 55,
@@ -50078,8 +50653,9 @@
     ]
   },
   {
-    "number": "744",
     "name": "암멍이",
+    "englishName": "Rockruff",
+    "number": "744",
     "baseStats": {
       "hp": 45,
       "attack": 65,
@@ -50156,6 +50732,7 @@
   {
     "number": "1330",
     "name": "암멍이(황혼)",
+    "englishName": "Rockruff-Own-Tempo",
     "baseStats": {
       "hp": 45,
       "attack": 65,
@@ -50232,6 +50809,7 @@
   {
     "number": "745",
     "name": "루가루암(한낮)",
+    "englishName": "Lycanroc-Midday",
     "baseStats": {
       "hp": 75,
       "attack": 115,
@@ -50321,6 +50899,7 @@
   {
     "number": "1331",
     "name": "루가루암(한밤)",
+    "englishName": "Lycanroc-Midnight",
     "baseStats": {
       "hp": 85,
       "attack": 115,
@@ -50420,6 +50999,7 @@
   {
     "number": "1332",
     "name": "루가루암(황혼)",
+    "englishName": "Lycanroc-Dusk",
     "baseStats": {
       "hp": 75,
       "attack": 117,
@@ -50512,8 +51092,9 @@
     ]
   },
   {
-    "number": "747",
     "name": "시마사리",
+    "englishName": "Mareanie",
+    "number": "747",
     "baseStats": {
       "hp": 50,
       "attack": 53,
@@ -50581,8 +51162,9 @@
     ]
   },
   {
-    "number": "748",
     "name": "더시마사리",
+    "englishName": "Toxapex",
+    "number": "748",
     "baseStats": {
       "hp": 50,
       "attack": 63,
@@ -50657,8 +51239,9 @@
     ]
   },
   {
-    "number": "749",
     "name": "머드나기",
+    "englishName": "Mudbray",
+    "number": "749",
     "baseStats": {
       "hp": 70,
       "attack": 100,
@@ -50728,8 +51311,9 @@
     ]
   },
   {
-    "number": "750",
     "name": "만마드",
+    "englishName": "Mudsdale",
+    "number": "750",
     "baseStats": {
       "hp": 100,
       "attack": 125,
@@ -50806,8 +51390,9 @@
     ]
   },
   {
-    "number": "751",
     "name": "물거미",
+    "englishName": "Dewpider",
+    "number": "751",
     "baseStats": {
       "hp": 38,
       "attack": 40,
@@ -50874,8 +51459,9 @@
     ]
   },
   {
-    "number": "752",
     "name": "깨비물거미",
+    "englishName": "Araquanid",
+    "number": "752",
     "baseStats": {
       "hp": 68,
       "attack": 70,
@@ -50948,8 +51534,9 @@
     ]
   },
   {
-    "number": "753",
     "name": "짜랑랑",
+    "englishName": "Fomantis",
+    "number": "753",
     "baseStats": {
       "hp": 40,
       "attack": 55,
@@ -51012,8 +51599,9 @@
     ]
   },
   {
-    "number": "754",
     "name": "라란티스",
+    "englishName": "Lurantis",
+    "number": "754",
     "baseStats": {
       "hp": 70,
       "attack": 105,
@@ -51089,8 +51677,9 @@
     ]
   },
   {
-    "number": "757",
     "name": "야도뇽",
+    "englishName": "Salandit",
+    "number": "757",
     "baseStats": {
       "hp": 48,
       "attack": 44,
@@ -51174,8 +51763,9 @@
     ]
   },
   {
-    "number": "758",
     "name": "염뉴트",
+    "englishName": "Salazzle",
+    "number": "758",
     "baseStats": {
       "hp": 68,
       "attack": 64,
@@ -51277,8 +51867,9 @@
     ]
   },
   {
-    "number": "761",
     "name": "달콤아",
+    "englishName": "Bounsweet",
+    "number": "761",
     "baseStats": {
       "hp": 42,
       "attack": 30,
@@ -51339,8 +51930,9 @@
     ]
   },
   {
-    "number": "762",
     "name": "달무리나",
+    "englishName": "Steenee",
+    "number": "762",
     "baseStats": {
       "hp": 52,
       "attack": 40,
@@ -51407,8 +51999,9 @@
     ]
   },
   {
-    "number": "763",
     "name": "달코퀸",
+    "englishName": "Tsareena",
+    "number": "763",
     "baseStats": {
       "hp": 72,
       "attack": 120,
@@ -51487,8 +52080,9 @@
     ]
   },
   {
-    "number": "764",
     "name": "큐아링",
+    "englishName": "Comfey",
+    "number": "764",
     "baseStats": {
       "hp": 51,
       "attack": 52,
@@ -51572,8 +52166,9 @@
     ]
   },
   {
-    "number": "765",
     "name": "하랑우탄",
+    "englishName": "Oranguru",
+    "number": "765",
     "baseStats": {
       "hp": 90,
       "attack": 60,
@@ -51664,8 +52259,9 @@
     ]
   },
   {
-    "number": "766",
     "name": "내던숭이",
+    "englishName": "Passimian",
+    "number": "766",
     "baseStats": {
       "hp": 100,
       "attack": 120,
@@ -51756,8 +52352,9 @@
     ]
   },
   {
-    "number": "769",
     "name": "모래꿍",
+    "englishName": "Sandygast",
+    "number": "769",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -51839,8 +52436,9 @@
     ]
   },
   {
-    "number": "770",
     "name": "모래성이당",
+    "englishName": "Palossand",
+    "number": "770",
     "baseStats": {
       "hp": 85,
       "attack": 75,
@@ -51925,8 +52523,9 @@
     ]
   },
   {
-    "number": "774",
     "name": "메테노",
+    "englishName": "Minior-Red-Meteor",
+    "number": "774",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -51997,8 +52596,9 @@
     ]
   },
   {
-    "number": "775",
     "name": "자말라",
+    "englishName": "Komala",
+    "number": "775",
     "baseStats": {
       "hp": 65,
       "attack": 115,
@@ -52079,8 +52679,9 @@
     ]
   },
   {
-    "number": "778",
     "name": "따라큐",
+    "englishName": "Mimikyu-Disguised",
+    "number": "778",
     "baseStats": {
       "hp": 55,
       "attack": 90,
@@ -52164,8 +52765,9 @@
     ]
   },
   {
-    "number": "779",
     "name": "치갈기",
+    "englishName": "Bruxish",
+    "number": "779",
     "baseStats": {
       "hp": 68,
       "attack": 105,
@@ -52242,8 +52844,9 @@
     ]
   },
   {
-    "number": "782",
     "name": "짜랑꼬",
+    "englishName": "Jangmo-o",
+    "number": "782",
     "baseStats": {
       "hp": 45,
       "attack": 55,
@@ -52316,8 +52919,9 @@
     ]
   },
   {
-    "number": "783",
     "name": "짜랑고우",
+    "englishName": "Hakamo-o",
+    "number": "783",
     "baseStats": {
       "hp": 55,
       "attack": 75,
@@ -52402,8 +53006,9 @@
     ]
   },
   {
-    "number": "784",
     "name": "짜랑고우거",
+    "englishName": "Kommo-o",
+    "number": "784",
     "baseStats": {
       "hp": 75,
       "attack": 110,
@@ -52511,8 +53116,9 @@
     ]
   },
   {
-    "number": "789",
     "name": "코스모그",
+    "englishName": "Cosmog",
+    "number": "789",
     "baseStats": {
       "hp": 43,
       "attack": 29,
@@ -52530,8 +53136,9 @@
     "machineSkills": []
   },
   {
-    "number": "790",
     "name": "코스모움",
+    "englishName": "Cosmoem",
+    "number": "790",
     "baseStats": {
       "hp": 43,
       "attack": 29,
@@ -52549,8 +53156,9 @@
     "machineSkills": []
   },
   {
-    "number": "791",
     "name": "솔가레오",
+    "englishName": "Solgaleo",
+    "number": "791",
     "baseStats": {
       "hp": 137,
       "attack": 137,
@@ -52645,8 +53253,9 @@
     ]
   },
   {
-    "number": "792",
     "name": "루나아라",
+    "englishName": "Lunala",
+    "number": "792",
     "baseStats": {
       "hp": 137,
       "attack": 113,
@@ -52730,8 +53339,9 @@
     ]
   },
   {
-    "number": "800",
     "name": "네크로즈마",
+    "englishName": "Necrozma",
+    "number": "800",
     "baseStats": {
       "hp": 97,
       "attack": 107,
@@ -52824,6 +53434,7 @@
   {
     "number": "1365",
     "name": "네크로즈마(황혼의갈기)",
+    "englishName": "Necrozma-Dusk",
     "baseStats": {
       "hp": 97,
       "attack": 157,
@@ -52916,6 +53527,7 @@
   {
     "number": "1366",
     "name": "네크로즈마(새벽의날개)",
+    "englishName": "Necrozma-Dawn",
     "baseStats": {
       "hp": 97,
       "attack": 113,
@@ -53006,8 +53618,9 @@
     ]
   },
   {
-    "number": "801",
     "name": "마기아나",
+    "englishName": "Magearna",
+    "number": "801",
     "baseStats": {
       "hp": 80,
       "attack": 95,
@@ -53105,8 +53718,9 @@
     ]
   },
   {
-    "number": "810",
     "name": "흥나숭",
+    "englishName": "Grookey",
+    "number": "810",
     "baseStats": {
       "hp": 50,
       "attack": 65,
@@ -53178,8 +53792,9 @@
     ]
   },
   {
-    "number": "811",
     "name": "채키몽",
+    "englishName": "Thwackey",
+    "number": "811",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -53254,8 +53869,9 @@
     ]
   },
   {
-    "number": "812",
     "name": "고릴타",
+    "englishName": "Rillaboom",
+    "number": "812",
     "baseStats": {
       "hp": 100,
       "attack": 125,
@@ -53351,8 +53967,9 @@
     ]
   },
   {
-    "number": "813",
     "name": "염버니",
+    "englishName": "Scorbunny",
+    "number": "813",
     "baseStats": {
       "hp": 50,
       "attack": 71,
@@ -53421,8 +54038,9 @@
     ]
   },
   {
-    "number": "814",
     "name": "래비풋",
+    "englishName": "Raboot",
+    "number": "814",
     "baseStats": {
       "hp": 65,
       "attack": 86,
@@ -53495,8 +54113,9 @@
     ]
   },
   {
-    "number": "815",
     "name": "에이스번",
+    "englishName": "Cinderace",
+    "number": "815",
     "baseStats": {
       "hp": 80,
       "attack": 116,
@@ -53587,8 +54206,9 @@
     ]
   },
   {
-    "number": "816",
     "name": "울머기",
+    "englishName": "Sobble",
+    "number": "816",
     "baseStats": {
       "hp": 50,
       "attack": 40,
@@ -53650,8 +54270,9 @@
     ]
   },
   {
-    "number": "817",
     "name": "누겔레온",
+    "englishName": "Drizzile",
+    "number": "817",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -53715,8 +54336,9 @@
     ]
   },
   {
-    "number": "818",
     "name": "인텔리레온",
+    "englishName": "Inteleon",
+    "number": "818",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -53807,8 +54429,9 @@
     ]
   },
   {
-    "number": "819",
     "name": "탐리스",
+    "englishName": "Skwovet",
+    "number": "819",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -53869,8 +54492,9 @@
     ]
   },
   {
-    "number": "820",
     "name": "요씽리스",
+    "englishName": "Greedent",
+    "number": "820",
     "baseStats": {
       "hp": 120,
       "attack": 95,
@@ -53948,8 +54572,9 @@
     ]
   },
   {
-    "number": "821",
     "name": "파라꼬",
+    "englishName": "Rookidee",
+    "number": "821",
     "baseStats": {
       "hp": 38,
       "attack": 47,
@@ -54011,8 +54636,9 @@
     ]
   },
   {
-    "number": "822",
     "name": "파크로우",
+    "englishName": "Corvisquire",
+    "number": "822",
     "baseStats": {
       "hp": 68,
       "attack": 67,
@@ -54076,8 +54702,9 @@
     ]
   },
   {
-    "number": "823",
     "name": "아머까오",
+    "englishName": "Corviknight",
+    "number": "823",
     "baseStats": {
       "hp": 98,
       "attack": 87,
@@ -54162,8 +54789,9 @@
     ]
   },
   {
-    "number": "833",
     "name": "깨물부기",
+    "englishName": "Chewtle",
+    "number": "833",
     "baseStats": {
       "hp": 50,
       "attack": 64,
@@ -54220,8 +54848,9 @@
     ]
   },
   {
-    "number": "834",
     "name": "갈가부기",
+    "englishName": "Drednaw",
+    "number": "834",
     "baseStats": {
       "hp": 90,
       "attack": 115,
@@ -54309,8 +54938,9 @@
     ]
   },
   {
-    "number": "837",
     "name": "탄동",
+    "englishName": "Rolycoly",
+    "number": "837",
     "baseStats": {
       "hp": 30,
       "attack": 40,
@@ -54373,8 +55003,9 @@
     ]
   },
   {
-    "number": "838",
     "name": "탄차곤",
+    "englishName": "Carkol",
+    "number": "838",
     "baseStats": {
       "hp": 80,
       "attack": 60,
@@ -54451,8 +55082,9 @@
     ]
   },
   {
-    "number": "839",
     "name": "석탄산",
+    "englishName": "Coalossal",
+    "number": "839",
     "baseStats": {
       "hp": 110,
       "attack": 80,
@@ -54537,8 +55169,9 @@
     ]
   },
   {
-    "number": "840",
     "name": "과사삭벌레",
+    "englishName": "Applin",
+    "number": "840",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -54565,8 +55198,9 @@
     ]
   },
   {
-    "number": "841",
     "name": "애프룡",
+    "englishName": "Flapple",
+    "number": "841",
     "baseStats": {
       "hp": 70,
       "attack": 110,
@@ -54644,8 +55278,9 @@
     ]
   },
   {
-    "number": "842",
     "name": "단지래플",
+    "englishName": "Appletun",
+    "number": "842",
     "baseStats": {
       "hp": 110,
       "attack": 85,
@@ -54729,8 +55364,9 @@
     ]
   },
   {
-    "number": "843",
     "name": "모래뱀",
+    "englishName": "Silicobra",
+    "number": "843",
     "baseStats": {
       "hp": 52,
       "attack": 57,
@@ -54794,8 +55430,9 @@
     ]
   },
   {
-    "number": "844",
     "name": "사다이사",
+    "englishName": "Sandaconda",
+    "number": "844",
     "baseStats": {
       "hp": 72,
       "attack": 107,
@@ -54871,8 +55508,9 @@
     ]
   },
   {
-    "number": "845",
     "name": "윽우지",
+    "englishName": "Cramorant",
+    "number": "845",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -54951,8 +55589,9 @@
     ]
   },
   {
-    "number": "846",
     "name": "찌로꼬치",
+    "englishName": "Arrokuda",
+    "number": "846",
     "baseStats": {
       "hp": 41,
       "attack": 63,
@@ -55013,8 +55652,9 @@
     ]
   },
   {
-    "number": "847",
     "name": "꼬치조",
+    "englishName": "Barraskewda",
+    "number": "847",
     "baseStats": {
       "hp": 61,
       "attack": 123,
@@ -55082,8 +55722,9 @@
     ]
   },
   {
-    "number": "848",
     "name": "일레즌",
+    "englishName": "Toxel",
+    "number": "848",
     "baseStats": {
       "hp": 40,
       "attack": 38,
@@ -55123,6 +55764,7 @@
   {
     "number": "849",
     "name": "스트린더(하이)",
+    "englishName": "Toxtricity-Amped",
     "baseStats": {
       "hp": 75,
       "attack": 98,
@@ -55220,6 +55862,7 @@
   {
     "number": "1371",
     "name": "스트린더(로우)",
+    "englishName": "Toxtricity-Low-Key",
     "baseStats": {
       "hp": 75,
       "attack": 98,
@@ -55319,8 +55962,9 @@
     ]
   },
   {
-    "number": "854",
     "name": "데인차",
+    "englishName": "Sinistea",
+    "number": "854",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -55383,8 +56027,9 @@
     ]
   },
   {
-    "number": "855",
     "name": "포트데스",
+    "englishName": "Polteageist",
+    "number": "855",
     "baseStats": {
       "hp": 60,
       "attack": 65,
@@ -55456,8 +56101,9 @@
     ]
   },
   {
-    "number": "856",
     "name": "몸지브림",
+    "englishName": "Hatenna",
+    "number": "856",
     "baseStats": {
       "hp": 42,
       "attack": 30,
@@ -55527,8 +56173,9 @@
     ]
   },
   {
-    "number": "857",
     "name": "손지브림",
+    "englishName": "Hattrem",
+    "number": "857",
     "baseStats": {
       "hp": 57,
       "attack": 40,
@@ -55599,8 +56246,9 @@
     ]
   },
   {
-    "number": "858",
     "name": "브리무음",
+    "englishName": "Hatterene",
+    "number": "858",
     "baseStats": {
       "hp": 57,
       "attack": 90,
@@ -55683,8 +56331,9 @@
     ]
   },
   {
-    "number": "859",
     "name": "메롱꿍",
+    "englishName": "Impidimp",
+    "number": "859",
     "baseStats": {
       "hp": 45,
       "attack": 45,
@@ -55750,8 +56399,9 @@
     ]
   },
   {
-    "number": "860",
     "name": "쏘겨모",
+    "englishName": "Morgrem",
+    "number": "860",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -55820,8 +56470,9 @@
     ]
   },
   {
-    "number": "861",
     "name": "오롱털",
+    "englishName": "Grimmsnarl",
+    "number": "861",
     "baseStats": {
       "hp": 95,
       "attack": 120,
@@ -55907,8 +56558,9 @@
     ]
   },
   {
-    "number": "863",
     "name": "나이킹",
+    "englishName": "Perrserker",
+    "number": "863",
     "baseStats": {
       "hp": 70,
       "attack": 110,
@@ -56009,8 +56661,9 @@
     ]
   },
   {
-    "number": "868",
     "name": "마빌크",
+    "englishName": "Milcery",
+    "number": "868",
     "baseStats": {
       "hp": 45,
       "attack": 40,
@@ -56056,8 +56709,9 @@
     ]
   },
   {
-    "number": "869",
     "name": "마휘핑",
+    "englishName": "Alcremie",
+    "number": "869",
     "baseStats": {
       "hp": 65,
       "attack": 60,
@@ -56127,8 +56781,9 @@
     ]
   },
   {
-    "number": "870",
     "name": "대여르",
+    "englishName": "Falinks",
+    "number": "870",
     "baseStats": {
       "hp": 65,
       "attack": 100,
@@ -56199,8 +56854,9 @@
     ]
   },
   {
-    "number": "871",
     "name": "찌르성게",
+    "englishName": "Pincurchin",
+    "number": "871",
     "baseStats": {
       "hp": 48,
       "attack": 101,
@@ -56273,8 +56929,9 @@
     ]
   },
   {
-    "number": "872",
     "name": "누니머기",
+    "englishName": "Snom",
+    "number": "872",
     "baseStats": {
       "hp": 30,
       "attack": 25,
@@ -56312,8 +56969,9 @@
     ]
   },
   {
-    "number": "873",
     "name": "모스노우",
+    "englishName": "Frosmoth",
+    "number": "873",
     "baseStats": {
       "hp": 70,
       "attack": 65,
@@ -56394,8 +57052,9 @@
     ]
   },
   {
-    "number": "874",
     "name": "돌헨진",
+    "englishName": "Stonjourner",
+    "number": "874",
     "baseStats": {
       "hp": 100,
       "attack": 125,
@@ -56468,8 +57127,9 @@
     ]
   },
   {
-    "number": "875",
     "name": "빙큐보",
+    "englishName": "Eiscue-Ice",
+    "number": "875",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -56546,6 +57206,7 @@
   {
     "number": "1382",
     "name": "빙큐보(나이스페이스)",
+    "englishName": "Eiscue-Noice",
     "baseStats": {
       "hp": 75,
       "attack": 80,
@@ -56620,8 +57281,9 @@
     ]
   },
   {
-    "number": "876",
     "name": "에써르",
+    "englishName": "Indeedee-Male",
+    "number": "876",
     "baseStats": {
       "hp": 60,
       "attack": 65,
@@ -56695,6 +57357,7 @@
   {
     "number": "1383",
     "name": "에써르(암컷)",
+    "englishName": "Indeedee-Female",
     "baseStats": {
       "hp": 70,
       "attack": 55,
@@ -56766,8 +57429,9 @@
     ]
   },
   {
-    "number": "877",
     "name": "모르페코",
+    "englishName": "Morpeko-Full-Belly",
+    "number": "877",
     "baseStats": {
       "hp": 58,
       "attack": 95,
@@ -56858,8 +57522,9 @@
     ]
   },
   {
-    "number": "878",
     "name": "끼리동",
+    "englishName": "Cufant",
+    "number": "878",
     "baseStats": {
       "hp": 72,
       "attack": 80,
@@ -56934,8 +57599,9 @@
     ]
   },
   {
-    "number": "879",
     "name": "대왕끼리동",
+    "englishName": "Copperajah",
+    "number": "879",
     "baseStats": {
       "hp": 122,
       "attack": 130,
@@ -57021,8 +57687,9 @@
     ]
   },
   {
-    "number": "884",
     "name": "두랄루돈",
+    "englishName": "Duraludon",
+    "number": "884",
     "baseStats": {
       "hp": 70,
       "attack": 95,
@@ -57102,8 +57769,9 @@
     ]
   },
   {
-    "number": "885",
     "name": "드라꼰",
+    "englishName": "Dreepy",
+    "number": "885",
     "baseStats": {
       "hp": 28,
       "attack": 60,
@@ -57147,8 +57815,9 @@
     ]
   },
   {
-    "number": "886",
     "name": "드래런치",
+    "englishName": "Drakloak",
+    "number": "886",
     "baseStats": {
       "hp": 68,
       "attack": 80,
@@ -57232,8 +57901,9 @@
     ]
   },
   {
-    "number": "887",
     "name": "드래펄트",
+    "englishName": "Dragapult",
+    "number": "887",
     "baseStats": {
       "hp": 88,
       "attack": 120,
@@ -57324,8 +57994,9 @@
     ]
   },
   {
-    "number": "888",
     "name": "자시안",
+    "englishName": "Zacian",
+    "number": "888",
     "baseStats": {
       "hp": 92,
       "attack": 120,
@@ -57401,6 +58072,7 @@
   {
     "number": "1385",
     "name": "자시안(검왕)",
+    "englishName": "Zacian-Crowned",
     "baseStats": {
       "hp": 92,
       "attack": 150,
@@ -57474,8 +58146,9 @@
     ]
   },
   {
-    "number": "889",
     "name": "자마젠타",
+    "englishName": "Zamazenta",
+    "number": "889",
     "baseStats": {
       "hp": 92,
       "attack": 120,
@@ -57555,6 +58228,7 @@
   {
     "number": "1386",
     "name": "자마젠타(방패왕)",
+    "englishName": "Zamazenta-Crowned",
     "baseStats": {
       "hp": 92,
       "attack": 120,
@@ -57632,8 +58306,9 @@
     ]
   },
   {
-    "number": "890",
     "name": "무한다이노",
+    "englishName": "Eternatus",
+    "number": "890",
     "baseStats": {
       "hp": 140,
       "attack": 85,
@@ -57705,8 +58380,9 @@
     ]
   },
   {
-    "number": "891",
     "name": "치고마",
+    "englishName": "Kubfu",
+    "number": "891",
     "baseStats": {
       "hp": 60,
       "attack": 90,
@@ -57771,6 +58447,7 @@
   {
     "number": "892",
     "name": "우라오스(일격)",
+    "englishName": "Urshifu-Single-Strike",
     "baseStats": {
       "hp": 100,
       "attack": 130,
@@ -57859,6 +58536,7 @@
   {
     "number": "1388",
     "name": "우라오스(연격)",
+    "englishName": "Urshifu-Rapid-Strike",
     "baseStats": {
       "hp": 100,
       "attack": 130,
@@ -57943,8 +58621,9 @@
     ]
   },
   {
-    "number": "893",
     "name": "자루도",
+    "englishName": "Zarude",
+    "number": "893",
     "baseStats": {
       "hp": 105,
       "attack": 120,
@@ -58036,8 +58715,9 @@
     ]
   },
   {
-    "number": "894",
     "name": "레지에레키",
+    "englishName": "Regieleki",
+    "number": "894",
     "baseStats": {
       "hp": 80,
       "attack": 100,
@@ -58098,8 +58778,9 @@
     ]
   },
   {
-    "number": "895",
     "name": "레지드래고",
+    "englishName": "Regidrago",
+    "number": "895",
     "baseStats": {
       "hp": 200,
       "attack": 100,
@@ -58159,8 +58840,9 @@
     ]
   },
   {
-    "number": "896",
     "name": "블리자포스",
+    "englishName": "Glastrier",
+    "number": "896",
     "baseStats": {
       "hp": 100,
       "attack": 145,
@@ -58229,8 +58911,9 @@
     ]
   },
   {
-    "number": "897",
     "name": "레이스포스",
+    "englishName": "Spectrier",
+    "number": "897",
     "baseStats": {
       "hp": 100,
       "attack": 65,
@@ -58299,8 +58982,9 @@
     ]
   },
   {
-    "number": "898",
     "name": "버드렉스",
+    "englishName": "Calyrex",
+    "number": "898",
     "baseStats": {
       "hp": 100,
       "attack": 80,
@@ -58385,6 +59069,7 @@
   {
     "number": "1390",
     "name": "버드렉스(백마 탄 모습)",
+    "englishName": "Calyrex-Ice",
     "baseStats": {
       "hp": 100,
       "attack": 165,
@@ -58508,6 +59193,7 @@
   {
     "number": "1391",
     "name": "버드렉스(흑마 탄 모습)",
+    "englishName": "Calyrex-Shadow",
     "baseStats": {
       "hp": 100,
       "attack": 85,
@@ -58623,8 +59309,9 @@
     ]
   },
   {
-    "number": "899",
     "name": "신비록",
+    "englishName": "Wyrdeer",
+    "number": "899",
     "baseStats": {
       "hp": 103,
       "attack": 105,
@@ -58723,8 +59410,9 @@
     ]
   },
   {
-    "number": "900",
     "name": "사마자르",
+    "englishName": "Kleavor",
+    "number": "900",
     "baseStats": {
       "hp": 70,
       "attack": 135,
@@ -58810,8 +59498,9 @@
     ]
   },
   {
-    "number": "901",
     "name": "다투곰",
+    "englishName": "Ursaluna",
+    "number": "901",
     "baseStats": {
       "hp": 130,
       "attack": 140,
@@ -58923,6 +59612,7 @@
   {
     "number": "1392",
     "name": "다투곰(붉은달)",
+    "englishName": "Ursaluna-Bloodmoon",
     "baseStats": {
       "hp": 113,
       "attack": 70,
@@ -59027,8 +59717,9 @@
     ]
   },
   {
-    "number": "902",
     "name": "대쓰여너",
+    "englishName": "Basculegion-Male",
+    "number": "902",
     "baseStats": {
       "hp": 120,
       "attack": 112,
@@ -59113,6 +59804,7 @@
   {
     "number": "1393",
     "name": "대쓰여너(암컷)",
+    "englishName": "Basculegion-Female",
     "baseStats": {
       "hp": 120,
       "attack": 92,
@@ -59195,8 +59887,9 @@
     ]
   },
   {
-    "number": "903",
     "name": "포푸니크",
+    "englishName": "Sneasler",
+    "number": "903",
     "baseStats": {
       "hp": 80,
       "attack": 130,
@@ -59294,8 +59987,9 @@
     ]
   },
   {
-    "number": "904",
     "name": "장침바루",
+    "englishName": "Overqwil",
+    "number": "904",
     "baseStats": {
       "hp": 85,
       "attack": 115,
@@ -59392,8 +60086,9 @@
     ]
   },
   {
-    "number": "905",
     "name": "러브로스",
+    "englishName": "Enamorus-Incarnate",
+    "number": "905",
     "baseStats": {
       "hp": 74,
       "attack": 115,
@@ -59469,6 +60164,7 @@
   {
     "number": "1394",
     "name": "러브로스(영물)",
+    "englishName": "Enamorus-Therian",
     "baseStats": {
       "hp": 74,
       "attack": 115,
@@ -59542,8 +60238,9 @@
     ]
   },
   {
-    "number": "906",
     "name": "나오하",
+    "englishName": "Sprigatito",
+    "number": "906",
     "baseStats": {
       "hp": 40,
       "attack": 61,
@@ -59614,8 +60311,9 @@
     ]
   },
   {
-    "number": "907",
     "name": "나로테",
+    "englishName": "Floragato",
+    "number": "907",
     "baseStats": {
       "hp": 61,
       "attack": 80,
@@ -59692,8 +60390,9 @@
     ]
   },
   {
-    "number": "908",
     "name": "마스카나",
+    "englishName": "Meowscarada",
+    "number": "908",
     "baseStats": {
       "hp": 76,
       "attack": 110,
@@ -59800,8 +60499,9 @@
     ]
   },
   {
-    "number": "909",
     "name": "뜨아거",
+    "englishName": "Fuecoco",
+    "number": "909",
     "baseStats": {
       "hp": 67,
       "attack": 45,
@@ -59872,8 +60572,9 @@
     ]
   },
   {
-    "number": "910",
     "name": "악뜨거",
+    "englishName": "Crocalor",
+    "number": "910",
     "baseStats": {
       "hp": 81,
       "attack": 55,
@@ -59946,8 +60647,9 @@
     ]
   },
   {
-    "number": "911",
     "name": "라우드본",
+    "englishName": "Skeledirge",
+    "number": "911",
     "baseStats": {
       "hp": 104,
       "attack": 75,
@@ -60044,8 +60746,9 @@
     ]
   },
   {
-    "number": "912",
     "name": "꾸왁스",
+    "englishName": "Quaxly",
+    "number": "912",
     "baseStats": {
       "hp": 55,
       "attack": 65,
@@ -60108,8 +60811,9 @@
     ]
   },
   {
-    "number": "913",
     "name": "아꾸왁",
+    "englishName": "Quaxwell",
+    "number": "913",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -60180,8 +60884,9 @@
     ]
   },
   {
-    "number": "914",
     "name": "웨이니발",
+    "englishName": "Quaquaval",
+    "number": "914",
     "baseStats": {
       "hp": 85,
       "attack": 120,
@@ -60278,8 +60983,9 @@
     ]
   },
   {
-    "number": "915",
     "name": "맛보돈",
+    "englishName": "Lechonk",
+    "number": "915",
     "baseStats": {
       "hp": 54,
       "attack": 45,
@@ -60347,8 +61053,9 @@
     ]
   },
   {
-    "number": "916",
     "name": "퍼퓨돈",
+    "englishName": "Oinkologne",
+    "number": "916",
     "baseStats": {
       "hp": 110,
       "attack": 100,
@@ -60428,6 +61135,7 @@
   {
     "number": "1395",
     "name": "퍼퓨돈(암컷)",
+    "englishName": "Oinkologne-Female",
     "baseStats": {
       "hp": 115,
       "attack": 90,
@@ -60505,8 +61213,9 @@
     ]
   },
   {
-    "number": "917",
     "name": "타랜툴라",
+    "englishName": "Tarountula",
+    "number": "917",
     "baseStats": {
       "hp": 35,
       "attack": 41,
@@ -60574,8 +61283,9 @@
     ]
   },
   {
-    "number": "918",
     "name": "트래피더",
+    "englishName": "Spidops",
+    "number": "918",
     "baseStats": {
       "hp": 60,
       "attack": 79,
@@ -60657,8 +61367,9 @@
     ]
   },
   {
-    "number": "919",
     "name": "콩알뚜기",
+    "englishName": "Nymble",
+    "number": "919",
     "baseStats": {
       "hp": 33,
       "attack": 46,
@@ -60713,8 +61424,9 @@
     ]
   },
   {
-    "number": "920",
     "name": "엑스레그",
+    "englishName": "Lokix",
+    "number": "920",
     "baseStats": {
       "hp": 71,
       "attack": 102,
@@ -60792,8 +61504,9 @@
     ]
   },
   {
-    "number": "921",
     "name": "빠모",
+    "englishName": "Pawmi",
+    "number": "921",
     "baseStats": {
       "hp": 45,
       "attack": 50,
@@ -60866,8 +61579,9 @@
     ]
   },
   {
-    "number": "922",
     "name": "빠모트",
+    "englishName": "Pawmo",
+    "number": "922",
     "baseStats": {
       "hp": 60,
       "attack": 75,
@@ -60948,8 +61662,9 @@
     ]
   },
   {
-    "number": "923",
     "name": "빠르모트",
+    "englishName": "Pawmot",
+    "number": "923",
     "baseStats": {
       "hp": 70,
       "attack": 115,
@@ -61049,8 +61764,9 @@
     ]
   },
   {
-    "number": "924",
     "name": "두리쥐",
+    "englishName": "Tandemaus",
+    "number": "924",
     "baseStats": {
       "hp": 50,
       "attack": 50,
@@ -61126,8 +61842,9 @@
     ]
   },
   {
-    "number": "925",
     "name": "파밀리쥐",
+    "englishName": "Maushold",
+    "number": "925",
     "baseStats": {
       "hp": 74,
       "attack": 75,
@@ -61209,8 +61926,9 @@
     ]
   },
   {
-    "number": "926",
     "name": "쫀도기",
+    "englishName": "Fidough",
+    "number": "926",
     "baseStats": {
       "hp": 37,
       "attack": 55,
@@ -61283,8 +62001,9 @@
     ]
   },
   {
-    "number": "927",
     "name": "바우첼",
+    "englishName": "Dachsbun",
+    "number": "927",
     "baseStats": {
       "hp": 57,
       "attack": 80,
@@ -61362,8 +62081,9 @@
     ]
   },
   {
-    "number": "928",
     "name": "미니브",
+    "englishName": "Smoliv",
+    "number": "928",
     "baseStats": {
       "hp": 41,
       "attack": 35,
@@ -61423,8 +62143,9 @@
     ]
   },
   {
-    "number": "929",
     "name": "올리뇨",
+    "englishName": "Dolliv",
+    "number": "929",
     "baseStats": {
       "hp": 52,
       "attack": 53,
@@ -61484,8 +62205,9 @@
     ]
   },
   {
-    "number": "930",
     "name": "올리르바",
+    "englishName": "Arboliva",
+    "number": "930",
     "baseStats": {
       "hp": 78,
       "attack": 69,
@@ -61564,6 +62286,7 @@
   {
     "number": "931",
     "name": "시비꼬(그린 페더)",
+    "englishName": "Squawkabilly",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -61639,6 +62362,7 @@
   {
     "number": "1397",
     "name": "시비꼬(블루 페더)",
+    "englishName": "Squawkabilly-Blue-Plumage",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -61714,6 +62438,7 @@
   {
     "number": "1398",
     "name": "시비꼬(옐로 페더)",
+    "englishName": "Squawkabilly-Yellow-Plumage",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -61789,6 +62514,7 @@
   {
     "number": "1399",
     "name": "시비꼬(화이트 페더)",
+    "englishName": "Squawkabilly-White-Plumage",
     "baseStats": {
       "hp": 82,
       "attack": 96,
@@ -61862,8 +62588,9 @@
     ]
   },
   {
-    "number": "932",
     "name": "베베솔트",
+    "englishName": "Nacli",
+    "number": "932",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -61931,8 +62658,9 @@
     ]
   },
   {
-    "number": "933",
     "name": "스태솔트",
+    "englishName": "Naclstack",
+    "number": "933",
     "baseStats": {
       "hp": 60,
       "attack": 60,
@@ -62005,8 +62733,9 @@
     ]
   },
   {
-    "number": "934",
     "name": "콜로솔트",
+    "englishName": "Garganacl",
+    "number": "934",
     "baseStats": {
       "hp": 100,
       "attack": 100,
@@ -62094,8 +62823,9 @@
     ]
   },
   {
-    "number": "935",
     "name": "카르본",
+    "englishName": "Charcadet",
+    "number": "935",
     "baseStats": {
       "hp": 40,
       "attack": 50,
@@ -62148,8 +62878,9 @@
     ]
   },
   {
-    "number": "936",
     "name": "카디나르마",
+    "englishName": "Armarouge",
+    "number": "936",
     "baseStats": {
       "hp": 85,
       "attack": 60,
@@ -62237,8 +62968,9 @@
     ]
   },
   {
-    "number": "937",
     "name": "파라블레이즈",
+    "englishName": "Ceruledge",
+    "number": "937",
     "baseStats": {
       "hp": 75,
       "attack": 125,
@@ -62328,8 +63060,9 @@
     ]
   },
   {
-    "number": "938",
     "name": "빈나두",
+    "englishName": "Tadbulb",
+    "number": "938",
     "baseStats": {
       "hp": 61,
       "attack": 31,
@@ -62394,8 +63127,9 @@
     ]
   },
   {
-    "number": "939",
     "name": "찌리배리",
+    "englishName": "Bellibolt",
+    "number": "939",
     "baseStats": {
       "hp": 109,
       "attack": 64,
@@ -62465,8 +63199,9 @@
     ]
   },
   {
-    "number": "940",
     "name": "찌리비",
+    "englishName": "Wattrel",
+    "number": "940",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -62538,8 +63273,9 @@
     ]
   },
   {
-    "number": "941",
     "name": "찌리비크",
+    "englishName": "Kilowattrel",
+    "number": "941",
     "baseStats": {
       "hp": 70,
       "attack": 70,
@@ -62617,8 +63353,9 @@
     ]
   },
   {
-    "number": "942",
     "name": "오라티프",
+    "englishName": "Maschiff",
+    "number": "942",
     "baseStats": {
       "hp": 60,
       "attack": 78,
@@ -62688,8 +63425,9 @@
     ]
   },
   {
-    "number": "943",
     "name": "마피티프",
+    "englishName": "Mabosstiff",
+    "number": "943",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -62769,8 +63507,9 @@
     ]
   },
   {
-    "number": "944",
     "name": "땃쭈르",
+    "englishName": "Shroodle",
+    "number": "944",
     "baseStats": {
       "hp": 40,
       "attack": 65,
@@ -62851,8 +63590,9 @@
     ]
   },
   {
-    "number": "945",
     "name": "태깅구르",
+    "englishName": "Grafaiai",
+    "number": "945",
     "baseStats": {
       "hp": 63,
       "attack": 95,
@@ -62940,8 +63680,9 @@
     ]
   },
   {
-    "number": "946",
     "name": "그푸리",
+    "englishName": "Bramblin",
+    "number": "946",
     "baseStats": {
       "hp": 40,
       "attack": 65,
@@ -63010,8 +63751,9 @@
     ]
   },
   {
-    "number": "947",
     "name": "공푸리",
+    "englishName": "Brambleghast",
+    "number": "947",
     "baseStats": {
       "hp": 55,
       "attack": 115,
@@ -63083,8 +63825,9 @@
     ]
   },
   {
-    "number": "948",
     "name": "들눈해",
+    "englishName": "Toedscool",
+    "number": "948",
     "baseStats": {
       "hp": 40,
       "attack": 40,
@@ -63169,8 +63912,9 @@
     ]
   },
   {
-    "number": "949",
     "name": "육파리",
+    "englishName": "Toedscruel",
+    "number": "949",
     "baseStats": {
       "hp": 80,
       "attack": 70,
@@ -63259,8 +64003,9 @@
     ]
   },
   {
-    "number": "950",
     "name": "절벼게",
+    "englishName": "Klawf",
+    "number": "950",
     "baseStats": {
       "hp": 70,
       "attack": 100,
@@ -63344,8 +64089,9 @@
     ]
   },
   {
-    "number": "951",
     "name": "캡싸이",
+    "englishName": "Capsakid",
+    "number": "951",
     "baseStats": {
       "hp": 50,
       "attack": 62,
@@ -63409,8 +64155,9 @@
     ]
   },
   {
-    "number": "952",
     "name": "스코빌런",
+    "englishName": "Scovillain",
+    "number": "952",
     "baseStats": {
       "hp": 65,
       "attack": 108,
@@ -63490,8 +64237,9 @@
     ]
   },
   {
-    "number": "953",
     "name": "구르데",
+    "englishName": "Rellor",
+    "number": "953",
     "baseStats": {
       "hp": 41,
       "attack": 50,
@@ -63550,8 +64298,9 @@
     ]
   },
   {
-    "number": "954",
     "name": "베라카스",
+    "englishName": "Rabsca",
+    "number": "954",
     "baseStats": {
       "hp": 75,
       "attack": 50,
@@ -63652,8 +64401,9 @@
     ]
   },
   {
-    "number": "955",
     "name": "하느라기",
+    "englishName": "Flittle",
+    "number": "955",
     "baseStats": {
       "hp": 30,
       "attack": 35,
@@ -63721,8 +64471,9 @@
     ]
   },
   {
-    "number": "956",
     "name": "클레스퍼트라",
+    "englishName": "Espathra",
+    "number": "956",
     "baseStats": {
       "hp": 95,
       "attack": 60,
@@ -63813,8 +64564,9 @@
     ]
   },
   {
-    "number": "957",
     "name": "어리짱",
+    "englishName": "Tinkatink",
+    "number": "957",
     "baseStats": {
       "hp": 50,
       "attack": 45,
@@ -63885,8 +64637,9 @@
     ]
   },
   {
-    "number": "958",
     "name": "벼리짱",
+    "englishName": "Tinkatuff",
+    "number": "958",
     "baseStats": {
       "hp": 65,
       "attack": 55,
@@ -63958,8 +64711,9 @@
     ]
   },
   {
-    "number": "959",
     "name": "두드리짱",
+    "englishName": "Tinkaton",
+    "number": "959",
     "baseStats": {
       "hp": 85,
       "attack": 75,
@@ -64036,8 +64790,9 @@
     ]
   },
   {
-    "number": "960",
     "name": "바다그다",
+    "englishName": "Wiglett",
+    "number": "960",
     "baseStats": {
       "hp": 10,
       "attack": 55,
@@ -64100,8 +64855,9 @@
     ]
   },
   {
-    "number": "961",
     "name": "바닥트리오",
+    "englishName": "Wugtrio",
+    "number": "961",
     "baseStats": {
       "hp": 35,
       "attack": 100,
@@ -64168,8 +64924,9 @@
     ]
   },
   {
-    "number": "962",
     "name": "떨구새",
+    "englishName": "Bombirdier",
+    "number": "962",
     "baseStats": {
       "hp": 70,
       "attack": 103,
@@ -64255,8 +65012,9 @@
     ]
   },
   {
-    "number": "963",
     "name": "맨돌핀",
+    "englishName": "Finizen",
+    "number": "963",
     "baseStats": {
       "hp": 70,
       "attack": 45,
@@ -64324,8 +65082,9 @@
     ]
   },
   {
-    "number": "964",
     "name": "돌핀맨",
+    "englishName": "Palafin",
+    "number": "964",
     "baseStats": {
       "hp": 100,
       "attack": 70,
@@ -64419,6 +65178,7 @@
   {
     "number": "1400",
     "name": "돌핀맨(마이티)",
+    "englishName": "Palafin-Hero",
     "baseStats": {
       "hp": 100,
       "attack": 160,
@@ -64510,8 +65270,9 @@
     ]
   },
   {
-    "number": "965",
     "name": "부르롱",
+    "englishName": "Varoom",
+    "number": "965",
     "baseStats": {
       "hp": 45,
       "attack": 70,
@@ -64585,8 +65346,9 @@
     ]
   },
   {
-    "number": "966",
     "name": "부르르룸",
+    "englishName": "Revavroom",
+    "number": "966",
     "baseStats": {
       "hp": 80,
       "attack": 119,
@@ -64671,8 +65433,9 @@
     ]
   },
   {
-    "number": "967",
     "name": "모토마",
+    "englishName": "Cyclizar",
+    "number": "967",
     "baseStats": {
       "hp": 70,
       "attack": 95,
@@ -64754,8 +65517,9 @@
     ]
   },
   {
-    "number": "968",
     "name": "꿈트렁",
+    "englishName": "Orthworm",
+    "number": "968",
     "baseStats": {
       "hp": 70,
       "attack": 85,
@@ -64828,8 +65592,9 @@
     ]
   },
   {
-    "number": "969",
     "name": "초롱순",
+    "englishName": "Glimmet",
+    "number": "969",
     "baseStats": {
       "hp": 48,
       "attack": 35,
@@ -64898,8 +65663,9 @@
     ]
   },
   {
-    "number": "970",
     "name": "킬라플로르",
+    "englishName": "Glimmora",
+    "number": "970",
     "baseStats": {
       "hp": 83,
       "attack": 55,
@@ -64977,8 +65743,9 @@
     ]
   },
   {
-    "number": "971",
     "name": "망망이",
+    "englishName": "Greavard",
+    "number": "971",
     "baseStats": {
       "hp": 50,
       "attack": 61,
@@ -65058,8 +65825,9 @@
     ]
   },
   {
-    "number": "972",
     "name": "묘두기",
+    "englishName": "Houndstone",
+    "number": "972",
     "baseStats": {
       "hp": 72,
       "attack": 101,
@@ -65144,8 +65912,9 @@
     ]
   },
   {
-    "number": "973",
     "name": "꼬이밍고",
+    "englishName": "Flamigo",
+    "number": "973",
     "baseStats": {
       "hp": 82,
       "attack": 115,
@@ -65222,8 +65991,9 @@
     ]
   },
   {
-    "number": "974",
     "name": "터벅고래",
+    "englishName": "Cetoddle",
+    "number": "974",
     "baseStats": {
       "hp": 108,
       "attack": 68,
@@ -65298,8 +66068,9 @@
     ]
   },
   {
-    "number": "975",
     "name": "우락고래",
+    "englishName": "Cetitan",
+    "number": "975",
     "baseStats": {
       "hp": 170,
       "attack": 113,
@@ -65377,8 +66148,9 @@
     ]
   },
   {
-    "number": "976",
     "name": "가비루사",
+    "englishName": "Veluza",
+    "number": "976",
     "baseStats": {
       "hp": 90,
       "attack": 102,
@@ -65448,8 +66220,9 @@
     ]
   },
   {
-    "number": "977",
     "name": "어써러셔",
+    "englishName": "Dondozo",
+    "number": "977",
     "baseStats": {
       "hp": 150,
       "attack": 100,
@@ -65521,8 +66294,9 @@
     ]
   },
   {
-    "number": "978",
     "name": "싸리용",
+    "englishName": "Tatsugiri",
+    "number": "978",
     "baseStats": {
       "hp": 68,
       "attack": 50,
@@ -65584,8 +66358,9 @@
     ]
   },
   {
-    "number": "979",
     "name": "저승갓숭",
+    "englishName": "Annihilape",
+    "number": "979",
     "baseStats": {
       "hp": 110,
       "attack": 115,
@@ -65693,8 +66468,9 @@
     ]
   },
   {
-    "number": "980",
     "name": "토오",
+    "englishName": "Clodsire",
+    "number": "980",
     "baseStats": {
       "hp": 130,
       "attack": 75,
@@ -65791,8 +66567,9 @@
     ]
   },
   {
-    "number": "981",
     "name": "키키링",
+    "englishName": "Farigiraf",
+    "number": "981",
     "baseStats": {
       "hp": 120,
       "attack": 90,
@@ -65900,8 +66677,9 @@
     ]
   },
   {
-    "number": "982",
     "name": "노고고치",
+    "englishName": "Dudunsparce",
+    "number": "982",
     "baseStats": {
       "hp": 125,
       "attack": 100,
@@ -66017,8 +66795,9 @@
     ]
   },
   {
-    "number": "983",
     "name": "대도각참",
+    "englishName": "Kingambit",
+    "number": "983",
     "baseStats": {
       "hp": 100,
       "attack": 135,
@@ -66105,8 +66884,9 @@
     ]
   },
   {
-    "number": "984",
     "name": "위대한엄니",
+    "englishName": "Great-Tusk",
+    "number": "984",
     "baseStats": {
       "hp": 115,
       "attack": 131,
@@ -66191,8 +66971,9 @@
     ]
   },
   {
-    "number": "985",
     "name": "우렁찬꼬리",
+    "englishName": "Scream-Tail",
+    "number": "985",
     "baseStats": {
       "hp": 115,
       "attack": 65,
@@ -66299,8 +67080,9 @@
     ]
   },
   {
-    "number": "986",
     "name": "사나운버섯",
+    "englishName": "Brute-Bonnet",
+    "number": "986",
     "baseStats": {
       "hp": 111,
       "attack": 127,
@@ -66373,8 +67155,9 @@
     ]
   },
   {
-    "number": "987",
     "name": "날개치는머리",
+    "englishName": "Flutter-Mane",
+    "number": "987",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -66454,6 +67237,7 @@
   {
     "number": "987",
     "name": "날치머",
+    "englishName": "Flutter-Mane",
     "baseStats": {
       "hp": 55,
       "attack": 55,
@@ -66531,8 +67315,9 @@
     ]
   },
   {
-    "number": "988",
     "name": "땅을기는날개",
+    "englishName": "Slither-Wing",
+    "number": "988",
     "baseStats": {
       "hp": 85,
       "attack": 135,
@@ -66616,8 +67401,9 @@
     ]
   },
   {
-    "number": "989",
     "name": "모래털가죽",
+    "englishName": "Sandy-Shocks",
+    "number": "989",
     "baseStats": {
       "hp": 85,
       "attack": 81,
@@ -66699,8 +67485,9 @@
     ]
   },
   {
-    "number": "990",
     "name": "무쇠바퀴",
+    "englishName": "Iron-Treads",
+    "number": "990",
     "baseStats": {
       "hp": 90,
       "attack": 112,
@@ -66779,8 +67566,9 @@
     ]
   },
   {
-    "number": "991",
     "name": "무쇠보따리",
+    "englishName": "Iron-Bundle",
+    "number": "991",
     "baseStats": {
       "hp": 56,
       "attack": 80,
@@ -66850,8 +67638,9 @@
     ]
   },
   {
-    "number": "992",
     "name": "무쇠손",
+    "englishName": "Iron-Hands",
+    "number": "992",
     "baseStats": {
       "hp": 154,
       "attack": 140,
@@ -66933,8 +67722,9 @@
     ]
   },
   {
-    "number": "993",
     "name": "무쇠머리",
+    "englishName": "Iron-Jugulis",
+    "number": "993",
     "baseStats": {
       "hp": 94,
       "attack": 80,
@@ -67019,8 +67809,9 @@
     ]
   },
   {
-    "number": "994",
     "name": "무쇠독나방",
+    "englishName": "Iron-Moth",
+    "number": "994",
     "baseStats": {
       "hp": 80,
       "attack": 70,
@@ -67102,8 +67893,9 @@
     ]
   },
   {
-    "number": "995",
     "name": "무쇠가시",
+    "englishName": "Iron-Thorns",
+    "number": "995",
     "baseStats": {
       "hp": 100,
       "attack": 134,
@@ -67212,8 +68004,9 @@
     ]
   },
   {
-    "number": "996",
     "name": "드니차",
+    "englishName": "Frigibax",
+    "number": "996",
     "baseStats": {
       "hp": 65,
       "attack": 75,
@@ -67275,8 +68068,9 @@
     ]
   },
   {
-    "number": "997",
     "name": "드니꽁",
+    "englishName": "Arctibax",
+    "number": "997",
     "baseStats": {
       "hp": 90,
       "attack": 95,
@@ -67341,8 +68135,9 @@
     ]
   },
   {
-    "number": "998",
     "name": "드닐레이브",
+    "englishName": "Baxcalibur",
+    "number": "998",
     "baseStats": {
       "hp": 115,
       "attack": 145,
@@ -67427,8 +68222,9 @@
     ]
   },
   {
-    "number": "999",
     "name": "모으령",
+    "englishName": "Gimmighoul",
+    "number": "999",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -67465,6 +68261,7 @@
   {
     "number": "1404",
     "name": "모으령(도보)",
+    "englishName": "Gimmighoul-Roaming",
     "baseStats": {
       "hp": 45,
       "attack": 30,
@@ -67499,8 +68296,9 @@
     ]
   },
   {
-    "number": "1000",
     "name": "타부자고",
+    "englishName": "Gholdengo",
+    "number": "1000",
     "baseStats": {
       "hp": 87,
       "attack": 60,
@@ -67569,8 +68367,9 @@
     ]
   },
   {
-    "number": "1001",
     "name": "총지엔",
+    "englishName": "Wo-Chien",
+    "number": "1001",
     "baseStats": {
       "hp": 85,
       "attack": 85,
@@ -67646,8 +68445,9 @@
     ]
   },
   {
-    "number": "1002",
     "name": "파오젠",
+    "englishName": "Chien-Pao",
+    "number": "1002",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -67716,8 +68516,9 @@
     ]
   },
   {
-    "number": "1003",
     "name": "딩루",
+    "englishName": "Ting-Lu",
+    "number": "1003",
     "baseStats": {
       "hp": 155,
       "attack": 110,
@@ -67790,8 +68591,9 @@
     ]
   },
   {
-    "number": "1004",
     "name": "위유이",
+    "englishName": "Chi-Yu",
+    "number": "1004",
     "baseStats": {
       "hp": 55,
       "attack": 80,
@@ -67861,8 +68663,9 @@
     ]
   },
   {
-    "number": "1005",
     "name": "고동치는달",
+    "englishName": "Roaring-Moon",
+    "number": "1005",
     "baseStats": {
       "hp": 105,
       "attack": 139,
@@ -67960,8 +68763,9 @@
     ]
   },
   {
-    "number": "1006",
     "name": "무쇠무인",
+    "englishName": "Iron-Valiant",
+    "number": "1006",
     "baseStats": {
       "hp": 74,
       "attack": 130,
@@ -68065,8 +68869,9 @@
     ]
   },
   {
-    "number": "1007",
     "name": "코라이돈",
+    "englishName": "Koraidon",
+    "number": "1007",
     "baseStats": {
       "hp": 100,
       "attack": 135,
@@ -68166,8 +68971,9 @@
     ]
   },
   {
-    "number": "1008",
     "name": "미라이돈",
+    "englishName": "Miraidon",
+    "number": "1008",
     "baseStats": {
       "hp": 100,
       "attack": 85,
@@ -68249,8 +69055,9 @@
     ]
   },
   {
-    "number": "1009",
     "name": "굽이치는물결",
+    "englishName": "Walking-Wake",
+    "number": "1009",
     "baseStats": {
       "hp": 99,
       "attack": 83,
@@ -68330,8 +69137,9 @@
     ]
   },
   {
-    "number": "1010",
     "name": "무쇠잎새",
+    "englishName": "Iron-Leaves",
+    "number": "1010",
     "baseStats": {
       "hp": 90,
       "attack": 130,
@@ -68414,8 +69222,9 @@
     ]
   },
   {
-    "number": "1011",
     "name": "과미르",
+    "englishName": "Dipplin",
+    "number": "1011",
     "baseStats": {
       "hp": 80,
       "attack": 80,
@@ -68487,8 +69296,9 @@
     ]
   },
   {
-    "number": "1012",
     "name": "차데스",
+    "englishName": "Poltchageist",
+    "number": "1012",
     "baseStats": {
       "hp": 40,
       "attack": 45,
@@ -68548,8 +69358,9 @@
     ]
   },
   {
-    "number": "1013",
     "name": "그우린차",
+    "englishName": "Sinistcha",
+    "number": "1013",
     "baseStats": {
       "hp": 71,
       "attack": 60,
@@ -68611,8 +69422,9 @@
     ]
   },
   {
-    "number": "1014",
     "name": "조타구",
+    "englishName": "Okidogi",
+    "number": "1014",
     "baseStats": {
       "hp": 88,
       "attack": 128,
@@ -68699,8 +69511,9 @@
     ]
   },
   {
-    "number": "1015",
     "name": "이야후",
+    "englishName": "Munkidori",
+    "number": "1015",
     "baseStats": {
       "hp": 88,
       "attack": 75,
@@ -68780,8 +69593,9 @@
     ]
   },
   {
-    "number": "1016",
     "name": "기로치",
+    "englishName": "Fezandipiti",
+    "number": "1016",
     "baseStats": {
       "hp": 88,
       "attack": 91,
@@ -68862,8 +69676,9 @@
     ]
   },
   {
-    "number": "1017",
     "name": "오거폰",
+    "englishName": "Ogerpon",
+    "number": "1017",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -68948,6 +69763,7 @@
   {
     "number": "1415",
     "name": "오거폰(우물의 가면)",
+    "englishName": "Ogerpon-Wellspring-Mask",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -69032,6 +69848,7 @@
   {
     "number": "1416",
     "name": "오거폰(화덕의 가면)",
+    "englishName": "Ogerpon-Hearthflame-Mask",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -69116,6 +69933,7 @@
   {
     "number": "1417",
     "name": "오거폰(주춧돌의 가면)",
+    "englishName": "Ogerpon-Cornerstone-Mask",
     "baseStats": {
       "hp": 80,
       "attack": 120,
@@ -69198,8 +70016,9 @@
     ]
   },
   {
-    "number": "1018",
     "name": "브리두라스",
+    "englishName": "Archaludon",
+    "number": "1018",
     "baseStats": {
       "hp": 90,
       "attack": 105,
@@ -69287,6 +70106,7 @@
   {
     "number": "1019",
     "name": "과미드라",
+    "englishName": "Hydrapple",
     "baseStats": {
       "hp": 106,
       "attack": 80,
@@ -69375,6 +70195,7 @@
   {
     "number": "1020",
     "name": "꿰뚫는화염",
+    "englishName": "Gouging-Fire",
     "baseStats": {
       "hp": 105,
       "attack": 115,
@@ -69460,8 +70281,9 @@
     ]
   },
   {
-    "number": "1021",
     "name": "날뛰는우레",
+    "englishName": "Raging-Bolt",
+    "number": "1021",
     "baseStats": {
       "hp": 125,
       "attack": 73,
@@ -69545,6 +70367,7 @@
   {
     "number": "1022",
     "name": "무쇠암석",
+    "englishName": "Iron-Boulder",
     "baseStats": {
       "hp": 90,
       "attack": 120,
@@ -69616,8 +70439,9 @@
     ]
   },
   {
-    "number": "1023",
     "name": "무쇠감투",
+    "englishName": "Iron-Crown",
+    "number": "1023",
     "baseStats": {
       "hp": 90,
       "attack": 72,
@@ -69692,8 +70516,9 @@
     ]
   },
   {
-    "number": "1024",
     "name": "테라파고스",
+    "englishName": "Terapagos",
+    "number": "1024",
     "baseStats": {
       "hp": 90,
       "attack": 65,
@@ -69776,6 +70601,7 @@
   {
     "number": "1422",
     "name": "테라파고스(테라스탈)",
+    "englishName": "Terapagos-Terastal",
     "baseStats": {
       "hp": 95,
       "attack": 95,
@@ -69858,6 +70684,7 @@
   {
     "number": "1423",
     "name": "테라파고스(스텔라)",
+    "englishName": "Terapagos-Stellar",
     "baseStats": {
       "hp": 160,
       "attack": 105,
@@ -69940,6 +70767,7 @@
   {
     "number": "1025",
     "name": "복숭악동",
+    "englishName": "Pecharunt",
     "baseStats": {
       "hp": 88,
       "attack": 88,
