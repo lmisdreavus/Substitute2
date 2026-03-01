@@ -9,15 +9,15 @@ fetch('pokemon.json')
   })
   .catch(error => console.error('Error loading JSON Data: ', error));
 
-  let suggestionBox = document.createElement('div');
-  suggestionBox.setAttribute('class', 'suggestion-box');
+let suggestionBox = document.createElement('div');
+suggestionBox.setAttribute('class', 'suggestion-box list-group shadow-sm mt-1');
 
-  let suggestionItem = document.createElement('a');
-  suggestionItem.href = "#";
-  
-  const searchInput = document.getElementById('search');
-  searchInput.parentNode.appendChild(suggestionBox);
-  const resultDiv = document.getElementById('result');
+let suggestionItem = document.createElement('a');
+suggestionItem.href = "#";
+
+const searchInput = document.getElementById('search');
+searchInput.parentNode.appendChild(suggestionBox);
+const resultDiv = document.getElementById('result');
 
 // 입력 중 유사 결과 표시
 searchInput.addEventListener('input', function () {
@@ -28,9 +28,11 @@ searchInput.addEventListener('input', function () {
   if (searchText.length >= 2) {
     for (let pokemon of pokemons) {
       if (pokemon.name.includes(searchText)) {
-        let suggestion = document.createElement('div');
+        let suggestion = document.createElement('a');
+        suggestion.href = "javascript:void(0);";
+        suggestion.setAttribute('class', 'list-group-item list-group-item-action border-0');
         suggestion.innerHTML = pokemon.name;
-        suggestion.addEventListener('click', function() {
+        suggestion.addEventListener('click', function () {
           searchInput.value = pokemon.name;
           displayPokemonData(pokemon);
           suggestionBox.innerHTML = ''; // 제안 선택 시 제안 삭제
@@ -46,7 +48,7 @@ searchInput.addEventListener('keyup', function (event) {
   if (event.key === 'Enter') {
     const searchText = searchInput.value;
     const matchedPokemon = pokemons.find(p => p.name.toLowerCase() === searchText.toLowerCase());
-  
+
     if (matchedPokemon) {
       displayPokemonData(matchedPokemon);
     }
@@ -59,7 +61,7 @@ const searchButton = document.getElementById('search-button');
 searchButton.addEventListener('click', function () {
   const searchText = searchInput.value;
   const matchedPokemon = pokemons.find(p => p.name.toLowerCase() === searchText.toLowerCase());
-  
+
   if (matchedPokemon) {
     displayPokemonData(matchedPokemon);
   }
@@ -128,24 +130,27 @@ async function displayPokemonData(pokemon) {
   const englishName = await getEnglishName(pokemon.name);
   const imageUrl = await getPokemonImageUrl(englishName);
 
+  // 종족값 총합 계산
+  const baseStatTotal = Object.values(pokemon.baseStats).reduce((sum, stat) => sum + stat, 0);
+
   let resultHtml = `
     <div class="card mb-3">
-      <div class="card-header">
-        <h2>${pokemon.name} (#${pokemon.number})</h2>
+      <div class="card-header d-flex justify-content-between align-items-center">
+        <h2 class="mb-0">${pokemon.name} <span class="text-muted" style="font-size: 0.6em;">(#${pokemon.number})</span></h2>
       </div>
       <div class="card-body">
-        <div class="text-left mb-4">
-          <img src="${imageUrl}" alt="${pokemon.name}" class="img-fluid" style="max-width: 200px;">
+        <div class="text-center mb-4">
+          <img src="${imageUrl}" alt="${pokemon.name}" class="img-fluid" style="max-width: 200px; border-radius: 12px; background: rgba(0,0,0,0.03);">
         </div>
         <p><strong>타입:</strong> ${pokemon.type}</p>
-        <div><strong>종족값:</strong></div>
+        <div class="mb-2"><strong>종족값 (총합: <span style="color: var(--primary-color); font-weight: 800;">${baseStatTotal}</span>):</strong></div>
         <div class="stat-container">
         ${Object.keys(pokemon.baseStats).map(stat => {
-          const statValue = pokemon.baseStats[stat];
-          const widthPercent = Math.min(statValue / MAX_STAT_VALUE * 100, 100);
-          const translatedStat = statTranslations[stat] || stat;
-          return `<div class="stat-bar" style="width: ${widthPercent}%;">${translatedStat}: ${statValue}</div>`;
-        }).join('')}    
+    const statValue = pokemon.baseStats[stat];
+    const widthPercent = Math.min(statValue / MAX_STAT_VALUE * 100, 100);
+    const translatedStat = statTranslations[stat] || stat;
+    return `<div class="stat-bar" style="width: ${widthPercent}%;">${translatedStat}: ${statValue}</div>`;
+  }).join('')}    
         </div>
         <br>
         <p><strong>특성:</strong> ${pokemon.abilities}</p>
@@ -157,6 +162,6 @@ async function displayPokemonData(pokemon) {
     </div>
   `;
 
-    resultDiv.innerHTML = resultHtml;
-    
+  resultDiv.innerHTML = resultHtml;
+
 }

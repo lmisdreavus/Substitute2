@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>PoDB</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,31 +30,39 @@
         <li class="nav-item">
           <a class="nav-link" href="stats-calculator.html">실능 계산</a>
         </li>
+      </ul>
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="updates.html">업데이트 내역</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="gift.html">스바 배포 목록</a>
+          <button id="theme-toggle" class="btn btn-outline-secondary btn-sm rounded-circle shadow-sm"
+            style="width: 36px; height: 36px; display: flex; align-items: center; justify-content: center;">
+            <i class="fas fa-moon"></i>
+          </button>
         </li>
       </ul>
     </div>
   </nav>
 
   <div class="container mt-5">
-    <h1 class="text-center mb-4">
-      USUM 포켓몬 도감
-      <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#helpModal">
-        ?
-      </button>
-      <a href="index.html" class="btn btn-danger btn-sm ml-2">9세대(SV) 도감으로 돌아가기</a>
-    </h1>
-    <div class="row justify-content-center">
-      <div class="col-8">
-        <input type="text" id="search" class="form-control form-control-lg" placeholder="포켓몬 이름을 입력하세요"
-          autocomplete="off">
+    <div class="text-center mb-5">
+      <h1 class="font-weight-bold" style="color: var(--primary-color);">USUM 포켓몬 도감</h1>
+      <div class="mt-3">
+        <button type="button" class="btn btn-info btn-sm rounded-pill px-3 shadow-sm" data-toggle="modal"
+          data-target="#helpModal">
+          <i class="fas fa-question-circle"></i> 도움말
+        </button>
+        <a href="index.html" class="btn btn-warning btn-sm rounded-pill px-3 ml-2 shadow-sm font-weight-bold"
+          style="color: #fff; background-color: var(--secondary-color); border-color: var(--secondary-color);">9세대(SV)
+          도감으로 돌아가기</a>
       </div>
-      <div class="col-2">
-        <button id="search-button" class="btn btn-primary btn-lg">검색</button>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 mb-3 mb-md-0">
+        <input type="text" id="search" class="form-control form-control-lg shadow-sm" placeholder="포켓몬 이름을 입력하세요..."
+          autocomplete="off" style="border-radius: 30px; padding-left: 25px;">
+      </div>
+      <div class="col-12 col-md-2">
+        <button id="search-button" class="btn btn-primary btn-lg w-100 shadow-sm"
+          style="border-radius: 30px; font-weight: bold;">검색</button>
       </div>
     </div>
 
@@ -60,13 +71,17 @@
 
   </div>
 
-  <div class="creator-info">문의 : 메일 lmisdreavus@gmail.com </div>
+  <footer class="text-center mt-5 mb-4">
+    <div class="creator-info">문의 : 메일 lmisdreavus@gmail.com</div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="app_usum.js"></script>
   <script src="modal.js"></script>
+  <script src="theme.js"></script>
+  <script src="updates.js"></script>
 </body>
 
 </html>

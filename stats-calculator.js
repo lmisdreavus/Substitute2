@@ -7,9 +7,9 @@ const statKeys = ['hp', 'attack', 'defense', 'spAttack', 'spDefense', 'speed'];
 // 랭크업,다운 계산
 function calculateRankMultiplier(rank) {
     const rankMultipliers = {
-        '-6': 1/4, '-5': 2/7, '-4': 1/3, '-3': 2/5, '-2': 1/2, '-1': 2/3,
+        '-6': 1 / 4, '-5': 2 / 7, '-4': 1 / 3, '-3': 2 / 5, '-2': 1 / 2, '-1': 2 / 3,
         '0': 1,
-        '1': 3/2, '2': 2, '3': 5/2, '4': 3, '5': 7/2, '6': 4
+        '1': 3 / 2, '2': 2, '3': 5 / 2, '4': 3, '5': 7 / 2, '6': 4
     };
     return rankMultipliers[rank.toString()] || 1;
 }
@@ -28,7 +28,7 @@ function calculateStats() {
         }
 
         const rankModifier = document.getElementById(`rank-modifier-${statKey}`) ?
-        calculateRankMultiplier(document.getElementById(`rank-modifier-${statKey}`).value) : 1;
+            calculateRankMultiplier(document.getElementById(`rank-modifier-${statKey}`).value) : 1;
 
         const resultElement = document.getElementById(`result-${statKey}`);
         // 체력을 제외한 나머지 스탯 계산에 랭크 배율 적용
@@ -49,18 +49,28 @@ function calculateOtherStat(baseStat, iv, ev, level, natureModifier) {
     return Math.floor((((2 * baseStat + iv + Math.floor(ev / 4)) * level) / 100 + 5) * natureModifier);
 }
 
+// 포켓몬 이름 자동 완성 설정
+function setupAutocomplete() {
+    const searchInput = document.getElementById('pokemon-name-input'); // Changed from 'search-pokemon' to 'pokemon-name-input'
+    let suggestionBox = document.createElement('div');
+    suggestionBox.setAttribute('id', 'pokemon-search-results');
+    suggestionBox.setAttribute('class', 'suggestion-box list-group shadow-sm mt-1');
+    searchInput.parentNode.appendChild(suggestionBox);
+}
+
 // 포켓몬 검색 함수
 function searchPokemon() {
     const searchValue = document.getElementById('pokemon-name-input').value.trim().toLowerCase();
+    const resultsElement = document.getElementById('pokemon-search-results');
+
     if (!searchValue) {
         // 검색어가 없을 경우 결과 리스트를 숨깁니다.
-        document.getElementById('pokemon-search-results').style.display = 'none';
+        resultsElement.style.display = 'none';
         return;
     }
 
     // 유사 결과 리스트를 표시하는 로직
     const similarResults = pokemonsData.filter(p => p.name.toLowerCase().includes(searchValue));
-    const resultsElement = document.getElementById('pokemon-search-results');
     resultsElement.innerHTML = '';
     similarResults.forEach(pokemon => {
         const listItem = document.createElement('a');
@@ -97,8 +107,13 @@ function selectPokemon(pokemon) {
         if (baseStatElement) baseStatElement.value = pokemon.baseStats[stat];
     });
 
-    // 유사 결과 리스트 숨기기
+    // 검색창에 선택된 포켓몬 이름 채우기
+    document.getElementById('pokemon-name-input').value = pokemon.name;
+    // 검색 결과 리스트 숨기기
     document.getElementById('pokemon-search-results').style.display = 'none';
+
+    // 자동 계산 트리거
+    calculateStats();
 }
 
 // 페이지 로드가 완료되면 이벤트 리스너를 설정합니다.
@@ -109,13 +124,16 @@ document.addEventListener('DOMContentLoaded', () => {
         .then(data => pokemonsData = data)
         .catch(error => console.error('Error loading JSON Data: ', error));
 
+    // 자동 완성 기능 설정
+    setupAutocomplete();
+
     // 이벤트 리스너를 추가합니다.
     // 중복된 이벤트 리스너 제거
     document.getElementById('pokemon-name-input').addEventListener('input', searchPokemon);
     document.getElementById('search-btn').addEventListener('click', onSearchButtonClick);
-    
+
     const calculateBtn = document.getElementById('calculate-btn');
-    
+
     // 검색창에 엔터 키 입력 이벤트 리스너 추가
     document.getElementById('pokemon-name-input').addEventListener('keyup', (event) => {
         if (event.key === 'Enter') {
@@ -135,56 +153,73 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (calculateBtn) {
         calculateBtn.addEventListener('click', calculateStats);
-    } else {
-        console.error('Calculate button not found in the DOM');
     }
+
+    // Auto-calculate events for UX Wow-factor
+    const inputsToWatch = document.querySelectorAll('input[type="number"], select');
+    inputsToWatch.forEach(input => {
+        input.addEventListener('input', calculateStats);
+        input.addEventListener('change', calculateStats);
+    });
 });
 
 // 노력치 버튼 클릭 이벤트 처리
-document.getElementById('ev-hp-max').addEventListener('click', function() {
+document.getElementById('ev-hp-max').addEventListener('click', function () {
     document.getElementById('ev-hp').value = 252;
-  });
-  
-  document.getElementById('ev-hp-min').addEventListener('click', function() {
+    calculateStats();
+});
+
+document.getElementById('ev-hp-min').addEventListener('click', function () {
     document.getElementById('ev-hp').value = 0;
-  });
+    calculateStats();
+});
 
-  document.getElementById('ev-attack-max').addEventListener('click', function() {
+document.getElementById('ev-attack-max').addEventListener('click', function () {
     document.getElementById('ev-attack').value = 252;
-  });
-  
-  document.getElementById('ev-attack-min').addEventListener('click', function() {
+    calculateStats();
+});
+
+document.getElementById('ev-attack-min').addEventListener('click', function () {
     document.getElementById('ev-attack').value = 0;
-  });
+    calculateStats();
+});
 
-  document.getElementById('ev-defense-max').addEventListener('click', function() {
+document.getElementById('ev-defense-max').addEventListener('click', function () {
     document.getElementById('ev-defense').value = 252;
-  });
-  
-  document.getElementById('ev-defense-min').addEventListener('click', function() {
+    calculateStats();
+});
+
+document.getElementById('ev-defense-min').addEventListener('click', function () {
     document.getElementById('ev-defense').value = 0;
-  });
+    calculateStats();
+});
 
-  document.getElementById('ev-spAttack-max').addEventListener('click', function() {
+document.getElementById('ev-spAttack-max').addEventListener('click', function () {
     document.getElementById('ev-spAttack').value = 252;
-  });
-  
-  document.getElementById('ev-spAttack-min').addEventListener('click', function() {
+    calculateStats();
+});
+
+document.getElementById('ev-spAttack-min').addEventListener('click', function () {
     document.getElementById('ev-spAttack').value = 0;
-  });
+    calculateStats();
+});
 
-  document.getElementById('ev-spDefense-max').addEventListener('click', function() {
+document.getElementById('ev-spDefense-max').addEventListener('click', function () {
     document.getElementById('ev-spDefense').value = 252;
-  });
-  
-  document.getElementById('ev-spDefense-min').addEventListener('click', function() {
-    document.getElementById('ev-spDefense').value = 0;
-  });
+    calculateStats();
+});
 
-  document.getElementById('ev-speed-max').addEventListener('click', function() {
+document.getElementById('ev-spDefense-min').addEventListener('click', function () {
+    document.getElementById('ev-spDefense').value = 0;
+    calculateStats();
+});
+
+document.getElementById('ev-speed-max').addEventListener('click', function () {
     document.getElementById('ev-speed').value = 252;
-  });
-  
-  document.getElementById('ev-speed-min').addEventListener('click', function() {
+    calculateStats();
+});
+
+document.getElementById('ev-speed-min').addEventListener('click', function () {
     document.getElementById('ev-speed').value = 0;
-  });
+    calculateStats();
+});
