@@ -16,17 +16,33 @@ document.addEventListener('DOMContentLoaded', () => {
                     </button>
                 </div>
                 <div class="modal-body pt-4">
-                    <!-- 최신 업데이트: 2026년 3월 1일 -->
+                    <!-- 최신 업데이트: 2026년 3월 2일 -->
                     <div class="update-card p-3 mb-3" style="border: 1px solid #f1f3f5; border-radius: 12px; background-color: rgba(106, 44, 145, 0.03); border-color: var(--primary-color);">
+                        <div class="font-weight-bold mb-2" style="color: var(--primary-color); font-size: 1.1em;">2026년 3월 2일 <span class="badge badge-danger ml-2">NEW</span></div>
+                        <ul class="mb-0 pl-3" style="color: #555;">
+                            <li>도감 - 기술 간 양방향 이동 지원</li>
+                            <li>(포켓몬 도감의 기술 뱃지 클릭 ↔ 기술 검색의 포켓몬 카드 클릭 시 즉각 이동 및 자동 검색)</li>
+                            <li>기술 검색창의 <strong>9세대(SV) / 7세대(USUM) DB 완벽 분리 및 토글 버튼</strong> 추가</li>
+                            <li>화면 우측 하단 <strong>위로 가기 버튼</strong> 추가</li>
+                            <li>검색 및 렌더링 시 애니메이션 적용</li>
+                            <li>포켓몬 타입 및 특성 UI 개편</li>
+                            <li>포켓몬 기술 목록 UI 개편 및 기술 상세 정보 통합</li>
+                            <li>웹 폰트(Pretendard) 적용</li>
+                            <li>일부 포켓몬 이미지 로딩 문제(지가르데,킬가르도,마임맨 등) 수정</li>
+                        </ul>
+                    </div>
+
+                    <!-- 2026년 3월 1일 -->
+                    <div class="update-card p-3 mb-3" style="border: 1px solid #f1f3f5; border-radius: 12px;">
                         <div class="font-weight-bold mb-2" style="color: var(--primary-color); font-size: 1.1em;">2026년 3월 1일</div>
                         <ul class="mb-0 pl-3" style="color: #555;">
-                            <li>전체 사이트 모던 디자인(Card UI, Pretendard 폰트) 및 테마 전면 리뉴얼</li>
+                            <li>전체 사이트 모던 디자인 및 테마 리뉴얼</li>
                             <li><strong>종족값 총합(BST) 표시</strong> 기능 추가</li>
-                            <li><strong>다크 모드</strong> 토글 기능 추가</li>
-                            <li>실능계산기 입력 시 <strong>실시간 계산</strong></li>
-                            <li>기술 검색기 렌더링 <strong> 및 캐싱 최적화</strong> (검색 렉 해결)</li>
-                            <li>검색창 <strong>자동완성 UX 고급화</strong> 및 반응형 인터랙션 추가</li>
-                            <li>모든 페이지 하단에 글로벌 <strong>업데이트 내역 모달 팝업버튼</strong> 추가</li>
+                            <li>다크 모드 추가</li>
+                            <li>실능계산기 입력 시 실시간 계산</li>
+                            <li>기술 검색기 렌더링 및 캐싱 최적화</li>
+                            <li>검색창 자동완성 UX 수정 및 반응형 인터랙션 추가</li>
+                            <li>모든 페이지 하단에 글로벌 업데이트 내역 모달 팝업버튼 추가</li>
                             <li>7세대 도감 추가</li>
                         </ul>
                     </div>

@@ -1,6 +1,6 @@
-$(document).ready(function() {
-    // 모달 창 생성 및 추가
-    var modalHtml = `
+$(document).ready(function () {
+  // 모달 창 생성 및 추가
+  var modalHtml = `
       <div class="modal fade" id="helpModal" tabindex="-1" role="dialog" aria-labelledby="helpModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
@@ -11,8 +11,9 @@ $(document).ready(function() {
               </button>
             </div>
             <div class="modal-body">
-              <p>이 웹 사이트는 포켓몬의 기술폭을 검색할 수 있습니다.</p>
-              <p>검색창에 포켓몬 이름을 입력하고 '검색' 버튼을 클릭하면 해당 포켓몬의 기술폭 정보를 확인할 수 있습니다.</p>
+              <p>포켓몬 종합 검색 화면입니다.</p>
+              <p>검색창에 포켓몬 이름을 입력하고 '검색' 버튼을 클릭하면 해당 포켓몬의 기본적인 정보를 확인할 수 있습니다.</p>
+              <p>기술명을 클릭하면 기술 페이지로 넘어갑니다.</p>
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">닫기</button>
@@ -22,11 +23,11 @@ $(document).ready(function() {
       </div>
     `;
 
-    // 모달 창 HTML 코드를 body에 추가
-    $('body').append(modalHtml);
+  // 모달 창 HTML 코드를 body에 추가
+  $('body').append(modalHtml);
 
-    // 모달 창 열기 이벤트 바인딩
-    $('#helpModal').on('shown.bs.modal', function() {
-      // 모달 창이 열렸을 때 실행할 코드
-    });
+  // 모달 창 열기 이벤트 바인딩
+  $('#helpModal').on('shown.bs.modal', function () {
+    // 모달 창이 열렸을 때 실행할 코드
+  });
 });
